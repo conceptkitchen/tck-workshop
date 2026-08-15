@@ -17,6 +17,8 @@ The people getting extraordinary results treat it like a thinking partner. They 
 
 This workshop teaches the shift, using the one framework everyone already understands: **cooking.**
 
+**Your background doesn't matter here.** Technical, non-technical, never touched any of this. The whole goal is to make it relatable enough that you walk out thinking critically about what you're asking for. That's how you get the most out of the technology. Not the tool. The asking.
+
 > **Anybody can cook.** You don't need a culinary degree to make a great meal. You need to know what you want, how to ask for it, and how to taste as you go.
 
 ---
@@ -27,10 +29,11 @@ By the end, participants can:
 
 1. Diagnose *why* an AI response was useless (it's almost never the AI)
 2. Run the **RECIPES** framework to structure any prompt
-3. Use the **Sanity-check flip** to make AI interview them instead of guessing
-4. Apply **six Socratic question types** to interrogate their own thinking
-5. Build a reusable **expert persona** by asking questions until a person shows up
-6. Turn corrections into **permanent rules** so the same mistake never happens twice
+3. **Manage by asking, not telling** — treat the AI as the expert and ask what it thinks instead of dictating the steps
+4. Use the **Sanity-check flip** to make AI interview them instead of guessing
+5. Apply **six Socratic question types** to interrogate their own thinking
+6. Build a reusable **expert persona** by asking questions until a person shows up
+7. Turn corrections into **permanent rules** so the same mistake never happens twice
 
 ---
 
@@ -70,20 +73,53 @@ Everyone writes the worst prompt they used this week. Rewrite it with RECIPES. R
 
 ---
 
-## MODULE 2 — THE FLIP
-### *"Stop guessing what to say. Let it tell you what it needs."*
+## MODULE 2 — THE CONVERSATION
+### *"It's the expert. Ask it what it thinks."*
 **Time:** 15 min | **Metaphor:** Tasting as you cook
 
 **The problem with Module 1**
 RECIPES assumes you know what you want. Most of the time you don't. Every prompting guide says "add more detail" — but you can't add detail you don't know is missing.
 
-**The single highest-leverage move in this entire workshop**
+The fix isn't a better instruction. It's a conversation. And a conversation goes **both directions.**
 
-Add this to the end of any prompt:
+---
+
+### DIRECTION 1 — You ask it
+#### *The manager move*
+
+Most people prompt like they're giving orders. Do this. Write that. Make it shorter.
+
+A good manager doesn't micromanage. He sets the goal and the expectation, then he asks the expert what *they* think, because they're the expert. You hired them for their judgment. Then use it.
+
+Same thing here. Stop telling it what to do. Start asking it what it thinks.
+
+| Instead of telling it | Ask it |
+|---|---|
+| "Write me a 3-step plan." | "You're the expert here. How would you approach this?" |
+| "Use this structure." | "What structure would you use, and why?" |
+| "Make it shorter." | "What's not earning its place in here?" |
+| "Do it this way." | "What would you do differently than what I just described?" |
+| "Here's my plan, execute it." | "Here's my plan. What am I missing?" |
+
+**Why this beats commanding**
+You still set the goal. You still hold the standard. But now the expert is generating the plan and **you're editing it instead of writing it.** That's less brain power for a better result. You go from producing to directing.
+
+That's also the whole payoff of this workshop: a better plan, a better strategy, and clear steps to take, with expert guidance instead of your own guessing.
+
+---
+
+### DIRECTION 2 — It asks you
+#### *The flip*
+
+Now the other way. Add this to the end of any prompt:
 
 > **"Before you start, ask me questions that would help you do this better."**
 
 That's the **S** in RECIPES, and it's worth more than the other six letters combined. It flips the direction. Now the AI pulls context out of your head that you didn't know you had.
+
+**Put both together and you have a conversation.** You ask it what it thinks. It asks you what it needs. Nobody in that exchange is pretending to have all the answers. That's the setup. Everything good comes out of the setup.
+
+---
 
 **Then go deeper: the Socratic Method**
 
@@ -113,9 +149,14 @@ Socrates never told anyone the answer. He asked until they found it themselves. 
 **A note on discomfort:** The moment you realize you don't actually know something is called *aporia*. It feels like failure. It's the point. It's the taste test that saves the dish.
 
 **🔪 EXERCISE 2.1 — "The Reverse Interview" (7 min)**
-Pick a real decision you're facing. Prompt: *"I'm deciding whether to [X]. Don't advise me. Ask me the five questions I should be asking myself."* Answer them out loud to a partner.
+Pick a real decision you're facing. Run both directions on it.
 
-**Takeaway:** *The best prompt isn't a request. It's an invitation to be interrogated.*
+1. **You ask it:** *"You're the expert on this. How would you approach [X], and what would you do differently than I would?"*
+2. **It asks you:** *"I'm deciding whether to [X]. Don't advise me. Ask me the five questions I should be asking myself."*
+
+Answer them out loud to a partner. Notice which direction surfaced the thing you hadn't thought of.
+
+**Takeaway:** *Stop giving orders. Start having a conversation. Ask the expert what it thinks, and let it ask you what it needs.*
 
 ---
 
@@ -223,7 +264,7 @@ Paste it into your system prompt / custom instructions / project file. That's yo
 
 **The arc**
 1. **Order better** → RECIPES
-2. **Get interrogated** → Sanity-check flip + Socratic
+2. **Have the conversation** → Ask the expert what it thinks. Let it ask you what it needs.
 3. **Staff the kitchen** → Brigade personas built from questions
 4. **Keep the notes** → Correcting out loud
 
@@ -232,7 +273,13 @@ Add ten words to your next prompt:
 
 > *"Before you start, ask me questions that would help you do this better."*
 
+Then add six more when it answers:
+
+> *"You're the expert. What would you do?"*
+
 **The one thing to remember**
+I said at the top that your background doesn't matter, and I meant it. Nothing in this workshop needed a degree. It needed better questions.
+
 > Vague in, garbage out. Clear in, magic out.
 > **Anybody can cook.**
 
@@ -298,3 +345,11 @@ Add ten words to your next prompt:
   source: CLAUDE.md TCK Brand Voice section
 - claim: "sell the gap not the tool" facilitator note for AI-literate rooms
   source: RJ-confirmed context (Telegram, Aug 15 2026 — "It's for an ai workshop")
+- claim: Module 2 Direction 1, the manager move — asking the agent as the expert rather than prompting, demanding, or telling it what to do
+  source: RJ-confirmed (Telegram, Aug 15 2026), verbatim: "me asking the questions to the agent instead of prompting or demanding or telling it what to do. It's the expert, what do you think."
+- claim: "a good manager doesn't micromanage, he sets the goal then asks the expert what they think"
+  source: RJ-confirmed (Telegram, Aug 15 2026), verbatim: "a better manager asks questions and doesnt micromanage"
+- claim: the payoff framing — less brain power because you edit the expert's plan instead of writing your own
+  source: RJ-confirmed (Telegram voice note, Aug 15 2026), verbatim: "a better plan and strategy and steps to take with expert guidance"
+- claim: THE PREMISE background-agnostic line and the closing callback
+  source: RJ-confirmed (Telegram, Aug 15 2026), verbatim: "i dont care what your back ground is. my whole goal is to make this relatable to help people think critically to get the most out of using the technology"
