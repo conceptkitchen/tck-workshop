@@ -1,4 +1,16 @@
 {
   "outputDirectory": "public",
-  "framework": null
+  "framework": null,
+  "redirects": [
+    {
+      "source": "/syllabus.html",
+      "destination": "/workshop.html",
+      "permanent": true
+    },
+    {
+      "source": "/syllabus",
+      "destination": "/workshop.html",
+      "permanent": true
+    }
+  ]
 }

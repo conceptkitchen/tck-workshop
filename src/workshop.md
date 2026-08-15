@@ -1,9 +1,10 @@
-# WORKSHOP SYLLABUS
+# THE WORKSHOP
 ## Asking Questions to Get What You Want
 ### How to Build an AI Partner Instead of Using an AI Tool
 
 **Instructor:** RJ Moscardon — The Concept Kitchen
-**Format:** Modular. Runs as 3 min (talk only), 30 min (Modules 1-2), 60 min (Modules 1-3), or 90 min (full).
+**Runtime:** 30 minutes. Modules 1 and 2, Exercises 1.1 and 2.1, close.
+**Also runs as:** 3 min (talk only), 60 min (Modules 1-3), or 90 min (full).
 **Prereq:** None. You need a phone or laptop and any AI chat tool.
 
 ---
@@ -227,8 +228,8 @@ Add ten words to your next prompt:
 **Timing variants**
 | Length | Run |
 |--------|-----|
-| 3 min | Speech only (see `workshop-2026-08-16-speech.md`) |
-| 30 min | Modules 1-2 + Ex 1.1, 2.1 + close |
+| **30 min** | **Sunday Aug 16. Modules 1-2 + Ex 1.1, 2.1 + close.** |
+| 3 min | Speech only. Deck slides 1, 2, 3, 5, 6, 10. |
 | 60 min | Modules 1-3 + all exercises + close |
 | 90 min | Full, with 15 min share-out after Ex 3.1 |
 

@@ -364,9 +364,9 @@ blockquote > :last-child { margin-bottom: 0; }
 
 .deck main > p > strong:first-child { color: var(--ink-2); }
 
-/* ---------- syllabus ---------- */
+/* ---------- workshop ---------- */
 
-.syllabus main > h2 {
+.workshop main > h2 {
   border-top: 1px solid var(--rule);
   padding-top: 1.7rem;
 }

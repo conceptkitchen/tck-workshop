@@ -11,7 +11,7 @@ RJ Moscardon, The Concept Kitchen.
 |---|---|
 | `/` | The one move, and links to everything |
 | `/slides.html` | 10 slides, one idea each. Short run marked at the bottom. |
-| `/syllabus.html` | Full workshop. Runs at 3, 30, 60, or 90 minutes. |
+| `/workshop.html` | The 30 minute run. Also scales to 3, 60, or 90. |
 | `/speech.html` | **Unlisted.** The 3 minute talk with timecodes, plus the slide notes. Built to read off a phone. Not in the nav, not on the home page. |
 
 ## How it works
