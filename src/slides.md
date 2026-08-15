@@ -1,36 +1,36 @@
-# SLIDE DECK — "Asking Questions to Get What You Want"
-**AI Workshop, Sunday Aug 16, 2026 | RJ Moscardon — The Concept Kitchen**
-**10 slides. Big type. One idea per slide. Speaker notes below each.**
+# SLIDE DECK · "Ask, Don't Micromanage"
+**AI Workshop, Sunday Aug 16, 2026 | RJ Moscardon, The Concept Kitchen**
+**10 slides. Big type. One idea per slide.**
 
 ---
 
-## SLIDE 1 — THE HOOK
+## SLIDE 1 · THE HOOK
 
-> # I'm not a developer.
+> # Think about the best manager you ever had.
 >
-> ### No CS degree. Day job doing field work.
+> ### They didn't tell you which keys to press.
 >
-> ## And I built an AI that runs my business, my calendar, my finances, and holds me accountable to my own life.
+> ## They asked you one question that made you better at your own job.
 
-**Speaker note:** Say it flat. No hype. Let the gap between the two lines do the work. Beat before you advance.
+**Speaker note:** Say it flat. No hype. Let the room picture that person. Beat before you advance. Do not open on your resume. The audience is the subject of this slide, not you.
 
 ---
 
-## SLIDE 2 — THE REVEAL
+## SLIDE 2 · THE PROBLEM
 
-> # 29,132 words.
+> # Most of us treat AI like a vending machine.
 >
-> ## One text file. Plain English.
+> ### Put in a request. Get a product.
 >
-> ### No frameworks. No stack. Just sentences.
+> ## Bad product? Every guide says the same thing: add more detail.
 >
-> **That's the source code.**
+> **That's micromanaging.**
 
-**Speaker note:** This is the slide people photograph. Hold it. If you show one screenshot all day, show the file here.
+**Speaker note:** Name the feeling, don't explain it. Everybody in the room has written a longer prompt hoping it would fix a bad answer. The punchline: a longer order caps the output at whatever you already knew to ask for.
 
 ---
 
-## SLIDE 3 — THE KITCHEN
+## SLIDE 3 · THE KITCHEN
 
 > # "Make me food."
 >
@@ -40,17 +40,17 @@
 >
 > **That's not the kitchen failing. That's the order failing.**
 
-**Speaker note:** The room already knows this feeling. Name it, don't explain it. AI doesn't give bad answers — it gives accurate answers to vague questions.
+**Speaker note:** The room already knows this feeling. AI doesn't give bad answers, it gives accurate answers to vague questions. Then the turn: the fix isn't a longer order. The fix is letting the kitchen ask you questions.
 
 ---
 
-## SLIDE 4 — THE RECIPE CARD
+## SLIDE 4 · THE RECIPE CARD
 
 > # RECIPES
 
 | | | |
 |---|---|---|
-| **R** | Role | Who should AI be? |
+| **R** | Role | Who should it be? |
 | **E** | Examples | What does "good" look like? |
 | **C** | Context | What does it need for THIS task? |
 | **I** | Instructions | What exactly do I want? |
@@ -58,53 +58,50 @@
 | **E** | Energy | What tone? |
 | **S** | Sanity-check | Should it ask ME questions first? |
 
-**Speaker note:** Don't teach all seven. Point at the table, say "this is the recipe card, you'll get it as a handout," then put your finger on the **S** and say "that one is worth more than the other six combined." Advance.
+**Speaker note:** Don't teach all seven. Point at the table, say "this is the recipe card, you'll get it as a handout," then put your finger on the S and say "that one is worth more than the other six combined." Advance.
 
 ---
 
-## SLIDE 5 — THE FLIP
+## SLIDE 5 · THE ONE MOVE
 
 > # "Before you start,
 > # ask me questions
 > # that would help you
 > # do this better."
 
-**Speaker note:** Nothing else on this slide. Ten words. Say it, then stop talking for three full seconds. This is the single highest-leverage move in the workshop. Every prompting guide says *add more detail* — but you can't add detail you don't know is missing. This flips the direction. Now it pulls the context out of your head.
+**Speaker note:** Nothing else on this slide. Say it, then stop talking for three full seconds. This is the highest-leverage move in the workshop. Every prompting guide says add more detail, but you can't add detail you don't know is missing. This flips the direction. Now it interviews you and pulls the context out of your head that you never thought to say out loud.
 
 ---
 
-## SLIDE 6 — SOCRATES DIDN'T ANSWER
+## SLIDE 6 · SIX QUESTIONS
 
-> # Six question types.
+> # Six questions.
+> ### You already know all of them.
 
-| # | Type | The prompt |
-|---|------|-----------|
-| 1 | Clarification | "What do I actually mean by X?" |
-| 2 | Assumptions | "What am I assuming that might not be true?" |
-| 3 | Evidence | "How do I know this is true?" |
-| 4 | Perspectives | "Steelman the opposite." |
-| 5 | Implications | "If this works, then what?" |
-| 6 | The Question | "Is this even the right question?" |
+1. What do I actually mean by this?
+2. What am I assuming?
+3. How do I know that's true?
+4. What would someone who disagrees say?
+5. If this works, what happens next?
+6. **Am I even asking the right question?**
 
-**Speaker note:** 2,000-year-old technique. He never told anybody the answer — he asked until *you* found it. The Greeks called it *maieutics*: midwifery. You don't deliver the idea. You help it get born. If short on time, give them #2 and #6 only.
+**Speaker note:** One sentence of history, then move: two thousand years ago a teacher named Socrates figured out you learn more from a good question than a good answer. He never told anyone what to think, he asked until they got there themselves. That's all the room needs. Do not say "Socratic method," do not say "maieutics," do not name the six categories. Read the questions out loud slowly and let each one land. If you're short on time, give them #2 and #6 only.
 
 ---
 
-## SLIDE 7 — STAFF THE KITCHEN
+## SLIDE 7 · STAFF THE KITCHEN
 
 > # No kitchen hires "a cook."
-
+>
 > ## Butcher. Saucier. Pastry chef. Expeditor.
 >
 > ### Same ingredients. Four completely different reads.
->
-> **That's a brigade.**
 
-**Speaker note:** This is where you connect it to how you built Clawdia. ~90 experts. A copywriter, a CFO, a therapist, a chef. You didn't prompt them into existence — you interviewed them into existence.
+**Speaker note:** This is where you connect it to how you built it. About ninety experts. A copywriter, a CFO, a therapist, a chef. You didn't prompt them into existence, you interviewed them into existence. Keep the tone matter-of-fact, this is a method slide, not a flex slide.
 
 ---
 
-## SLIDE 8 — A PERSONA IS A QUESTION
+## SLIDE 8 · A PERSONA IS A QUESTION
 
 > # Not the job title.
 > # Not the bio.
@@ -115,35 +112,36 @@
 > - Therapist: *"What are you avoiding by staying busy?"*
 > - Chef: *"What's already in the fridge?"*
 
-**Speaker note:** That question is the **Lens**. The Lens *is* the expert. Everything else is decoration. The build move: don't tell the AI to "act like an expert" — ask it questions until a *person* shows up, then write that person down.
+**Speaker note:** That recurring question is the whole expert. Everything else is decoration. The build move: don't tell it to "act like an expert," ask it questions until a person shows up, then write that person down.
 
 ---
 
-## SLIDE 9 — CORRECTING OUT LOUD
+## SLIDE 9 · CORRECTING OUT LOUD
 
-> ## ❌ "No, try again."
+> ## Retrying: "No, try again."
 >
-> ## ✅ "That was wrong because ___.
+> ## Correcting: "That was wrong because ___.
 > ## Going forward, when I ___,
 > ## you should ___.
 > ## **Write that down.**"
 
-> ### 50 rules. Every one is a mistake I refused to have twice.
-
-**Speaker note:** Tell the "Hey" story here. One word, standing at the stove. Came back with a task list, a supplement count, and a callout that I hadn't eaten. I typed "Fuuuck. Hello." So we wrote a rule: **greeting gets a greeting.** It has never done it again — not because the model improved, because the correction became permanent. Retrying is re-rolling the dice. Correcting is building a system with a memory.
+**Speaker note:** Tell the greeting story here. Last week I texted it one word: Hi. It came back with a task list and three things I hadn't done yet. I told it, I said hello, that's all that was. So we wrote a rule: if he says hi, say hi back. It has never done it again, not because the model improved, because the correction became permanent. Retrying is re-rolling the dice. Correcting is building something with a memory.
 
 ---
 
-## SLIDE 10 — CLOSE
+## SLIDE 10 · THE PROOF, AND THE CLOSE
 
-> # Vague in, garbage out.
-> # Clear in, magic out.
+> # 29,132 words. One text file. Plain English.
 >
-> ### Order better → Get interrogated → Staff the kitchen → Keep the notes
+> ### No CS degree. Not a developer. Field work for a living.
 >
-> ## **Anybody can cook.**
+> ## 50 rules. Every one is a mistake I refused to have twice.
+>
+> **I didn't build it. I managed it.**
+>
+> # Anybody can cook.
 
-**Speaker note:** The one thing to do tomorrow: add ten words to your next prompt. *"Before you start, ask me questions that would help you do this better."* Then out. Don't add a Q&A slide — take questions live off this one.
+**Speaker note:** This is the slide people photograph, so hold it. The credentials land here as evidence, not as an opener, because by now they've seen the method and this is just the receipt. If you show one screenshot all day, show the file here. Then the one thing to do tomorrow: add one sentence to your next prompt. "Before you start, ask me questions that would help you do this better." Then out. No Q&A slide, take questions live off this one.
 
 ---
 
@@ -152,52 +150,57 @@
 **Do NOT default.** No stock robot imagery, no blue gradient, no three-column icon grid, no "AI" in a circuit-board font.
 
 - **Type:** One typeface, two weights. Huge. If it fits comfortably, it's too small.
-- **Palette:** Two colors + white. Kitchen-warm, not tech-cold.
+- **Palette:** Two colors plus white. Kitchen-warm, not tech-cold.
 - **Slides 5 and 10 carry text only.** No decoration. The white space is the design.
 - **Tables (4, 6, 8):** thin rules or no rules. Never boxed cells.
 - **No slide numbers, no logo bug on every slide.** Logo on 1 and 10 only.
-- **Build-in one line at a time on slides 3, 8, 9** so the room reads with you instead of ahead of you.
+- **Build in one line at a time on slides 3, 8, 9** so the room reads with you instead of ahead of you.
 
-**Mapping to the other two docs:**
-| Slides | Speech beat | Syllabus module |
-|--------|-------------|-----------------|
-| 1-2 | 0:00, 0:25 | Premise |
-| 3-4 | 0:40 | Module 1 — The Order |
-| 5-6 | 1:05 | Module 2 — The Flip |
-| 7-8 | 1:50 | Module 3 — The Brigade |
-| 9 | 2:25 | Module 4 — The Loop |
-| 10 | 2:45 | Closing |
+**Mapping to the speech:**
 
-**3-minute run:** slides 1, 2, 3, 5, 8, 9, 10. Skip 4, 6, 7 (they're teach slides, not talk slides).
+| Slides | Speech beat |
+|--------|-------------|
+| 1 | 0:00 The hook |
+| 2 | 0:25 The problem |
+| 3, 4 | 0:50 The kitchen |
+| 5 | 1:15 The move |
+| 6 | 1:45 The questions |
+| 7, 8 | Workshop only, cut from the 3 minute run |
+| 9 | Backup story |
+| 10 | 2:15 The proof, 2:45 Close |
+
+**3-minute run:** slides 1, 2, 3, 5, 6, 10. Skip 4, 7, 8, 9. Those are teach slides, not talk slides.
 
 ---
 
-*The Concept Kitchen — Anybody can cook.*
+*The Concept Kitchen · Anybody can cook.*
 
 ---
 
 ## Sources
 - claim: "29,132 words" / "one text file" / plain English
-  source: CLAUDE.md — verified 29,132 words, 1064 lines (wc)
+  source: CLAUDE.md, verified 29,132 words, 1064 lines (wc)
 - claim: "50 rules"
-  source: CLAUDE.md numbered Rules 1-50 (Rule 50 added Aug 15, 2026; verified grep "^50\. " = line 1053, no Rule 51)
-- claim: "~90 experts" (stated as approximate on stage)
+  source: CLAUDE.md numbered Rules 1-50 (Rule 50 added Aug 15, 2026; verified `grep -n "^50\. "` = line 1053, no Rule 51). NOTE: `grep -c` on the numbered-rule pattern returns 134, it over-matches nested numbered items. Do not use that count on stage.
+- claim: "about ninety experts" (stated as approximate on stage)
   source: skills/brigade/ROSTER.md + skills/brigade/experts/ filesystem count (92-93; sources conflict, stated as "~90" for stage safety)
-- claim: RECIPES 7-part table (R/E/C/I/P/E/S + the "ask yourself" column)
+- claim: RECIPES 7-part table
   source: projects/concept-kitchen/course/TCK-curriculum/resources/module-1-prompt/session-1.3-recipes-framework/recipes-cheatsheet.md:10-18
 - claim: "Before you start, ask me questions that would help you do this better."
-  source: recipes-cheatsheet.md:61 (RECIPES — S, Sanity-check)
-- claim: Six Socratic types + their key prompts
-  source: skills/brigade/SKILL.md:28-36 ("The Six Socratic Types") + projects/concept-kitchen/course/TCK-curriculum/02-RIFF/06-socratic-method.md
-- claim: "maieutics" = midwifery
-  source: standard classical-philosophy terminology (general knowledge, no specific stake)
+  source: recipes-cheatsheet.md:61 (RECIPES, S = Sanity-check)
+- claim: the six questions
+  source: skills/brigade/SKILL.md:28-36 ("The Six Socratic Types"), restated in plain English without the taxonomy labels per RJ's note that the audience does not know the academic terms
+- claim: Socrates asked rather than told, roughly two thousand years ago
+  source: general classical-philosophy knowledge, no specific stake
 - claim: persona defined by `**Lens:**` = "always starts with a quoted question"
   source: skills/brigade/SKILL.md Expert File Template, field 8
-- claim: Rule 48 "Greeting gets a greeting" + the "Hey" / "Fuuuck. Hello." exchange
-  source: CLAUDE.md Rule 48, burned Aug 14 2026; memory/sessions/2026-08-14
-- claim: "Vague in, garbage out. Clear in, magic out." / "Anybody can cook"
-  source: CLAUDE.md TCK Brand Voice section
-- claim: "not a developer, no CS degree, day job field work"
-  source: USER.md / RJ-confirmed (Telegram, Aug 15 2026)
+- claim: the greeting correction story and the resulting rule
+  source: CLAUDE.md Rule 48 "Greeting gets a greeting" (burned Aug 14 2026) · memory/sessions/2026-08-14. Profanity removed from the public version per RJ, Aug 15 2026.
+- claim: "not a developer, no CS degree, field work for a living"
+  source: USER.md · RJ-confirmed (Telegram, Aug 15 2026)
+- claim: "Anybody can cook"
+  source: CLAUDE.md, The Concept Kitchen Brand Voice
+- claim: the manager framing (a good manager asks rather than micromanages)
+  source: RJ-confirmed (Telegram, Aug 15 2026), his own words
 - claim: design notes reject default patterns (stock robot imagery, gradient, icon grid)
   source: CLAUDE.md Rule 47 + skills/brigade/experts/tastemaker.md (Arden's default test)

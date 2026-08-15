@@ -1,4 +1,4 @@
-# Asking Questions to Get What You Want
+# Ask, Don't Micromanage
 
 Workshop materials for the AI workshop on August 16, 2026.
 RJ Moscardon, The Concept Kitchen.
@@ -10,9 +10,9 @@ RJ Moscardon, The Concept Kitchen.
 | Page | What it is |
 |---|---|
 | `/` | The one move, and links to everything |
-| `/speech.html` | The 3 minute talk, marked with timecodes. Built to read off a phone. |
-| `/slides.html` | 10 slides with speaker notes. Short run marked at the bottom. |
+| `/slides.html` | 10 slides, one idea each. Short run marked at the bottom. |
 | `/syllabus.html` | Full workshop. Runs at 3, 30, 60, or 90 minutes. |
+| `/speech.html` | **Unlisted.** The 3 minute talk with timecodes, plus the slide notes. Built to read off a phone. Not in the nav, not on the home page. |
 
 ## How it works
 
@@ -22,10 +22,11 @@ RJ Moscardon, The Concept Kitchen.
 python3 build.py
 ```
 
-Two things happen on the way out:
+Three things happen on the way out:
 
 1. The internal `## Sources` fact check block is stripped from the public render.
 2. Em dashes are swapped for real separators. Hard rule, no exceptions.
+3. `**Speaker note:**` lines are lifted off the public deck and appended to the unlisted speech page as a `## SLIDE NOTES` section. The deck is public. The notes are not.
 
 ## Editing
 

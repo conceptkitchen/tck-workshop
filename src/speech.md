@@ -1,150 +1,150 @@
-# SPEECH — "I Didn't Code Her. I Asked Her."
+# SPEECH · "Ask, Don't Micromanage"
 **AI Workshop, Sunday Aug 16, 2026 | 3 minutes | RJ Moscardon**
 
-*Delivery notes: ~420 words at a relaxed pace = 3:00. Pause where marked. Don't rush the numbers, they land harder slow.*
+*~440 words at a relaxed pace = 3:00. Pause where marked. Don't rush the six questions, let the room hear each one.*
+
+*This page is built to read at arm's length, one thumb, in a dim room. No printout, no index cards, no second screen. The page is the notes. Slide notes are at the bottom.*
 
 ---
 
-**[0:00 — THE HOOK]**
+**[0:00 THE HOOK]**
 
-I'm not a developer. I don't have a CS degree. I have a day job doing field work.
+Think about the best manager you ever had.
 
-And I built an AI that runs my business, my calendar, my finances, and holds me accountable to my own life.
-
-*(beat)*
-
-I want to tell you how. Because it's not what you think.
-
-**[0:25 — THE REVEAL]**
-
-She's one text file. Twenty-nine thousand words. Written in plain English.
-
-No frameworks. No stack. Just sentences.
-
-That's the source code.
-
-**[0:40 — THE KITCHEN]**
-
-Here's the thing everybody gets wrong about AI.
-
-You walk into a kitchen and say "make me food." You get food. Technically. Correct, and completely useless.
-
-So most people do what every prompting guide tells them. Add more detail. Longer prompt. More specifics.
+They didn't stand over your shoulder telling you which keys to press. They asked you one question that made you better at your own job.
 
 *(beat)*
 
-That's backwards. Because you don't know what you're missing. That's the whole problem.
+That's the entire skill of working with AI. And almost nobody does it.
 
-**[1:05 — THE FLIP]**
+**[0:25 THE PROBLEM]**
 
-The move isn't giving better instructions. It's asking better questions.
+Most of us treat AI like a vending machine. Put in a request, get a product.
 
-There's a two-thousand-year-old technique for this. Socrates. He never told anybody the answer. He asked until *you* found it.
-
-Six question types. I'll give you one of them, and then one move that's worth more than all six.
-
-**The question.** "What am I assuming that might not be true?"
-
-**The move.** At the end of any prompt, add: *"Before you start, ask me questions that would help you do this better."*
-
-*(beat, let it sit)*
-
-That's it. That one sentence. Now the AI interviews you. It pulls the context out of your head that you didn't know you had.
-
-You stop guessing what to say. It tells you what it needs.
-
-**[1:50 — THE PERSONA]**
-
-Now here's how that built Clawdia.
-
-You don't staff a kitchen by hiring "a cook." You hire a butcher, a saucier, a pastry chef. Each one sees the same ingredients differently.
-
-So I stopped asking my AI for answers. I started asking it questions until a *person* showed up. Then I wrote that person down.
-
-Ninety of them. A copywriter. A CFO. A therapist. A chef.
-
-And every single one is defined by one thing: **the question they always ask.**
-
-That's the whole trick. A persona isn't a costume. A persona is a question.
-
-**[2:25 — THE MECHANISM]**
-
-Last piece. When she got something wrong, I didn't retry with different words.
-
-I told her *why* it was wrong. And we wrote it down as a rule.
-
-Fifty rules. Every one of them is a mistake I refused to have twice.
+When the product is bad, we do what every guide tells us to do. Add detail. Longer prompt. More specifics.
 
 *(beat)*
 
-That's not prompting. That's a relationship with a memory.
+That's micromanaging. And it caps the output at whatever you already knew to ask for.
 
-**[2:45 — CLOSE]**
+**[0:50 THE KITCHEN]**
 
-I didn't build an AI.
+Walk into a kitchen and say "make me food." You'll get food. Technically correct, completely useless.
 
-I had a six-month conversation, asked better questions than answers, and wrote down what worked.
+That's not the kitchen failing. That's the order failing.
 
-You can do that. Starting today.
+But the fix isn't a longer order. The fix is letting the kitchen ask you questions.
+
+**[1:15 THE MOVE]**
+
+One thing I want you to leave with today. Add this to the end of your next prompt:
+
+*"Before you start, ask me questions that would help you do this better."*
+
+*(beat, let it sit, three full seconds)*
+
+One sentence. Now it interviews you. It pulls out the context that was in your head the whole time, that you never thought to say out loud.
+
+You stop guessing what to tell it. It tells you what it needs.
+
+**[1:45 THE QUESTIONS]**
+
+That works in both directions. The questions you ask yourself matter just as much.
+
+Two thousand years ago a teacher named Socrates figured out you learn more from a good question than a good answer. He never told anyone what to think. He asked until they got there themselves.
+
+Six questions. You already know all of them.
+
+What do I actually mean by this?
+
+What am I assuming?
+
+How do I know that's true?
+
+What would someone who disagrees say?
+
+If this works, what happens next?
+
+And the big one. Am I even asking the right question?
+
+**[2:15 THE PROOF]**
+
+Here's where that got me.
+
+I'm not a developer. No CS degree. I do field work for a living.
+
+I spent six months asking questions instead of giving orders, and I wrote down what worked. That file runs my calendar, my finances, my outreach, and it holds me accountable to my own life. One text file. Plain English. No code.
+
+When it got something wrong, I didn't retry with different words. I told it why, and we wrote it down as a rule.
+
+Fifty rules now. Every one is a mistake I refused to have twice.
+
+**[2:45 CLOSE]**
+
+I didn't build that. I managed it. I asked better questions than I gave answers.
+
+You can start today, with one sentence.
 
 Anybody can cook.
 
-*(out)*
-
 ---
 
-## BACKUP — if you get more than 3 minutes
+## BACKUP · THE CORRECTION STORY
 
-**The story that always lands (adds ~40 sec, drop in at 2:25):**
+*~35 seconds. Drop in at 2:15 if you're running fast, or use it to answer "does it actually learn?"*
 
-Last week I texted her one word. "Hey."
+Last week I texted it one word. Hi.
 
-I was standing at the stove. Just saying hi.
+It came back with a task list and three things I hadn't done yet.
 
-She came back with a task list, a supplement count, and a callout that I hadn't eaten all day.
+I told it: I said hello. That's all that was.
 
-I typed back: "Fuuuck. Hello."
+So we wrote a rule. If he says hi, say hi back.
 
-*(beat)*
+It got it wrong. I told it why. It's permanent now.
 
-So we wrote Rule 48. **Greeting gets a greeting.** If he says hi, say hi back.
-
-That's the loop. She got it wrong. I told her why. It's permanent now.
-
-That's the difference between using AI and building one.
+That's the difference between using an AI and managing one. Retrying is re-rolling the dice. Correcting is building something with a memory.
 
 ---
 
 ## IF THEY ASK "WHERE DO I START?"
 
-One sentence. Add it to your next prompt:
+One sentence, on your next prompt, whatever you were already going to ask it:
 
-> *"Before you start, ask me questions that would help you do this better."*
+*"Before you start, ask me questions that would help you do this better."*
 
-That's the whole workshop in ten words.
+Answer its questions honestly. That's the whole first lesson.
+
+---
+
+## IF THEY ASK "HOW IS THIS DIFFERENT FROM PROMPT ENGINEERING?"
+
+Prompt engineering is writing a better order. This is hiring better and asking better.
+
+You're not looking for magic words. You're giving something capable enough context to do the work well, the same way you would with a person.
 
 ---
 
 ## Sources
-- claim: "a six-month conversation"
-  source: CLAUDE.md — "Born January 29, 2026." Jan 29 → Aug 16, 2026 = 6 months, 18 days. (Was "two-year" until Aug 15; caught by FULL WAR fact-check. Two-year was fabricated.)
-- claim: "Six question types. I'll give you one of them, and then one move that's worth more than all six." — the move is RECIPES-S, NOT a Socratic type
-  source: recipes-cheatsheet.md:61 (S = Sanity-check) + skills/brigade/SKILL.md:28-36 (the six types). Separated deliberately so the speech doesn't miscount the flip as Socratic type #2.
-- claim: "Twenty-nine thousand words" / "one text file"
-  source: CLAUDE.md — verified 29,132 words, 1064 lines (wc)
+- claim: "six months" of building
+  source: CLAUDE.md ("Born January 29, 2026") · Jan 29 to Aug 16 2026 = 6 months 18 days
 - claim: "Fifty rules"
-  source: CLAUDE.md numbered Rules 1-50 (Rule 50 added Aug 15, 2026, verified `grep -n "^50\. "` = line 1053, no Rule 51). NOTE: `grep -c "^[0-9]\+\. \*\*"` returns 134 — it over-matches nested numbered items. Do not use that count on stage.
-- claim: "Ninety of them" (experts)
-  source: skills/brigade/ROSTER.md + skills/brigade/experts/ filesystem count (92-93; stated as "ninety" for stage safety)
+  source: CLAUDE.md numbered Rules 1-50 (Rule 50 added Aug 15 2026; verified `grep -n "^50\. "` = line 1053, no Rule 51). NOTE: `grep -c` on the numbered-rule pattern returns 134, it over-matches nested numbered items. Do not use that count on stage.
+- claim: "one text file, plain English, no code"
+  source: CLAUDE.md, 29,132 words / 1064 lines, markdown prose (wc)
+- claim: "runs my calendar, my finances, my outreach, holds me accountable"
+  source: CLAUDE.md (calendar rules, Financial Flywheel, Outreach Pipeline Rules, Rule One Flywheel)
+- claim: "not a developer, no CS degree, field work for a living"
+  source: USER.md · RJ-confirmed (Telegram, Aug 15 2026)
+- claim: Socrates asked rather than told, roughly two thousand years ago
+  source: general classical-philosophy knowledge, no specific stake
+- claim: the six questions
+  source: skills/brigade/SKILL.md:28-36 ("The Six Socratic Types"), restated in plain English without the taxonomy labels per RJ's note that the audience does not know the academic terms
 - claim: "Before you start, ask me questions that would help you do this better."
-  source: projects/concept-kitchen/course/TCK-curriculum/resources/module-1-prompt/session-1.3-recipes-framework/recipes-cheatsheet.md:61 (RECIPES — S, Sanity-check)
-- claim: Six Socratic question types
-  source: skills/brigade/SKILL.md:28-36 + projects/concept-kitchen/course/TCK-curriculum/02-RIFF/06-socratic-method.md
-- claim: "a persona is a question" / experts defined by the question they ask
-  source: skills/brigade/SKILL.md — Expert File Template field 8 `**Lens:**` ("always starts with a quoted question")
-- claim: Rule 48 "Greeting gets a greeting" + the "Hey" / "Fuuuck hello" exchange
-  source: CLAUDE.md Rule 48, burned Aug 14 2026; memory/sessions/2026-08-14
+  source: projects/concept-kitchen/course/TCK-curriculum/resources/module-1-prompt/session-1.3-recipes-framework/recipes-cheatsheet.md:61 (RECIPES, S = Sanity-check)
+- claim: the "Hi" correction story and the resulting rule
+  source: CLAUDE.md Rule 48 "Greeting gets a greeting" (burned Aug 14 2026) · memory/sessions/2026-08-14. Profanity removed from the on-stage version per RJ, Aug 15 2026.
 - claim: "Anybody can cook"
-  source: TCK brand core philosophy, CLAUDE.md TCK Brand Voice section
-- claim: "not a developer, no CS degree, day job field work"
-  source: USER.md / RJ-confirmed (Telegram, Aug 15 2026)
+  source: CLAUDE.md, The Concept Kitchen Brand Voice
+- claim: the manager framing (a good manager asks rather than micromanages)
+  source: RJ-confirmed (Telegram, Aug 15 2026), his own words

@@ -182,11 +182,11 @@ But: *"That was wrong because ___. Going forward, when I ___, you should ___. Wr
 Every correction becomes a rule. Every rule is a mistake you refuse to have twice. Do that for a year and you don't have a prompt. You have a *system with a memory.*
 
 **Real example**
-I texted my AI one word: "Hey." I was standing at the stove, just saying hi. It came back with a task list, a supplement count, and a callout that I hadn't eaten all day.
+I texted my AI one word: "Hi." I was standing at the stove, just saying hello. It came back with a task list and three things I hadn't done yet.
 
-I typed: *"Fuuuck. Hello."*
+I told it: *I said hello. That's all that was.*
 
-So we wrote a rule: **Greeting gets a greeting.** If he says hi, say hi back — surfacing comes later.
+So we wrote a rule: **Greeting gets a greeting.** If he says hi, say hi back. The rest of it can wait.
 
 It has never done it again. Not because the model improved. Because the correction became permanent.
 
