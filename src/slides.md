@@ -21,6 +21,10 @@
 - "Everybody's got one. The manager who made you better without ever telling you what to do."
 - "They didn't hand you a checklist. They asked you one question, and you figured out the rest yourself. And you were better at your job after."
 - "That's the whole skill of working with AI. That's it. And almost nobody does it."
+- **Say this early. Give the room permission before anybody checks out:**
+  - "I don't care what your background is. Technical, non-technical, never touched any of this. Doesn't matter here."
+  - "My whole goal today is to make this relatable enough that you walk out thinking critically about what you're asking for. That's how you get the most out of the technology."
+  - "Not the tool. The asking."
 - **The three moves, so they know where I'm taking them:**
   - "One. Ask questions instead of giving orders."
   - "Two. Let the expert help you build the expert."
@@ -295,6 +299,7 @@
   - "I didn't know that when I started. I just needed more than one cook."
 - "Anybody can cook."
 - **The ask. Don't rush it:**
+  - "I said at the top I don't care what your background is. I meant it. Nothing I showed you today needed a degree. It needed better questions."
   - "So if you want one of your own, come find me. That's what today was."
   - "And the one thing to do tomorrow, before you even think about building a team. Add one sentence to your next prompt. Before you start, ask me questions that would help you do this better."
 - *No Q&A slide. Take questions live off this one.*
@@ -387,6 +392,8 @@
   source: skills/brigade/SKILL.md Expert File Template, field 8
 - claim: "not a developer, no CS degree, field work for a living"
   source: USER.md · RJ-confirmed (Telegram, Aug 15 2026)
+- claim: slide 1 and slide 10 speaker notes, the background-agnostic permission beat and the stated goal of relatability toward critical thinking
+  source: RJ-confirmed (Telegram, Aug 15 2026), verbatim: "i dont care what your back ground is. my whole goal is to make this relatable to help people think critically to get the most out of using the technology"
 - claim: "Anybody can cook"
   source: CLAUDE.md, The Concept Kitchen Brand Voice
 - claim: the manager framing (a good manager asks rather than micromanages)
