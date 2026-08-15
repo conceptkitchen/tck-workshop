@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F7F3EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14110F" media="(prefers-color-scheme: dark)">
+<title>Asking Questions to Get What You Want | The Concept Kitchen</title>
+<meta name="description" content="Asking questions to get what you want. An AI workshop by RJ Moscardon, The Concept Kitchen.">
+<link rel="stylesheet" href="/style.css">
+<script>
+  // Applied before paint so the stage never flashes white.
+  (function () {
+    var t = localStorage.getItem("tck-theme");
+    if (t) document.documentElement.setAttribute("data-theme", t);
+  })();
+</script>
+</head>
+<body class="home">
+<header class="bar">
+  <a class="mark" href="/">
+    <span class="mark-dot"></span>
+    <span class="mark-text">The Concept Kitchen</span>
+  </a>
+  <nav>
+        <a href="/speech.html">Speech</a>
+        <a href="/slides.html">Slides</a>
+        <a href="/syllabus.html">Syllabus</a>
+  </nav>
+  <button id="theme" type="button" aria-label="Switch between light and dark">Dark</button>
+</header>
+
+<main>
+
+<section class="lede">
+  <h1>I didn't code her.<br><em>I asked her.</em></h1>
+  <p class="sub">Three minutes on the one move that changes what you get out of AI: stop giving better instructions, start asking better questions.</p>
+</section>
+
+<section class="cards">
+    <a class="card" href="/speech.html">
+      <span class="card-kicker">3 minutes, out loud</span>
+      <h2>The Speech</h2>
+      <p>The talk itself, marked with timecodes. Built to read off a phone at arm's length.</p>
+      <span class="card-go">Open</span>
+    </a>
+    <a class="card" href="/slides.html">
+      <span class="card-kicker">10 slides, one idea each</span>
+      <h2>The Deck</h2>
+      <p>Slide copy plus the speaker note for every one. The short run is marked at the bottom.</p>
+      <span class="card-go">Open</span>
+    </a>
+    <a class="card" href="/syllabus.html">
+      <span class="card-kicker">3, 30, 60, or 90 minutes</span>
+      <h2>The Syllabus</h2>
+      <p>The full workshop. Four modules, the RECIPES framework, exercises, and the handout.</p>
+      <span class="card-go">Open</span>
+    </a>
+</section>
+
+<section class="pull">
+  <p>You walk into a kitchen and say &ldquo;make me food.&rdquo; You get food. Technically correct, and completely useless.</p>
+  <p class="pull-tag">That is not the kitchen failing. That is the order failing.</p>
+</section>
+
+<section class="one-move">
+  <h2>If you take one thing home</h2>
+  <p>Put this at the end of any prompt:</p>
+  <blockquote class="move">Before you start, ask me questions that would help you do this better.</blockquote>
+  <p class="after">Now it interviews you. It pulls the context out of your head that you didn't know you had.</p>
+</section>
+
+</main>
+
+<footer>
+  <p>Asking Questions to Get What You Want &middot; AI Workshop, August 16, 2026</p>
+  <p>RJ Moscardon, The Concept Kitchen</p>
+</footer>
+
+<script>
+  var btn = document.getElementById("theme");
+  function paint() {
+    var dark = document.documentElement.getAttribute("data-theme") === "dark";
+    btn.textContent = dark ? "Light" : "Dark";
+  }
+  btn.addEventListener("click", function () {
+    var dark = document.documentElement.getAttribute("data-theme") === "dark";
+    var next = dark ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem("tck-theme", next);
+    paint();
+  });
+  paint();
+</script>
+</body>
+</html>

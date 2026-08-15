@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F7F3EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14110F" media="(prefers-color-scheme: dark)">
+<title>The Deck | The Concept Kitchen</title>
+<meta name="description" content="Asking questions to get what you want. An AI workshop by RJ Moscardon, The Concept Kitchen.">
+<link rel="stylesheet" href="/style.css">
+<script>
+  // Applied before paint so the stage never flashes white.
+  (function () {
+    var t = localStorage.getItem("tck-theme");
+    if (t) document.documentElement.setAttribute("data-theme", t);
+  })();
+</script>
+</head>
+<body class="deck">
+<header class="bar">
+  <a class="mark" href="/">
+    <span class="mark-dot"></span>
+    <span class="mark-text">The Concept Kitchen</span>
+  </a>
+  <nav>
+        <a href="/speech.html">Speech</a>
+        <a href="/slides.html" class="here">Slides</a>
+        <a href="/syllabus.html">Syllabus</a>
+  </nav>
+  <button id="theme" type="button" aria-label="Switch between light and dark">Dark</button>
+</header>
+
+<main>
+<p class="kicker">10 slides, one idea each</p>
+<h1>SLIDE DECK · "Asking Questions to Get What You Want"</h1>
+<p><strong>AI Workshop, Sunday Aug 16, 2026 | RJ Moscardon · The Concept Kitchen</strong><br />
+<strong>10 slides. Big type. One idea per slide. Speaker notes below each.</strong></p>
+<hr />
+<h2>SLIDE 1 · THE HOOK</h2>
+<blockquote>
+<h1>I'm not a developer.</h1>
+<h3>No CS degree. Day job doing field work.</h3>
+<h2>And I built an AI that runs my business, my calendar, my finances, and holds me accountable to my own life.</h2>
+</blockquote>
+<p><strong>Speaker note:</strong> Say it flat. No hype. Let the gap between the two lines do the work. Beat before you advance.</p>
+<hr />
+<h2>SLIDE 2 · THE REVEAL</h2>
+<blockquote>
+<h1>29,132 words.</h1>
+<h2>One text file. Plain English.</h2>
+<h3>No frameworks. No stack. Just sentences.</h3>
+<p><strong>That's the source code.</strong></p>
+</blockquote>
+<p><strong>Speaker note:</strong> This is the slide people photograph. Hold it. If you show one screenshot all day, show the file here.</p>
+<hr />
+<h2>SLIDE 3 · THE KITCHEN</h2>
+<blockquote>
+<h1>"Make me food."</h1>
+<h2>You'll get food.</h2>
+<h3>Technically correct. Completely useless.</h3>
+<p><strong>That's not the kitchen failing. That's the order failing.</strong></p>
+</blockquote>
+<p><strong>Speaker note:</strong> The room already knows this feeling. Name it, don't explain it. AI doesn't give bad answers · it gives accurate answers to vague questions.</p>
+<hr />
+<h2>SLIDE 4 · THE RECIPE CARD</h2>
+<blockquote>
+<h1>RECIPES</h1>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>R</strong></td>
+<td>Role</td>
+<td>Who should AI be?</td>
+</tr>
+<tr>
+<td><strong>E</strong></td>
+<td>Examples</td>
+<td>What does "good" look like?</td>
+</tr>
+<tr>
+<td><strong>C</strong></td>
+<td>Context</td>
+<td>What does it need for THIS task?</td>
+</tr>
+<tr>
+<td><strong>I</strong></td>
+<td>Instructions</td>
+<td>What exactly do I want?</td>
+</tr>
+<tr>
+<td><strong>P</strong></td>
+<td>Parameters</td>
+<td>Constraints? Format? Length?</td>
+</tr>
+<tr>
+<td><strong>E</strong></td>
+<td>Energy</td>
+<td>What tone?</td>
+</tr>
+<tr>
+<td><strong>S</strong></td>
+<td>Sanity-check</td>
+<td>Should it ask ME questions first?</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Speaker note:</strong> Don't teach all seven. Point at the table, say "this is the recipe card, you'll get it as a handout," then put your finger on the <strong>S</strong> and say "that one is worth more than the other six combined." Advance.</p>
+<hr />
+<h2>SLIDE 5 · THE FLIP</h2>
+<blockquote>
+<h1>"Before you start,</h1>
+<h1>ask me questions</h1>
+<h1>that would help you</h1>
+<h1>do this better."</h1>
+</blockquote>
+<p><strong>Speaker note:</strong> Nothing else on this slide. Ten words. Say it, then stop talking for three full seconds. This is the single highest-leverage move in the workshop. Every prompting guide says <em>add more detail</em> · but you can't add detail you don't know is missing. This flips the direction. Now it pulls the context out of your head.</p>
+<hr />
+<h2>SLIDE 6 · SOCRATES DIDN'T ANSWER</h2>
+<blockquote>
+<h1>Six question types.</h1>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Type</th>
+<th>The prompt</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Clarification</td>
+<td>"What do I actually mean by X?"</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Assumptions</td>
+<td>"What am I assuming that might not be true?"</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Evidence</td>
+<td>"How do I know this is true?"</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Perspectives</td>
+<td>"Steelman the opposite."</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Implications</td>
+<td>"If this works, then what?"</td>
+</tr>
+<tr>
+<td>6</td>
+<td>The Question</td>
+<td>"Is this even the right question?"</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Speaker note:</strong> 2,000-year-old technique. He never told anybody the answer · he asked until <em>you</em> found it. The Greeks called it <em>maieutics</em>: midwifery. You don't deliver the idea. You help it get born. If short on time, give them #2 and #6 only.</p>
+<hr />
+<h2>SLIDE 7 · STAFF THE KITCHEN</h2>
+<blockquote>
+<h1>No kitchen hires "a cook."</h1>
+<h2>Butcher. Saucier. Pastry chef. Expeditor.</h2>
+<h3>Same ingredients. Four completely different reads.</h3>
+<p><strong>That's a brigade.</strong></p>
+</blockquote>
+<p><strong>Speaker note:</strong> This is where you connect it to how you built Clawdia. ~90 experts. A copywriter, a CFO, a therapist, a chef. You didn't prompt them into existence · you interviewed them into existence.</p>
+<hr />
+<h2>SLIDE 8 · A PERSONA IS A QUESTION</h2>
+<blockquote>
+<h1>Not the job title.</h1>
+<h1>Not the bio.</h1>
+<h1><strong>The question they can't stop asking.</strong></h1>
+<ul>
+<li>Copywriter: <em>"Does the first line earn the second?"</em></li>
+<li>CFO: <em>"What does this cost us if it works?"</em></li>
+<li>Therapist: <em>"What are you avoiding by staying busy?"</em></li>
+<li>Chef: <em>"What's already in the fridge?"</em></li>
+</ul>
+</blockquote>
+<p><strong>Speaker note:</strong> That question is the <strong>Lens</strong>. The Lens <em>is</em> the expert. Everything else is decoration. The build move: don't tell the AI to "act like an expert" · ask it questions until a <em>person</em> shows up, then write that person down.</p>
+<hr />
+<h2>SLIDE 9 · CORRECTING OUT LOUD</h2>
+<blockquote>
+<h2>❌ "No, try again."</h2>
+<h2>✅ "That was wrong because ___.</h2>
+<h2>Going forward, when I ___,</h2>
+<h2>you should ___.</h2>
+<h2><strong>Write that down.</strong>"</h2>
+<h3>50 rules. Every one is a mistake I refused to have twice.</h3>
+</blockquote>
+<p><strong>Speaker note:</strong> Tell the "Hey" story here. One word, standing at the stove. Came back with a task list, a supplement count, and a callout that I hadn't eaten. I typed "Fuuuck. Hello." So we wrote a rule: <strong>greeting gets a greeting.</strong> It has never done it again · not because the model improved, because the correction became permanent. Retrying is re-rolling the dice. Correcting is building a system with a memory.</p>
+<hr />
+<h2>SLIDE 10 · CLOSE</h2>
+<blockquote>
+<h1>Vague in, garbage out.</h1>
+<h1>Clear in, magic out.</h1>
+<h3>Order better → Get interrogated → Staff the kitchen → Keep the notes</h3>
+<h2><strong>Anybody can cook.</strong></h2>
+</blockquote>
+<p><strong>Speaker note:</strong> The one thing to do tomorrow: add ten words to your next prompt. <em>"Before you start, ask me questions that would help you do this better."</em> Then out. Don't add a Q&amp;A slide · take questions live off this one.</p>
+<hr />
+<h2>DESIGN NOTES</h2>
+<p><strong>Do NOT default.</strong> No stock robot imagery, no blue gradient, no three-column icon grid, no "AI" in a circuit-board font.</p>
+<ul>
+<li><strong>Type:</strong> One typeface, two weights. Huge. If it fits comfortably, it's too small.</li>
+<li><strong>Palette:</strong> Two colors + white. Kitchen-warm, not tech-cold.</li>
+<li><strong>Slides 5 and 10 carry text only.</strong> No decoration. The white space is the design.</li>
+<li><strong>Tables (4, 6, 8):</strong> thin rules or no rules. Never boxed cells.</li>
+<li><strong>No slide numbers, no logo bug on every slide.</strong> Logo on 1 and 10 only.</li>
+<li><strong>Build-in one line at a time on slides 3, 8, 9</strong> so the room reads with you instead of ahead of you.</li>
+</ul>
+<p><strong>Mapping to the other two docs:</strong><br />
+| Slides | Speech beat | Syllabus module |<br />
+|--------|-------------|-----------------|<br />
+| 1-2 | 0:00, 0:25 | Premise |<br />
+| 3-4 | 0:40 | Module 1 · The Order |<br />
+| 5-6 | 1:05 | Module 2 · The Flip |<br />
+| 7-8 | 1:50 | Module 3 · The Brigade |<br />
+| 9 | 2:25 | Module 4 · The Loop |<br />
+| 10 | 2:45 | Closing |</p>
+<p><strong>3-minute run:</strong> slides 1, 2, 3, 5, 8, 9, 10. Skip 4, 6, 7 (they're teach slides, not talk slides).</p>
+<hr />
+<p><em>The Concept Kitchen · Anybody can cook.</em></p>
+<hr />
+</main>
+
+<footer>
+  <p>Asking Questions to Get What You Want &middot; AI Workshop, August 16, 2026</p>
+  <p>RJ Moscardon, The Concept Kitchen</p>
+</footer>
+
+<script>
+  var btn = document.getElementById("theme");
+  function paint() {
+    var dark = document.documentElement.getAttribute("data-theme") === "dark";
+    btn.textContent = dark ? "Light" : "Dark";
+  }
+  btn.addEventListener("click", function () {
+    var dark = document.documentElement.getAttribute("data-theme") === "dark";
+    var next = dark ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem("tck-theme", next);
+    paint();
+  });
+  paint();
+</script>
+</body>
+</html>
