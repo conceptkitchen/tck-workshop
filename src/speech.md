@@ -35,17 +35,25 @@ That's not the kitchen failing. That's the order failing.
 
 But the fix isn't a longer order. The fix is letting the kitchen ask you questions.
 
-**[1:15 THE MOVE]**
+**[1:15 THE SETUP]**
 
-One thing I want you to leave with today. Add this to the end of your next prompt:
+So here's what I actually do, and it goes both ways.
+
+I set the goal, and I say what good looks like. That part's my job.
+
+Then I ask it: *you're the expert, what do you think you should do?*
+
+And it asks me back: *what do you mean by good?*
+
+*(beat)*
+
+Neither of us guessed. That exchange is the setup, and the setup decided the output before either of us did any work.
+
+You don't get what you want by asking harder. You get it by setting up better.
+
+One sentence you can steal today. Put this at the end of your next prompt:
 
 *"Before you start, ask me questions that would help you do this better."*
-
-*(beat, let it sit, three full seconds)*
-
-One sentence. Now it interviews you. It pulls out the context that was in your head the whole time, that you never thought to say out loud.
-
-You stop guessing what to tell it. It tells you what it needs.
 
 **[1:45 THE QUESTIONS]**
 
@@ -67,17 +75,21 @@ If this works, what happens next?
 
 And the big one. Am I even asking the right question?
 
-**[2:15 THE PROOF]**
+**[2:15 THE BRIGADE]**
 
 Here's where that got me.
 
-I'm not a developer. No CS degree. I do field work for a living.
+I have about ninety experts I can call on. A copywriter, a CFO, a therapist, a chef.
 
-I spent six months asking questions instead of giving orders, and I wrote down what worked. That file runs my calendar, my finances, my outreach, and it holds me accountable to my own life. One text file. Plain English. No code.
+I didn't write ninety personas. I asked one question, ninety times.
 
-When it got something wrong, I didn't retry with different words. I told it why, and we wrote it down as a rule.
+*Who should be in the room for this?*
 
-Fifty rules now. Every one is a mistake I refused to have twice.
+*(beat)*
+
+That's the same move from a minute ago, just run ninety times. I didn't build them, I interviewed them into existence.
+
+I'm not a developer. No CS degree. I do field work for a living. Six months of that, written down in one text file, plain English, no code. Fifty rules in it now, and every one is a mistake I refused to have twice.
 
 **[2:45 CLOSE]**
 
@@ -136,6 +148,10 @@ You're not looking for magic words. You're giving something capable enough conte
   source: CLAUDE.md (calendar rules, Financial Flywheel, Outreach Pipeline Rules, Rule One Flywheel)
 - claim: "not a developer, no CS degree, field work for a living"
   source: USER.md · RJ-confirmed (Telegram, Aug 15 2026)
+- claim: "about ninety experts" / "ninety times"
+  source: skills/brigade/experts/ filesystem count = 93 files (`ls skills/brigade/experts/*.md | wc -l`) vs skills/brigade/ROSTER.md = "92 experts". Sources conflict by one, so the stage number is hedged to "about ninety." Never state an exact count on stage.
+- claim: "Who should be in the room for this?" as the single repeated build question
+  source: RJ-confirmed (Telegram, Aug 15 2026), his own description of how the brigade was built
 - claim: Socrates asked rather than told, roughly two thousand years ago
   source: general classical-philosophy knowledge, no specific stake
 - claim: the six questions

@@ -62,14 +62,20 @@
 
 ---
 
-## SLIDE 5 · THE ONE MOVE
+## SLIDE 5 · THE SETUP
 
-> # "Before you start,
-> # ask me questions
-> # that would help you
-> # do this better."
+> **Me:** Here's the goal. Here's what good looks like.
+>
+> **Me:** *You're the expert. What do you think you should do?*
+>
+> **It:** *Before I answer, what do you mean by "good"?*
+>
+> **Me:** *Fair. Here's what I mean.*
 
-**Speaker note:** Nothing else on this slide. Say it, then stop talking for three full seconds. This is the highest-leverage move in the workshop. Every prompting guide says add more detail, but you can't add detail you don't know is missing. This flips the direction. Now it interviews you and pulls the context out of your head that you never thought to say out loud.
+> ## You don't get what you want by asking harder.
+> ## You get it by setting up better.
+
+**Speaker note:** Build this one line at a time. Hold after the third line, that's the room's turn. Most people have never been asked a clarifying question by their AI, because they never left room for one. Say it plainly: I set the goal and I say what good looks like, that's my job. Then I ask the expert what they think they should do, because they're the expert, not me. Then they ask me what I left out. Neither of us guessed. That exchange IS the setup, and the setup decides the output before a single word of work gets written. The one sentence they can steal today: "Before you start, ask me questions that would help you do this better."
 
 ---
 
@@ -129,19 +135,20 @@
 
 ---
 
-## SLIDE 10 · THE PROOF, AND THE CLOSE
+## SLIDE 10 · THE CLOSE
 
-> # 29,132 words. One text file. Plain English.
->
-> ### No CS degree. Not a developer. Field work for a living.
->
-> ## 50 rules. Every one is a mistake I refused to have twice.
->
-> **I didn't build it. I managed it.**
+> # I didn't build 90 experts.
+> # I asked one question, 90 times.
+
+> ### *"Who should be in the room for this?"*
+
+> *29,132 words. 50 rules. No CS degree. Field work for a living.*
+
+> ## I didn't build it. I managed it.
 >
 > # Anybody can cook.
 
-**Speaker note:** This is the slide people photograph, so hold it. The credentials land here as evidence, not as an opener, because by now they've seen the method and this is just the receipt. If you show one screenshot all day, show the file here. Then the one thing to do tomorrow: add one sentence to your next prompt. "Before you start, ask me questions that would help you do this better." Then out. No Q&A slide, take questions live off this one.
+**Speaker note:** This is the slide people photograph, so hold it. Lead with the question, not the numbers. Ninety experts didn't get written, they got interviewed into existence, one question at a time, and that's the same move from slide 5 run ninety times. The stats are the receipt, not the argument, so say them fast and move. If you show one screenshot all day, show the file here. Then the one thing to do tomorrow: add one sentence to your next prompt. "Before you start, ask me questions that would help you do this better." Then out. No Q&A slide, take questions live off this one.
 
 ---
 
@@ -151,7 +158,7 @@
 
 - **Type:** One typeface, two weights. Huge. If it fits comfortably, it's too small.
 - **Palette:** Two colors plus white. Kitchen-warm, not tech-cold.
-- **Slides 5 and 10 carry text only.** No decoration. The white space is the design.
+- **Slides 5 and 10 carry text only.** No decoration. The white space is the design. On 5, the two speakers need to be visually distinct at a glance (weight or indent, not color-coded boxes).
 - **Tables (4, 6, 8):** thin rules or no rules. Never boxed cells.
 - **No slide numbers, no logo bug on every slide.** Logo on 1 and 10 only.
 - **Build in one line at a time on slides 3, 8, 9** so the room reads with you instead of ahead of you.
@@ -163,11 +170,11 @@
 | 1 | 0:00 The hook |
 | 2 | 0:25 The problem |
 | 3, 4 | 0:50 The kitchen |
-| 5 | 1:15 The move |
+| 5 | 1:15 The setup |
 | 6 | 1:45 The questions |
 | 7, 8 | Workshop only, cut from the 3 minute run |
 | 9 | Backup story |
-| 10 | 2:15 The proof, 2:45 Close |
+| 10 | 2:15 The brigade, 2:45 Close |
 
 **3-minute run:** slides 1, 2, 3, 5, 6, 10. Skip 4, 7, 8, 9. Those are teach slides, not talk slides.
 
@@ -182,8 +189,10 @@
   source: CLAUDE.md, verified 29,132 words, 1064 lines (wc)
 - claim: "50 rules"
   source: CLAUDE.md numbered Rules 1-50 (Rule 50 added Aug 15, 2026; verified `grep -n "^50\. "` = line 1053, no Rule 51). NOTE: `grep -c` on the numbered-rule pattern returns 134, it over-matches nested numbered items. Do not use that count on stage.
-- claim: "about ninety experts" (stated as approximate on stage)
-  source: skills/brigade/ROSTER.md + skills/brigade/experts/ filesystem count (92-93; sources conflict, stated as "~90" for stage safety)
+- claim: "90 experts" on the slide, "about ninety" spoken
+  source: skills/brigade/experts/ filesystem count = 93 files (`ls skills/brigade/experts/*.md | wc -l`) vs skills/brigade/ROSTER.md = "92 experts". Sources conflict by one. The slide rounds DOWN to 90 deliberately (understating is stage-safe, overstating is not) and the speech hedges to "about ninety." Do not state an exact count on stage.
+- claim: "Who should be in the room for this?" as the single repeated build question
+  source: RJ-confirmed (Telegram, Aug 15 2026), his own description of how the brigade was built
 - claim: RECIPES 7-part table
   source: projects/concept-kitchen/course/TCK-curriculum/resources/module-1-prompt/session-1.3-recipes-framework/recipes-cheatsheet.md:10-18
 - claim: "Before you start, ask me questions that would help you do this better."
