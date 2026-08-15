@@ -10,9 +10,9 @@ RJ Moscardon, The Concept Kitchen.
 | Page | What it is |
 |---|---|
 | `/` | The one move, and links to everything |
-| `/slides.html` | 10 slides, one idea each. Short run marked at the bottom. |
-| `/workshop.html` | The 30 minute run. Also scales to 3, 60, or 90. |
-| `/speech.html` | **Unlisted.** The 3 minute talk with timecodes, plus the slide notes. Built to read off a phone. Not in the nav, not on the home page. |
+| `/slides` | 10 slides, one idea each, plus slide 11 after the credits. |
+| `/workshop` | The 30 minute run. Also scales to 60 or 90. |
+| `/notes` | **Unlisted.** Speaker notes: the three moves, the 30 minute clock, plus every slide note. Built to read off a phone, one thumb, in a dim room. Not in the nav, not on the home page. The 3 minute speech was retired Aug 15 2026. `/speech` and `/syllabus` redirect here and to `/workshop` so old links don't break. |
 
 ## How it works
 

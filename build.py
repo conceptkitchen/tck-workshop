@@ -46,11 +46,11 @@ PAGES = [
     },
     {
         # Unlisted. Not in the nav, not on the home page. RJ gets the URL directly.
-        "slug": "speech",
+        "slug": "notes",
         "file": "speech.md",
-        "nav": "Speech",
-        "title": "The Speech",
-        "kicker": "3 minutes, out loud",
+        "nav": "Notes",
+        "title": "Speaker Notes",
+        "kicker": "30 minutes, one thumb",
         "blurb": "",
         "body_class": "teleprompter",
         "listed": False,
@@ -80,20 +80,35 @@ def clean_punctuation(text: str) -> str:
 def lift_speaker_notes(text: str):
     """Pull the speaker notes out of the deck.
 
+    A note starts at `**Speaker note:**` and runs until the slide ends, so a
+    note can be a paragraph or a list of talking points. RJ reads these off a
+    phone in a dim room, and bullets scan where a wall of text doesn't.
+
     Returns (deck_without_notes, notes_markdown). The notes keep the slide
     heading they belong to so they're readable on their own.
     """
+    lines = text.split("\n")
     kept, notes = [], []
     heading = ""
-    for line in text.split("\n"):
+    i = 0
+    while i < len(lines):
+        line = lines[i]
         m = SLIDE_HEADING.match(line)
         if m:
             heading = m.group(1).strip()
         note = SPEAKER_NOTE.match(line)
-        if note:
-            notes.append(f"### {heading}\n\n{note.group(1).strip()}\n")
+        if not note:
+            kept.append(line)
+            i += 1
             continue
-        kept.append(line)
+
+        body = [note.group(1).strip()]
+        i += 1
+        while i < len(lines) and not lines[i].startswith(("---", "#")):
+            body.append(lines[i])
+            i += 1
+        block = "\n".join(body).strip()
+        notes.append(f"### {heading}\n\n{block}\n")
 
     # Collapse the blank-line pairs the removed notes left behind.
     deck = re.sub(r"\n{3,}", "\n\n", "\n".join(kept))
@@ -249,7 +264,7 @@ def main() -> None:
         raw = strip_internal((SRC / page["file"]).read_text())
         if page["slug"] == "slides":
             raw, notes = lift_speaker_notes(raw)
-        elif page["slug"] == "speech":
+        elif page["slug"] == "notes":
             raw = raw + notes
         write_page(page, to_html(raw))
 

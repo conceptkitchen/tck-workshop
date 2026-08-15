@@ -159,10 +159,25 @@ That question is the **Lens**. The Lens *is* the expert. Everything else is deco
 - **Type 6 (Question the Question) is what a great outsider does.** "Are we even in the right room?"
 - **Types 2 + 3 (Assumptions + Evidence) are what the CFO and the skeptic do automatically.** Build them in and you never have to remember to ask.
 
-**🔪 EXERCISE 3.1 — "Hire One Expert" (10 min)**
-Name the person you most need in the room for your actual work. Prompt: *"You're going to help me build an expert persona. Ask me questions until you can tell me what question this person always asks."* Fill the build sheet. Save it. That's a reusable asset.
+**🔪 EXERCISE 3.1 — "Build the Setup" (12 min)**
 
-**Takeaway:** *You don't prompt an expert into existence. You interview one into existence.*
+**Pick something you keep putting off.** An expert, a skill, a tool, a workflow. It does not matter which. The method is the same because the method is questions.
+
+1. Ask: *"Who should be in the room to help me build this?"*
+2. **Interview whoever shows up.** Use the six questions. Do not take the first answer.
+3. Then ask: *"Now tell me what to build, and what I'm missing."*
+
+**You are not building the thing today. You're building the setup that builds it.**
+
+Whatever you're making, answer this one before you stop:
+
+> ### **What's the one question this thing answers for me, every time?**
+
+For an expert that's their Lens. For a skill it's the purpose. For a tool it's the job. Same field, three different names. If you can't answer it, you don't have a spec yet, you have a wish.
+
+**If you're building an expert specifically,** fill the build sheet above. Save it. That's a reusable asset. If you're building a skill or a tool, the sheet still works as a model, just read "Lens" as "the one question" and skip "Defers to."
+
+**Takeaway:** *You don't prompt a thing into existence. You interview one into existence.*
 
 ---
 
@@ -228,19 +243,31 @@ Add ten words to your next prompt:
 **Timing variants**
 | Length | Run |
 |--------|-----|
-| **30 min** | **Sunday Aug 16. Modules 1-2 + Ex 1.1, 2.1 + close.** |
-| 3 min | Speech only. Deck slides 1, 2, 3, 5, 6, 10. |
-| 60 min | Modules 1-3 + all exercises + close |
-| 90 min | Full, with 15 min share-out after Ex 3.1 |
+| **30 min** | **Sunday Aug 16. Modules 1-2 talked through (no exercises), Module 3 hands-on with Ex 3.1, close. Slide 11 after the close.** |
+| 60 min | Modules 1-3 + Ex 1.1, 2.1, 3.1 + close |
+| 90 min | Full, all four modules, with 15 min share-out after Ex 3.1 |
+
+**Why 3.1 is the exercise that survives the cut.** Ex 1.1 and 2.1 teach the move. Ex 3.1 makes them *use* the move to build something they keep. If only one exercise fits, it's 3.1, because it's the only one they walk out still holding. Modules 1 and 2 become the setup that earns it: teach RECIPES fast off the table, run the reverse-interview flip as a live demo from the front instead of an exercise, then hand the room the twelve minutes.
+
+**The 30-minute clock**
+| Time | Block |
+|---|---|
+| 0:00 | Open, the three moves, Modules 1-2 talked through |
+| 0:12 | Module 3, teach the Lens, show the build sheet |
+| 0:17 | **Ex 3.1, hands on keyboards** |
+| 0:29 | Close, CTA |
+| 0:30 | Slide 11. "One more thing." |
 
 **Materials**
-- RECIPES cheat sheet (one page, printed — `recipes-cheatsheet.md`)
-- Persona build sheet (one page, blank)
+- **The handout, one page, two sides.** Front: the question sequence for Ex 3.1 (the three prompts, the six questions, and the one-question field). Back: the persona build sheet as a worked example, so they can see what a finished setup looks like without being forced to build an expert specifically.
+- RECIPES cheat sheet (`recipes-cheatsheet.md`)
 - Any AI chat tool on any device
+
+**The handout is the question sequence, not the expert template.** The template is expert-shaped, and "Defers to" means nothing if someone's building a tool. Lead with the questions because the questions generalize. The template goes on the back as the example.
 
 **If the room is already AI-literate** (likely at an AI workshop): skip the "AI is useful" setup entirely. Open at the gap: *"Everybody here has used AI. Everybody here has had that moment where it gave you something technically correct and completely useless."* Then go straight to Module 2. Module 1 becomes a 3-min reference, not a teach.
 
-**The exercise that always lands:** 2.1, the Reverse Interview. People visibly change posture when the AI starts asking *them* questions. Protect the time for it.
+**The moment that always lands:** the Reverse Interview. People visibly change posture when the AI starts asking *them* questions. In the 60 and 90 minute runs, protect Ex 2.1. In the 30 minute run you don't have time for it as an exercise, so run it as a live demo from the front, on your own screen, in about ninety seconds. They still need to *see* it happen before Ex 3.1 will make sense to them.
 
 **Do not** oversell outcomes or promise income results. Position against gatekeeping, never against a competitor.
 

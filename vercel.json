@@ -1,15 +1,26 @@
 {
   "outputDirectory": "public",
   "framework": null,
+  "cleanUrls": true,
   "redirects": [
     {
       "source": "/syllabus.html",
-      "destination": "/workshop.html",
+      "destination": "/workshop",
       "permanent": true
     },
     {
       "source": "/syllabus",
-      "destination": "/workshop.html",
+      "destination": "/workshop",
+      "permanent": true
+    },
+    {
+      "source": "/speech.html",
+      "destination": "/notes",
+      "permanent": true
+    },
+    {
+      "source": "/speech",
+      "destination": "/notes",
       "permanent": true
     }
   ]
