@@ -284,6 +284,44 @@ Closed with: *"there's more context please wait."* **Still holding.**
 
 ---
 
+## Drop 9 — Telegram, Aug 20 2026, ~6:00 AM — 🔴 A CORRECTION, not context
+
+> *"i know i only gave you their bottle necks, and that's on purpose. duh they didnt ask about
+> agent because we'll be tellin gthem in the workshop"*
+
+The bottleneck survey is **deliberately scoped**. It asked one question. What it omits measures
+nothing. Fixed at the origin (`context/recruiter-bottlenecks.md` scope warning + two retirements)
+and at both surfaces in this file. Became **CLAUDE.md Rule 57 — absence is not evidence.**
+Commits `f3dd421` (tck-workshop) and `8e9f68c` (clawdia).
+
+---
+
+## Drop 10 — Telegram, Aug 20 2026, ~5:57 AM — 🔴 AMENDS DROP 1
+
+> *"oh wait i do want to hold on to transcripts examples as tools we can list latr people can try
+> and use. agnostic is th epoint. options."*
+
+**This changes drop 1.** Drop 1 said *"we are not using his examples we're going to use my
+examples."* That still holds **for teaching**. Drop 10 adds a second bucket.
+
+| Bucket | Source | Where it lives | Role |
+|---|---|---|---|
+| **Teaching examples** | RJ's own (still incoming) | In the deck, in the modules | What he demos from the front |
+| **Tools list** | The transcript's examples | A listed reference, not the lecture | Options attendees can go try |
+
+**The word doing the work is "options."** Same rationale as drop 8's OpenClaw reasoning: nobody
+gets told what to use. Free, model-agnostic, OS-agnostic, and now **tool-agnostic**. The transcript's
+examples stop being competitors to RJ's examples and become the menu.
+
+**Consequence for the site:** this implies a surface that does not exist yet. Neither `/slides` nor
+`/workshop` is the right home for a browsable tool list. Raise in full war: does this become a new
+page, a section of `/workshop`, or a handout?
+
+**"latr"** reads as *later* — the list is a post-workshop or reference asset, not a live teaching
+block. It does not consume any of the 2 hours. Confirm during war.
+
+---
+
 ## Open questions to raise during full war (do NOT ask before he's done)
 
 1. Two hours total with a short lecture — what's the shape of the rest? Hands-on setup time is the obvious candidate given the OpenClaw pivot, but RJ hasn't specified.
