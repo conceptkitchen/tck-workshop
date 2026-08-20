@@ -6,26 +6,22 @@
 **Room: recruiters and talent professionals.**
 
 <section class="titlecard">
-  <p class="titlecard-tag">Title card 1</p>
   <img src="/assets/flyer-lets-build-an-agent.jpg" alt="Let's Build an Agent. A hands-on workshop to build a personalized agent for your recruiting workflow. The Concept Kitchen x Talent AI Lounge x Apify.">
 </section>
 
 <section class="titlecard">
-  <p class="titlecard-tag">Title card 2</p>
   <img class="titlecard-mark" src="/assets/talent-ai-lounge.jpg" alt="Talent AI Lounge">
   <p class="titlecard-line">Tonight's host community.</p>
 </section>
 
 <section class="titlecard">
-  <p class="titlecard-tag">Title card 3</p>
   <img class="titlecard-mark" src="/assets/hanwha-ai-center.jpg" alt="Hanwha Artificial Intelligence Center">
   <p class="titlecard-line">Where we are. 300 Grant Ave, Suite 500, San Francisco.</p>
 </section>
 
-<section class="titlecard titlecard-hold">
-  <p class="titlecard-tag">Title card 4</p>
+<section class="titlecard">
   <p class="titlecard-hold-mark">APIFY</p>
-  <p class="titlecard-line">Art to be dropped in. The tool we run the live demo on.</p>
+  <p class="titlecard-line">The tool we run the live demo on.</p>
 </section>
 
 ---

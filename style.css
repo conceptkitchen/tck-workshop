@@ -423,16 +423,6 @@ footer p { margin: 0 0 0.25rem; }
   margin: 0.6rem auto;
 }
 
-.titlecard-tag {
-  margin: 0 0 1.1rem;
-  font-family: var(--sans);
-  font-size: 0.66rem;
-  font-weight: 600;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: #8B8179;
-}
-
 .titlecard-line {
   margin: 1.3rem 0 0;
   font-family: var(--sans);
@@ -441,19 +431,15 @@ footer p { margin: 0 0 0.25rem; }
   color: #57504A;
 }
 
-/* Card 4 holds Apify's slot until the art lands. Dashed, so it reads as
-   reserved rather than finished. */
-.titlecard-hold { background: transparent; border-style: dashed; box-shadow: none; }
-.titlecard-hold .titlecard-tag { color: var(--ink-3); }
-.titlecard-hold .titlecard-line { color: var(--ink-3); }
-
+/* Card 4 carries Apify as set type until their art lands. Same plate and border
+   as the others, so on screen it reads as a finished card, not a gap. */
 .titlecard-hold-mark {
   margin: 2.6rem 0;
   font-family: var(--sans);
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 600;
   letter-spacing: 0.3em;
-  color: var(--ink-3);
+  color: #1B1815;
 }
 
 /* ---------- brand lockup ----------
