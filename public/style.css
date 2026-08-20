@@ -442,6 +442,48 @@ footer p { margin: 0 0 0.25rem; }
   color: #1B1815;
 }
 
+/* ---------- wifi card ----------
+   Utility slide, so it gets utility rules: the credentials are the biggest type
+   on the page and they are monospaced, because someone in the back row is going
+   to be squinting at an O wondering if it's a zero. */
+
+.wificard-head {
+  margin: 0 0 1.8rem;
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #57504A;
+}
+
+.wificard-creds {
+  margin: 0;
+  display: grid;
+  gap: 0.3rem;
+  justify-items: center;
+}
+
+.wificard-creds dt {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #8B8179;
+}
+
+.wificard-creds dd {
+  margin: 0 0 1.5rem;
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  font-size: clamp(1.5rem, 6vw, 2.5rem);
+  font-weight: 600;
+  line-height: 1.15;
+  color: #1B1815;
+  overflow-wrap: anywhere;
+}
+
+.wificard-creds dd:last-child { margin-bottom: 0; }
+
 /* ---------- brand lockup ----------
    Matches the concept.kitchen footer: mark, 12px gap, Bitter-class serif,
    "kitchen" carried in the accent. */

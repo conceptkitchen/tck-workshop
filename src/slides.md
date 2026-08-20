@@ -24,6 +24,16 @@
   <p class="titlecard-line">The tool we run the live demo on.</p>
 </section>
 
+<section class="titlecard wificard">
+  <p class="wificard-head">Get on the network</p>
+  <dl class="wificard-creds">
+    <dt>Network</dt>
+    <dd>HAC Guest</dd>
+    <dt>Password</dt>
+    <dd>HACGUEST5F</dd>
+  </dl>
+</section>
+
 ---
 
 ## SLIDE 1 · THE HOOK
