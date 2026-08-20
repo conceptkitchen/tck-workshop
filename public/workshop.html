@@ -572,8 +572,8 @@ But: <em>"That was wrong because <strong><em>. Going forward, when I </em></stro
 <p><strong>What we're standing up: OpenClaw</strong><br />
 An open agent runtime, signed in with an account you already have. It reads a folder of files you control, which means your Lenses, your rules, and your corrections load every time instead of getting re-explained every time.</p>
 <p><strong>Why OpenClaw specifically</strong><br />
-- <strong>It's free.</strong> No metered bill that grows while you learn.<br />
-- <strong>It runs on a subscription you may already pay for</strong>, rather than per-token billing. Nobody should watch a meter run while they're learning.<br />
+- <strong>The software is free.</strong> You're not buying OpenClaw, and nothing here runs on my account.<br />
+- <strong>It asks for one key, and Google gives one away.</strong> <a href="https://aistudio.google.com/apikey">aistudio.google.com/apikey</a>, sign in with any Google account, click Create API key. No credit card. Free tier is more than enough to learn on. If you already have an OpenAI or Anthropic key, use that instead.<br />
 - <strong>It's model-agnostic.</strong> OpenAI, Google Gemini, or Claude. Bring whatever you already have. <strong>You do not buy anything new tonight.</strong><br />
 - <strong>It's OS-agnostic.</strong> Mac or Windows. Both work in this room.<br />
 - <strong>Nothing here runs on my account.</strong> You walk out owning it.</p>
@@ -648,8 +648,12 @@ openclaw doctor
 <p><strong>You may have heard Windows needs WSL2.</strong> It doesn't, not for tonight. WSL2 is the more complete path and you can move to it later. Native works fine for what we're doing, and it installs in one command instead of one evening.</p>
 </blockquote>
 <h3>The key</h3>
-<p>Onboarding will ask for an API key from OpenAI, Anthropic, or Google. <strong>If you already have one, use it.</strong></p>
-<p><strong>If you have nothing, get a free Google one:</strong> go to <strong><a href="https://aistudio.google.com/apikey">aistudio.google.com/apikey</a></strong>, sign in with any Google account, click <strong>Create API key</strong>, copy it, paste it into the wizard. Free tier, no card.</p>
+<p>Onboarding asks for one key. <strong>Google gives them away free</strong>, and that's the path we're taking tonight.</p>
+<p>Go to <strong><a href="https://aistudio.google.com/apikey">aistudio.google.com/apikey</a></strong> → sign in with any Google account → click <strong>Create API key</strong> → copy it → paste it into the wizard. <strong>No credit card.</strong> The free tier is more than enough to learn on.</p>
+<p>If you already have an OpenAI or Anthropic key, use that instead. Same wizard, same step.</p>
+<blockquote>
+<p><strong>If the words "API key" made you tense up, ignore them.</strong> It's a long password Google generates for you in about thirty seconds. You copy it once and never think about it again.</p>
+</blockquote>
 <h3>Both machines, once it's running</h3>
 <pre><code>openclaw dashboard
 </code></pre>

@@ -512,8 +512,9 @@ Screening. Sourcing. Scheduling. Follow-up. Intake.
 - "A chat window forgets you. A setup remembers you. The difference is where the files live."
 - "It reads a folder of files you control. Your Lenses, your rules, your corrections load every time instead of getting re-explained every time."
 - **Why this one, and say all four, they're the objections:**
-  - "**It's free.** No metered API bill growing while you learn."
-  - "**It uses a subscription you may already pay for.** Not per-token billing. Nobody should watch a meter run while they're learning."
+  - "**The software is free.** You're not buying OpenClaw. Nothing here runs on my account."
+  - "**It asks for one key, and Google gives one away.** aistudio.google.com/apikey, sign in, click Create. No credit card. If you already have an OpenAI or Claude key, use that instead."
+- **Do not say the words "API key" and then pause.** Say "a key, and Google hands them out free" and have the page already up on screen. Half a room hears "API" and quietly decides this isn't for them. Get to the free part in the same breath.
   - "**It's model-agnostic.** OpenAI, Gemini, Claude. Bring whatever you already have. You don't buy anything new tonight."
   - "**It's OS-agnostic.** Mac or Windows. Both work in this room."
   - "**Nothing here runs on my account.** You walk out owning it."

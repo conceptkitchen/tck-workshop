@@ -389,8 +389,8 @@ Everything so far works in any chat box. This part makes it persist.
 An open agent runtime, signed in with an account you already have. It reads a folder of files you control, which means your Lenses, your rules, and your corrections load every time instead of getting re-explained every time.
 
 **Why OpenClaw specifically**
-- **It's free.** No metered bill that grows while you learn.
-- **It runs on a subscription you may already pay for**, rather than per-token billing. Nobody should watch a meter run while they're learning.
+- **The software is free.** You're not buying OpenClaw, and nothing here runs on my account.
+- **It asks for one key, and Google gives one away.** [aistudio.google.com/apikey](https://aistudio.google.com/apikey), sign in with any Google account, click Create API key. No credit card. Free tier is more than enough to learn on. If you already have an OpenAI or Anthropic key, use that instead.
 - **It's model-agnostic.** OpenAI, Google Gemini, or Claude. Bring whatever you already have. **You do not buy anything new tonight.**
 - **It's OS-agnostic.** Mac or Windows. Both work in this room.
 - **Nothing here runs on my account.** You walk out owning it.
@@ -473,9 +473,13 @@ openclaw doctor
 
 ### The key
 
-Onboarding will ask for an API key from OpenAI, Anthropic, or Google. **If you already have one, use it.**
+Onboarding asks for one key. **Google gives them away free**, and that's the path we're taking tonight.
 
-**If you have nothing, get a free Google one:** go to **[aistudio.google.com/apikey](https://aistudio.google.com/apikey)**, sign in with any Google account, click **Create API key**, copy it, paste it into the wizard. Free tier, no card.
+Go to **[aistudio.google.com/apikey](https://aistudio.google.com/apikey)** → sign in with any Google account → click **Create API key** → copy it → paste it into the wizard. **No credit card.** The free tier is more than enough to learn on.
+
+If you already have an OpenAI or Anthropic key, use that instead. Same wizard, same step.
+
+> **If the words "API key" made you tense up, ignore them.** It's a long password Google generates for you in about thirty seconds. You copy it once and never think about it again.
 
 ### Both machines, once it's running
 
@@ -754,10 +758,17 @@ Bring me the bottleneck. Not the tool question. The bottleneck.
   two hours, the lecture stays short, the added time is not more lecture
 - claim: attendees set up the runtime themselves, on their own machine, not on RJ's bot
   source: RJ-confirmed (drop 1), verbatim: "it's not ready for deployment"
-- claim: five agnosticism requirements (free, subscription auth, model-agnostic, OS-agnostic, tool-agnostic)
+- claim: agnosticism requirements (free software, model-agnostic, OS-agnostic, tool-agnostic)
   source: RJ-confirmed (drop 8), verbatim: "since thsi shit is free and though, my set up keeps
   it free with claudse subwcription, i canteach people free stuff like if they have open ai or
   google gemini or claude this way it's agnostic especially if they have mac or windows."
+- ~~claim: "OpenClaw runs on a subscription you may already pay for, not per-token billing"~~
+  **RETIRED Aug 20 2026. BANNED, do not re-source.** The "claudse subwcription" in drop 8 was RJ
+  describing HIS OWN auth, not how OpenClaw works for attendees. docs.openclaw.ai documents API key
+  or a local model only; no subscription sign-in exists. Corrected claim below.
+- claim: onboarding requires an API key; the free path is a Google AI Studio key
+  source: docs.openclaw.ai (onboarding), + RJ-confirmed (Telegram, Aug 20 2026), verbatim:
+  "ok we dont want to scare them off. but it requires an API key. And Gemini is potentially free."
 - claim: the eight-block run of show (intro, icebreaker, lecture, demo, teams, setup, build, report back)
   source: RJ-confirmed (Telegram, Aug 20 2026), verbatim: "then we'll go from intro what I'm about to
   asking them questions in icebreaker to the workshop lecture to the demo to set up or actually them
