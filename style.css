@@ -389,3 +389,92 @@ footer p { margin: 0 0 0.25rem; }
   .bar, footer, #theme { display: none; }
   body { background: #fff; color: #000; font-size: 12pt; }
 }
+
+/* ---------- title cards ----------
+   Four brand cards that open the deck. Every mark we were handed is a JPEG on a
+   near-white ground, so each card gets its own fixed warm-white plate in BOTH
+   themes. Without it the marks would punch white rectangles out of the dark
+   deck. The plate is a decision, not a default: it reads as a printed card set
+   down on the page. Generous margins because RJ asked for room between them. */
+
+.titlecard {
+  margin: 4.5rem 0;
+  padding: clamp(1.4rem, 5vw, 2.6rem);
+  background: #FFFDF8;
+  border: 1px solid var(--rule);
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(27, 24, 21, 0.05), 0 12px 30px rgba(27, 24, 21, 0.07);
+}
+
+.titlecard + .titlecard { margin-top: 5.5rem; }
+.titlecard:first-of-type { margin-top: 2.5rem; }
+
+.titlecard img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Wordmarks are not artwork. They get a ceiling so they never outshout the flyer. */
+.titlecard-mark {
+  max-width: 21rem;
+  margin: 0.6rem auto;
+}
+
+.titlecard-tag {
+  margin: 0 0 1.1rem;
+  font-family: var(--sans);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #8B8179;
+}
+
+.titlecard-line {
+  margin: 1.3rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.84rem;
+  letter-spacing: 0.03em;
+  color: #57504A;
+}
+
+/* Card 4 holds Apify's slot until the art lands. Dashed, so it reads as
+   reserved rather than finished. */
+.titlecard-hold { background: transparent; border-style: dashed; box-shadow: none; }
+.titlecard-hold .titlecard-tag { color: var(--ink-3); }
+.titlecard-hold .titlecard-line { color: var(--ink-3); }
+
+.titlecard-hold-mark {
+  margin: 2.6rem 0;
+  font-family: var(--sans);
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  color: var(--ink-3);
+}
+
+/* ---------- brand lockup ----------
+   Matches the concept.kitchen footer: mark, 12px gap, Bitter-class serif,
+   "kitchen" carried in the accent. */
+
+.tck-lockup {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.tck-lockup img { height: 42px; width: auto; }
+
+.tck-lockup-text {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+
+.tck-lockup-text span { color: var(--ember); }

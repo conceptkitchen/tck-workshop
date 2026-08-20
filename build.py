@@ -29,8 +29,8 @@ PAGES = [
         "file": "slides.md",
         "nav": "Slides",
         "title": "The Deck",
-        "kicker": "21 slides, one idea each",
-        "blurb": "Twenty-one slides, one idea on each, plus one after the credits. Five of them stay up while the room works.",
+        "kicker": "One idea per slide",
+        "blurb": "The deck. Big type, one idea at a time, so the room is looking at you instead of reading ahead.",
         "body_class": "deck",
         "listed": True,
     },
@@ -200,8 +200,12 @@ def shell(*, title, nav_slug, content, kicker="", body_class="") -> str:
 </main>
 
 <footer>
+  <div class="tck-lockup">
+    <img src="/assets/tck-logo.png" alt="The Concept Kitchen">
+    <span class="tck-lockup-text">the concept <span>kitchen</span></span>
+  </div>
   <p>Ask, Don't Micromanage &middot; AI Workshop, August 20, 2026</p>
-  <p>RJ Moscardon, The Concept Kitchen</p>
+  <p>RJ Moscardon</p>
 </footer>
 
 <script>
@@ -280,7 +284,11 @@ def build_index() -> None:
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     shutil.copy(ROOT / "style.css", OUT / "style.css")
+    # Brand art for the title cards. Source of truth is src/assets, mirrored into
+    # public/ so the deck can reference /assets/... on the live site.
+    shutil.copytree(SRC / "assets", OUT / "assets", dirs_exist_ok=True)
     print("building:")
+    print(f"  copied {len(list((OUT / 'assets').iterdir()))} assets")
 
     notes = ""
     internal = []
