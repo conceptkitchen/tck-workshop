@@ -66,6 +66,19 @@ SLIDE_HEADING = re.compile(r"^##\s+(.*)$")
 SPEAKER_NOTE = re.compile(r"^\*\*Speaker note:\*\*\s*(.*)$")
 
 
+def pull_internal(text: str) -> tuple[str, str]:
+    """Pull production-only blocks out of the public render and hand them back.
+
+    Sources is the fact-check audit trail and gets dropped outright. DESIGN NOTES
+    and FACILITATOR NOTES are RJ's own material, so they come off the public page
+    and get re-attached to the unlisted notes page instead of thrown away.
+    """
+    harvested = []
+    for block in INTERNAL_BLOCK.findall(text):
+        harvested.append(block.lstrip().removeprefix("---").lstrip())
+    return strip_internal(text), "\n\n---\n\n".join(harvested)
+
+
 def strip_internal(text: str) -> str:
     """Remove production-only blocks from the public render.
 
@@ -270,12 +283,17 @@ def main() -> None:
     print("building:")
 
     notes = ""
+    internal = []
     for page in PAGES:
-        raw = strip_internal((SRC / page["file"]).read_text())
+        raw, pulled = pull_internal((SRC / page["file"]).read_text())
+        if pulled:
+            internal.append(pulled)
         if page["slug"] == "slides":
             raw, notes = lift_speaker_notes(raw)
         elif page["slug"] == "notes":
             raw = raw + notes
+            if internal:
+                raw += "\n\n---\n\n" + "\n\n---\n\n".join(internal)
         write_page(page, to_html(raw))
 
     build_index()
