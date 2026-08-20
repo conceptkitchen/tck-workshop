@@ -67,6 +67,7 @@
 <h2>LEARNING OUTCOMES</h2>
 <p>By the end, you can:</p>
 <ol>
+<li><strong>Say what an agent actually is</strong> in one sentence, and name the six pieces it's built from</li>
 <li>Diagnose <em>why</em> an AI response was useless (it's almost never the AI)</li>
 <li>Run the <strong>RECIPES</strong> framework to structure any request</li>
 <li><strong>Manage by asking, not telling.</strong> Treat the AI as the expert and ask what it thinks instead of dictating steps</li>
@@ -76,6 +77,118 @@
 <li>Turn corrections into <strong>permanent rules</strong> so the same mistake never happens twice</li>
 <li>Stand up a working setup on your own machine, with your own account, that outlives tonight</li>
 </ol>
+<hr />
+<h2>MODULE 0 · THE FOUNDATION</h2>
+<h3><em>"An agent is a model that can use tools, running in a loop until the job is done."</em></h3>
+<p><strong>Time:</strong> 15 min | <strong>Metaphor:</strong> Knowing what's in the kitchen before you cook</p>
+<p>Everybody is talking about agents. Almost nobody says what one actually <strong>is</strong>. That gap is why this feels like hype instead of something you could use on Monday.</p>
+<p>You cannot ask well for a thing you cannot picture. So before any of the asking, here is the picture.</p>
+<hr />
+<h3>First, the confusion to clear</h3>
+<p><strong>A chatbot talks.</strong> You type, it types back. That's the whole interaction. It cannot open your career inbox. It cannot save a resume to a folder. It cannot add a row to your spreadsheet or put a hold on a calendar. It generates words.</p>
+<p><strong>An agent is that same model with two things added:</strong></p>
+<ol>
+<li><strong>It can take actions.</strong> (tools)</li>
+<li><strong>It keeps going on its own,</strong> step after step, instead of stopping after one reply. (the loop)</li>
+</ol>
+<blockquote>
+<p><strong>The one-sentence version: an agent is a language model that can use tools, running in a loop until it finishes a job.</strong></p>
+</blockquote>
+<p>That's it. Everything else is detail.</p>
+<p>A chatbot answers a <strong>question</strong>. An agent is given a <strong>goal</strong> and goes and accomplishes it.</p>
+<hr />
+<h3>The building blocks</h3>
+<p>Six pieces. None of them require a degree to understand.</p>
+<table>
+<thead>
+<tr>
+<th>The piece</th>
+<th>What it actually is</th>
+<th>In your kitchen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>The brain</strong></td>
+<td>The model. All it does is predict text. It has no hands and no memory.</td>
+<td>The cook. Skilled, and standing there with nothing.</td>
+</tr>
+<tr>
+<td><strong>The hands</strong></td>
+<td>Tools. The model doesn't reach into your inbox. It writes a structured request that says <em>"use the inbox tool,"</em> and the software around it does that and hands the result back.</td>
+<td>The knives, the pans, the oven.</td>
+</tr>
+<tr>
+<td><strong>The counter</strong></td>
+<td>The context window. Everything it can see at one moment. It has a hard limit.</td>
+<td>Counter space. You cannot put the whole pantry on it.</td>
+</tr>
+<tr>
+<td><strong>The house rules</strong></td>
+<td>The system prompt. Who it is, how it behaves, what it never does.</td>
+<td>The rules of your kitchen, posted on the wall.</td>
+</tr>
+<tr>
+<td><strong>The recipe box</strong></td>
+<td>Files it can read. The model has no memory between sessions. It remembers what's written down.</td>
+<td>The binder of recipes you keep annotating.</td>
+</tr>
+<tr>
+<td><strong>The loop</strong></td>
+<td>Think, act, look at the result, decide again. Repeat until done.</td>
+<td>Taste, adjust, taste again.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The one that surprises people: the model has no memory.</strong> Not a little memory. None. Every single turn, the whole conversation gets handed back to it again. That is why <strong>Module 4</strong> matters so much. If a correction isn't written down somewhere it can read, the correction dies when you close the tab.</p>
+<p><strong>And the one that unlocks the most: the model never actually touches anything.</strong> It asks. The software around it acts. Which means the entire question of "what can my agent do?" is really the question <strong>"what have I given it access to?"</strong></p>
+<hr />
+<h3>The landscape: four ways to build one</h3>
+<p>Same loop every time. The only variable is how much of it you assemble yourself.</p>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>What you do</th>
+<th>Who it's for</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1 · No code</strong></td>
+<td>Fill out forms, drag blocks around.</td>
+<td>Fastest start, tightest ceiling.</td>
+</tr>
+<tr>
+<td><strong>2 · Low code</strong></td>
+<td>Wire steps together, drop in a little logic.</td>
+<td>Automations that outgrew tier 1.</td>
+</tr>
+<tr>
+<td><strong>3 · Agent harness</strong> ← <strong>tonight</strong></td>
+<td>Someone else built the loop. You bring the rules, the files, and the tools.</td>
+<td><strong>This room.</strong></td>
+</tr>
+<tr>
+<td><strong>4 · Write it yourself</strong></td>
+<td>Build the loop in code, line by line.</td>
+<td>Engineers with a reason to.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>We are at tier 3 tonight,</strong> and that is a deliberate choice, not a beginner's compromise. The loop is a solved problem. Nobody is paying you to rebuild it. What nobody can do for you is decide <strong>what to ask it and what to give it access to.</strong> That is the whole rest of this workshop.</p>
+<p><strong>Take-home:</strong> tier 1 and tier 2 tools are in the handout if you want to compare. Tier 4 is not homework.</p>
+<hr />
+<blockquote>
+<h3>🔵 BREAKOUT A · Name your loop</h3>
+<p><strong>Time:</strong> 8 min | <strong>Groups of 3 or 4. Turn your chairs.</strong></p>
+<ol>
+<li><strong>Around the table, each person names one recruiting task you currently run by hand that is obviously a loop.</strong> Something with the shape: <em>check, decide, do, check again.</em> The career-inbox problem from THE PREMISE is one. So is chasing a candidate who's gone quiet.</li>
+<li><strong>Pick ONE from your table</strong> to carry through the rest of tonight. You will build for it in Module 3 and report on it at the end.</li>
+<li><strong>Write it on the card.</strong> One sentence.</li>
+</ol>
+<p><strong>Facilitator:</strong> don't let a table stall on picking the "best" one. Any real one works. Every table has an answer inside 90 seconds.</p>
+</blockquote>
 <hr />
 <h2>MODULE 1 · THE ORDER</h2>
 <h3><em>"Vague in, garbage out."</em></h3>
@@ -369,6 +482,20 @@ Not the job title. Not the bio. <strong>The question they can't stop asking.</st
 <p>For an expert that's their Lens. For a workflow it's the purpose. For a tool it's the job. Same field, three names. If you can't answer it, you don't have a spec yet. You have a wish.</p>
 <p><strong>Takeaway:</strong> <em>You don't prompt a thing into existence. You interview one into existence.</em></p>
 <hr />
+<blockquote>
+<h3>🔵 BREAKOUT B · Build one expert for your table's loop</h3>
+<p><strong>Time:</strong> 10 min | <strong>Same groups. One laptop open per table is enough.</strong></p>
+<p>Take the loop your table picked in Breakout A and build <strong>one Lens</strong> for it, together.</p>
+<ol>
+<li><strong>Name the person you'd hire</strong> for that loop. Not a job title. The one thing they'd always catch.</li>
+<li><strong>Interview them into existence</strong> using the move from this module. Let the AI ask the table questions. Answer out loud, as a table, so you hear each other disagree.</li>
+<li><strong>Land on their one question.</strong> The thing this Lens asks about everything it sees.</li>
+</ol>
+<p><strong>Done looks like:</strong> one sentence you could hand to the table next to you and they'd know exactly who it is.</p>
+<p><strong>Facilitator:</strong> the disagreement inside the table is the point. When two recruiters at one table define "qualified" differently, that's the exact ambiguity the Lens has to settle.</p>
+<p><strong>If a table has no working laptop, say this and move on:</strong> <em>"Do it out loud. One of you plays the expert, the rest interview them. You'll get the same answer, you'll just get it faster."</em> The interview is the exercise. The laptop is a convenience. The setup module hasn't run yet, so expect at least one table here.</p>
+</blockquote>
+<hr />
 <h2>MODULE 4 · THE LOOP</h2>
 <h3><em>"Correcting out loud."</em></h3>
 <p><strong>Time:</strong> 8 min | <strong>Metaphor:</strong> The recipe card you keep annotating</p>
@@ -400,20 +527,58 @@ Find one thing your AI does that annoys you. Write it in this format:</p>
 <p><strong>Time:</strong> 12 min, hands on keyboards | <strong>Metaphor:</strong> Your own kitchen, not a rented one</p>
 <p>Everything so far works in any chat box. This part makes it persist.</p>
 <p>A chat window forgets you. A setup remembers you. The difference is where the files live.</p>
-<p><strong>What we're standing up</strong><br />
-An open agent runtime on your own laptop, signed in with an account you already have. It reads a folder of files you control, which means your Lenses, your rules, and your corrections load every time instead of getting re-explained every time.</p>
-<p><strong>Why this one</strong><br />
+<p><strong>What we're standing up: OpenClaw</strong><br />
+An open agent runtime, signed in with an account you already have. It reads a folder of files you control, which means your Lenses, your rules, and your corrections load every time instead of getting re-explained every time.</p>
+<p><strong>Why OpenClaw specifically</strong><br />
 - <strong>It's free.</strong> No metered API bill that grows while you learn.<br />
-- <strong>It uses a subscription you may already pay for</strong>, rather than per-token billing.<br />
-- <strong>It's model-agnostic.</strong> OpenAI, Gemini, Claude. Your choice, swap later.<br />
-- <strong>It's OS-agnostic.</strong> Mac or Windows.<br />
+- <strong>It runs on a subscription you may already pay for</strong>, rather than per-token billing. Nobody should watch a token meter run while they're learning.<br />
+- <strong>It's model-agnostic.</strong> OpenAI, Google Gemini, or Claude. Bring whatever you already have. You do not buy anything new tonight.<br />
+- <strong>It's OS-agnostic.</strong> Mac or Windows. Both work in this room.<br />
 - <strong>Nothing here runs on my account.</strong> You walk out owning it.</p>
+<p><strong>Two install paths, same steps</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Path</th>
+<th>When</th>
+<th>Why this one</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1</strong></td>
+<td><strong>Your own laptop</strong></td>
+<td>In the room, tonight</td>
+<td>Fastest to a working setup. You leave with it running.</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td><strong>Google Cloud</strong></td>
+<td>Walked on screen, finish at home</td>
+<td>Runs when your laptop is closed. Same steps, different machine.</td>
+</tr>
+</tbody>
+</table>
+<p>Both paths are in the handout, written out step by step. We do <strong>path 1 live</strong> because 12 minutes gets a whole room to a working laptop install and it does not get a whole room through a cloud console. I demo <strong>path 2 on screen</strong> during the same block so you have seen every step before you try it.</p>
 <p><strong>The one rule for this block:</strong> if you get stuck, raise a hand and keep going to the next step. Do not sit stuck and quiet. The person next to you probably hit the same wall ninety seconds ago.</p>
-<p><strong>Take-home:</strong> the second install path, on a cloud box instead of your laptop, is in the handout with the same steps. Same setup, different machine, so it runs when your laptop is closed. Do it this weekend, not tonight.</p>
 <hr />
 <h2>CLOSING</h2>
+<blockquote>
+<h3>🔵 BREAKOUT C · Report back</h3>
+<p><strong>Time:</strong> 8 min | <strong>One sentence per table, out loud, to the whole room.</strong></p>
+<p><strong>The format, and hold people to it:</strong></p>
+<blockquote>
+<p><em>"Our loop was </em><em>____</em><em>. Our expert asks </em><em>____</em><em>."</em></p>
+</blockquote>
+<p>That's the whole report. Two blanks. No preamble.</p>
+<p><strong>Why this is the last thing we do:</strong> you are about to hear seven or eight versions of your own job, described by people who sit in different seats than you. Some table is going to name a loop you didn't know was a loop. Take that one home too.</p>
+<p><strong>Facilitator:</strong> cut anyone who goes past two sentences, warmly. The constraint is what makes the room hear all of them.</p>
+</blockquote>
+<hr />
 <h3>The arc</h3>
-<ol>
+<ol start="0">
+<li><strong>Know what it is</strong> → A model, tools, a loop. No magic.</li>
 <li><strong>Order better</strong> → RECIPES</li>
 <li><strong>Have the conversation</strong> → Ask the expert what it thinks. Let it ask you what it needs.</li>
 <li><strong>Staff the kitchen</strong> → Experts built from questions</li>
@@ -534,47 +699,52 @@ An open agent runtime on your own laptop, signed in with an account you already 
 <td>Talk</td>
 </tr>
 <tr>
-<td>0:08</td>
+<td>0:06</td>
+<td><strong>Module 0, the foundation. What an agent is, the six blocks, the four tiers</strong></td>
+<td>Talk</td>
+</tr>
+<tr>
+<td>0:20</td>
+<td><strong>🔵 Breakout A, name your loop</strong></td>
+<td>Groups</td>
+</tr>
+<tr>
+<td>0:28</td>
 <td>Module 1, the order, RECIPES off the table fast</td>
 <td>Talk</td>
 </tr>
 <tr>
-<td>0:16</td>
-<td><strong>Ex 1.1, Fix the Order</strong></td>
-<td>Hands</td>
-</tr>
-<tr>
-<td>0:23</td>
+<td>0:36</td>
 <td>Module 2, the conversation. Both directions, six types</td>
 <td>Talk</td>
 </tr>
 <tr>
-<td>0:38</td>
+<td>0:49</td>
 <td><strong>Ex 2.1, The Reverse Interview</strong></td>
 <td>Hands</td>
 </tr>
 <tr>
-<td>0:50</td>
+<td>1:00</td>
 <td>Break</td>
 <td></td>
 </tr>
 <tr>
-<td>0:55</td>
+<td>1:05</td>
 <td>Module 3, the brigade, the Lens, the build sheet</td>
 <td>Talk</td>
 </tr>
 <tr>
-<td>1:07</td>
-<td><strong>Ex 3.1, Build the Setup</strong></td>
-<td>Hands</td>
+<td>1:15</td>
+<td><strong>Ex 3.1 + 🔵 Breakout B, build one expert per table</strong></td>
+<td>Groups</td>
 </tr>
 <tr>
-<td>1:25</td>
+<td>1:31</td>
 <td>Module 4, the loop, correcting out loud</td>
 <td>Talk</td>
 </tr>
 <tr>
-<td>1:33</td>
+<td>1:36</td>
 <td><strong>Ex 4.1, Write Rule One</strong></td>
 <td>Hands</td>
 </tr>
@@ -585,8 +755,8 @@ An open agent runtime on your own laptop, signed in with an account you already 
 </tr>
 <tr>
 <td>1:52</td>
-<td>Close, brigade, tools menu, CTA</td>
-<td>Talk</td>
+<td><strong>🔵 Breakout C, report back</strong>, then the CTA</td>
+<td>Groups</td>
 </tr>
 <tr>
 <td>2:00</td>
@@ -595,7 +765,17 @@ An open agent runtime on your own laptop, signed in with an account you already 
 </tr>
 </tbody>
 </table>
-<p>Talk is 59 minutes of 120. <strong>Hands are 56.</strong> If the room is running long, the cut order is: Ex 1.1 first (it's the most replaceable), then trim Module 3's teach, never Ex 3.1 and never Module 5.</p>
+<p>Talk is 68 minutes of 120. <strong>Hands and groups are 47.</strong> Break is 5.</p>
+<p><strong>What got cut to fit Module 0 and the breakouts, and why.</strong> The previous clock was already at exactly 120. Module 0 plus three breakouts is +41 minutes, so 41 had to come out.</p>
+<ul>
+<li><strong>Ex 1.1, Fix the Order, is cut.</strong> Breakout A absorbs it. A table naming its own loops out loud is the same muscle as fixing a vague order, and it does double duty by setting up Breakouts B and C. Ex 1.1 was already named the most replaceable block on the old clock.</li>
+<li><strong>Ex 3.1 is not cut, it is converted.</strong> It becomes a table build instead of a solo build, so Breakout B costs zero additional minutes. Same 16 minutes, more voices in it.</li>
+<li><strong>Every teach block is trimmed 1 to 3 minutes.</strong> Module 2 from 15 to 13, Module 3 from 12 to 10, Module 4 from 8 to 5.</li>
+<li><strong>Module 5 keeps its full 12 and stays hands-on.</strong> Non-negotiable. It's the only block that outlives the room.</li>
+</ul>
+<p><strong>If the room is still running long,</strong> the cut order is: Module 4's teach down to 3 (the rule template survives, the framing goes), then Breakout C from 8 to 5 by taking only half the tables. <strong>Never Ex 3.1 and never Module 5.</strong></p>
+<p><strong>Breakouts are a spine, not a spice.</strong> A and B and C are the same tables, the same loop, carried the whole night. If you cut A, B and C lose their subject and you should cut all three. Do not run B alone.</p>
+<p><strong>Groups of 3 or 4, formed once, at Breakout A.</strong> Do not re-form them. Nineteen respondents means five or six tables. Say the number out loud when you form them so nobody ends up in a pair or a group of seven.</p>
 <p><strong>The real teaching window is not the room booking.</strong> People trickle in for the first fifteen and start looking at phones near the end. Assume the block is longer than the workshop and start the actual teach once bodies are seated, not on the minute.</p>
 <p><strong>One live install path only.</strong> Module 5 teaches the laptop path live because everyone has a laptop in front of them. The cloud path goes in the handout as take-home. Two live paths in a room this size means the room splits into people who are done and people who are stuck, and the stuck ones stop participating. If RJ wants both live, the block needs to grow, not compress.</p>
 <p><strong>Nothing runs on my credentials.</strong> No demo that depends on my accounts, my tokens, or my usage cap. Free and agnostic is the whole selling point, and a live demo running on a metered account I'm paying for contradicts the pitch in front of the room.</p>

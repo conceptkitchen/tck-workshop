@@ -1,8 +1,14 @@
 # Context Inbox — Workshop v2 Redesign
 
 Running capture of RJ's incoming context for the workshop rebuild.
-**Status: RECEIVING. RJ said "wait for all my context first. I will say when I'm done."**
-Nothing gets built or changed until he says done, then we run **full war** to review.
+~~**Status: RECEIVING. RJ said "wait for all my context first. I will say when I'm done."**~~
+~~Nothing gets built or changed until he says done, then we run **full war** to review.~~
+
+> **STATUS: CLOSED Aug 20 2026, 07:20 AM.** Every item below is now marked ✅ USED, ⛔ BANNED, or 🔴 STILL OPEN.
+>
+> **Why this file needed closing (CLAUDE.md Rule 54):** on Aug 20 RJ asked *"did you not capture any of my asks?"* The capture had worked. Four separate entries below record the agent-foundation ask and the group-work ask. **They were captured and never used.** v2 shipped without Module 0 and without breakouts while this file sat here saying it had them.
+>
+> **An "Incoming:" heading with no closure marker is an OPEN ASK.** Reading this file and seeing the ask written down is not the same as the ask being in the deliverable. Every item gets a marker or the file lies by omission.
 
 > ### ⏰ THIS SHIPS TODAY — Thursday Aug 20, 5:00 PM PDT
 > Verified live from the Luma API at 5:07 AM. **11.9 hours of runway** from capture time.
@@ -16,22 +22,35 @@ Nothing gets built or changed until he says done, then we run **full war** to re
 - Workshop grows from **30 minutes → 2 hours**
   - RJ said "three hours actually two hours" and self-corrected to two. Recorded as **2 hours**.
 - **Lecture portion stays short.** The added time is not more lecture.
-  - Open question for war: what fills the remaining time — hands-on? demos? build blocks? RJ hasn't said yet.
+  - ~~Open question for war: what fills the remaining time — hands-on? demos? build blocks? RJ hasn't said yet.~~
+  - ✅ **ANSWERED Aug 20:** 47 min of hands-on and group work vs 68 min talk. Three breakouts (26 min) plus Module 5 setup. Clock is in `src/workshop.md` Sources, claim "the revised 120-minute clock." UNREHEARSED.
 
 ### What survives from v1
 - **Keep the foundation section**, specifically **the asking-questions material.**
 - This is the only part explicitly marked "keep" so far.
 
-### Incoming: a transcript from someone else
+### ✅ USED Aug 20, 07:00 AM — a transcript from someone else
 - RJ likes **how that person set up the foundation** (the structure).
 - **We are NOT using that person's examples.** RJ's examples replace them.
 - RJ will send the **full transcript**, and will give **his own examples separately, after.**
 - So: borrow the scaffolding, swap every example.
 
-### Incoming: event partner's flow + syllabus
+> **CLOSURE:** transcript received (1,697 lines, `context/reference-transcript-FULL-VERBATIM.txt`).
+> **It sat captured and unused for ~2 hours while v2 shipped without it.** RJ caught it:
+> *"i gave you the transcript for a reason... there's no break up into fucking groups like i asked for."*
+> Now landed as **MODULE 0 — THE FOUNDATION** (`src/workshop.md:59`, slides 4-7). Scaffolding borrowed
+> (definition → six blocks → four tiers), every example replaced with recruiting/kitchen framing per RJ.
+> Sourced line-by-line in the `## Sources` block of `src/workshop.md`.
+
+### 🔴 STILL OPEN — event partner's flow + syllabus
 - RJ will send **how his event partner wants the flow.**
 - Applies to **the syllabus already sent.**
 - **Changes are coming to it.** Current syllabus is not final.
+
+> **NEVER RECEIVED as of Aug 20, 07:20 AM.** The partner flow and the revised syllabus have not arrived.
+> The current 120-minute clock is **Clawdia's structural proposal**, not the partner's. If the partner's
+> flow lands before 5:00 PM, the module timings are the first thing it overrides.
+> **This is the likeliest home of any ask that still hasn't been met.**
 
 ### Big change: the demo subject
 - **NOT using RJ's bot.** Not using RJ's own setup.
@@ -45,8 +64,16 @@ Nothing gets built or changed until he says done, then we run **full war** to re
 ### Audience
 - **Recruiters.** Restated explicitly in this drop.
 
-### Incoming: Luma link
-- RJ will send it.
+### ⛔ BANNED FROM ALL PUBLIC SURFACES — Luma link
+- ~~RJ will send it.~~
+
+> **RETIRED Aug 20.** RJ: *"STOP FUCKING TRYING TO ADD THE LUMA LINK I SAID FUCKIGN DONT."*
+> `luma.com/ujthsr31` (the workshop's own registration page) **never appears on the deck, the
+> workshop doc, or the notes page.** It was used ONCE, read-only, to pull the registration title
+> from the API. That is its only permitted use.
+> **Do not confuse this with `luma.com/rklrsomo`** — that is the **Dog-a-thon** link on slide 17,
+> approved Aug 15, and is NOT banned.
+> The end-of-workshop CTA is **hi@concept.kitchen**, per RJ, not a Luma link.
 
 ---
 

@@ -4,7 +4,8 @@
 
 **AI Workshop, Thursday Aug 20, 2026 | RJ Moscardon, The Concept Kitchen**
 **Room: recruiters and talent professionals.**
-**10 slides, plus one after the credits. Big type. One idea per slide.**
+**16 slides, plus one after the credits. Big type. One idea per slide.**
+**Three of them are breakout slides. Those stay up while the room works.**
 
 ---
 
@@ -81,11 +82,115 @@
 - **The turn:** "And the fix isn't a longer order. The fix is letting the kitchen ask me questions before it starts cooking."
 - "Because a good cook asks. How many people? Anybody allergic? Are we eating in ten minutes or two hours?"
 
-**Transition:** "Now, there's a structure for this, and I want to show it to you before we go further."
+**Transition:** "So the fix is learning to ask. We'll get there. But first I owe you an answer to a question this whole industry keeps skipping."
 
 ---
 
-## SLIDE 4 · THE RECIPE CARD
+## SLIDE 4 · WHAT AN AGENT ACTUALLY IS
+
+> # A chatbot talks.
+>
+> ## An agent does.
+>
+> ### A model that can use tools, running in a loop until the job is done.
+
+**Speaker note:**
+
+*This is the slide that decides whether the rest of the night lands. Say the one-sentence version twice.*
+
+- "Everybody in your feed is saying agent. Almost nobody says what one is. That gap is why this feels like hype instead of something you could use Monday."
+- "A chatbot talks. You type, it types back. That's the whole thing. It cannot open your career inbox. It cannot save a resume to a folder. It cannot put a hold on a calendar. It generates words."
+- "An agent is that same model with two things added. One, it can take actions. Two, it keeps going on its own instead of stopping after one reply."
+- **Say it slowly, then say it again:** "An agent is a language model that can use tools, running in a loop until it finishes a job."
+- **The line to leave them with:** "A chatbot answers a question. An agent is given a goal."
+- "That's it. Everything after this is detail."
+
+**Transition:** "So what's inside one? Six pieces. None of them need a degree."
+
+---
+
+## SLIDE 5 · THE SIX PIECES
+
+> # It's a kitchen.
+
+| The piece | What it is | In your kitchen |
+|---|---|---|
+| **The brain** | The model. Predicts text. No hands, no memory. | The cook, standing there with nothing. |
+| **The hands** | Tools. It asks for one, the software runs it. | The knives, the pans, the oven. |
+| **The counter** | The context window. All it can see right now. | Counter space. It runs out. |
+| **The house rules** | The system prompt. Who it is, what it never does. | The rules posted on the wall. |
+| **The recipe box** | Files it can read. Its only memory. | The binder you keep annotating. |
+| **The loop** | Think, act, look, decide again. | Taste, adjust, taste again. |
+
+**Speaker note:**
+
+*Do not read all six. Point at the table, then land the two that change how they think.*
+
+- "Six pieces. The table's in your handout. I'm going to say two things about it."
+- **One, finger on the brain:** "The model has no memory. Not a little. None. Every single turn, the whole conversation gets handed back to it from scratch."
+  - "That's why Module 4 matters. If you correct it and that correction isn't written down somewhere it can read, the correction dies when you close the tab."
+- **Two, finger on the hands:** "The model never actually touches anything. It writes a request that says use the inbox tool, and the software around it does that and hands back the result."
+  - **The unlock:** "Which means what can my agent do is really the question what have I given it access to. That's not a technical question. That's a scoping question. You already do that when you onboard someone."
+
+**Transition:** "Now, there are four different ways to build one of these, and I want you to know where tonight sits."
+
+---
+
+## SLIDE 6 · FOUR WAYS TO BUILD ONE
+
+> # Same loop every time.
+>
+> ## The only question is how much you assemble yourself.
+
+| Tier | You do | Who it's for |
+|---|---|---|
+| **1 · No code** | Fill out forms, drag blocks. | Fastest start, tightest ceiling. |
+| **2 · Low code** | Wire steps, drop in logic. | Automations that outgrew tier 1. |
+| **3 · Agent harness** | Someone built the loop. You bring the rules, files, and tools. | **This room. Tonight.** |
+| **4 · Write it yourself** | Build the loop in code. | Engineers with a reason to. |
+
+**Speaker note:**
+
+*The point of this slide is permission. They need to hear that tier 3 is a choice, not a shortcut.*
+
+- "Four tiers. Same loop underneath all of them. The only variable is how much you build yourself."
+- **Point at tier 3:** "We're here tonight. And I want to be clear that's a deliberate choice, not a beginner's compromise."
+- "The loop is a solved problem. Nobody is paying you to rebuild it."
+- **The turn:** "What nobody can do for you is decide what to ask it and what to give it access to. That's the whole rest of tonight."
+- "Tier 1 and 2 tools are in the handout if you want to compare. Tier 4 is not homework."
+
+**Transition:** "Turn your chairs. First one's on you."
+
+---
+
+## SLIDE 7 · BREAKOUT A
+
+> # Name your loop.
+>
+> ## Groups of 3 or 4. 8 minutes.
+
+**1.** Each person names one recruiting task you run by hand that is **obviously a loop**.
+*Check, decide, do, check again.*
+
+**2.** Pick **ONE** from your table to carry through the whole night.
+
+**3.** Write it on the card. One sentence.
+
+**Speaker note:**
+
+*Slide stays up the entire 8 minutes. They need to see the task while they work.*
+
+- "Groups of three or four. Turn your chairs. You've got eight minutes."
+- "Each of you name one thing you do by hand that's obviously a loop. Check, decide, do, check again. The career inbox is one. Chasing a candidate who's gone quiet is one."
+- "Then pick ONE from your table. That's your table's problem for the rest of the night. You'll build for it later and report back at the end."
+- **Facilitator, walk the room:** don't let a table stall picking the "best" one. Any real one works. Every table has an answer inside 90 seconds. If a table is stuck, hand them the career inbox.
+- **At 8 minutes:** "Hands up if your table has one. Good. Hold onto it."
+
+**Transition:** "You've all got a job you want done. Now let's talk about how to ask for it."
+
+---
+
+## SLIDE 8 · THE RECIPE CARD
 
 > # RECIPES
 
@@ -116,7 +221,7 @@
 
 ---
 
-## SLIDE 5 · THE SETUP
+## SLIDE 9 · THE SETUP
 
 > **Me:** Here's the goal. Here's what good looks like.
 >
@@ -152,7 +257,7 @@
 
 ---
 
-## SLIDE 6 · SIX QUESTIONS
+## SLIDE 10 · SIX QUESTIONS
 
 > # Six questions.
 > ### You already know them. You've just never asked them out loud.
@@ -185,7 +290,7 @@
 
 ---
 
-## SLIDE 7 · STAFF THE KITCHEN
+## SLIDE 11 · STAFF THE KITCHEN
 
 > # No kitchen hires "a cook."
 >
@@ -207,7 +312,7 @@
 
 ---
 
-## SLIDE 8 · A PERSONA IS A QUESTION
+## SLIDE 12 · A PERSONA IS A QUESTION
 
 > # Not the job title.
 > # Not the bio.
@@ -238,7 +343,7 @@
 
 ---
 
-## SLIDE 9 · PUT THEM IN A ROOM
+## SLIDE 13 · PUT THEM IN A ROOM
 
 > # I didn't write this talk alone.
 >
@@ -265,11 +370,135 @@
   - "Say what was wrong, say what to do instead, and tell it to write that down."
   - "That's the difference between a tool and something that has a memory of working with you."
 
-**Transition:** "So let me tell you where all ninety of them actually came from, because it's not what people assume."
+**Transition:** "So now you do it. Back to your table, and build one."
 
 ---
 
-## SLIDE 10 · THE CLOSE
+## SLIDE 14 · BREAKOUT B
+
+> # Build one expert.
+>
+> ## Same groups. 10 minutes. One laptop per table.
+
+Take the loop your table picked. Build **one Lens** for it, together.
+
+**1.** Name the person you'd **hire** for that loop. Not a job title. The one thing they'd always catch.
+
+**2.** **Interview them into existence.** Let the AI ask your table questions. Answer out loud.
+
+**3.** Land on their **one question**. The thing they ask about everything they see.
+
+> **Done looks like:** one sentence you could hand to the next table and they'd know exactly who it is.
+
+**Speaker note:**
+
+*Slide stays up the full 10 minutes. One laptop per table is enough. Do not let them all open laptops, it kills the talking.*
+
+- "Back to your table. Ten minutes. One laptop open per table, that's plenty."
+- "Take the loop you picked at the start of the night. Build one expert for it, together."
+- "Step one, name who you'd hire. Not a job title. The one thing that person would always catch that everyone else misses."
+- "Step two, interview them into existence. Same move I just showed you. Let the AI ask your table the questions. Answer them out loud so you hear each other."
+- "Step three, land on their one question."
+- **Facilitator, and this is the real coaching:** the disagreement inside the table IS the point. When two recruiters at one table define "qualified" differently, that's the exact ambiguity the Lens exists to settle. Say that out loud to any table that hits it.
+- **If a table has no working laptop, say this and move on:** "Do it out loud. One of you plays the expert, the rest interview them. You'll get the same answer, you'll just get it faster." The interview is the exercise. The laptop is a convenience. Nothing about this step requires a machine, and the setup module hasn't run yet, so expect at least one table here.
+- **At 10 minutes:** "Don't lose it. You're reporting that out at the end."
+
+**Transition:** "Hold onto those. Two more things I want to show you first, then I want to hear all of them."
+
+---
+
+## SLIDE 15 · CORRECT IT OUT LOUD
+
+> **Retrying:** *"No, try again."*
+>
+> **Correcting:** *"That was wrong because ___.
+> Going forward, when I ___, you should ___.
+> Write that down."*
+
+> ## Retrying re-rolls the dice.
+> ## Correcting writes a rule.
+
+> ### **Prompting is a transaction. Correcting is a relationship.**
+
+**Speaker note:**
+
+*8 minutes. This is the compounding module. Slow down on the real example, it's the one they retell.*
+
+- "The AI gets it wrong. Everybody does the same thing. Retype it with different words and hope."
+- "That's re-rolling the dice. Nothing got learned. It happens again next week."
+- **The move:** "Don't retry. Say WHY it was wrong. Then make the correction permanent."
+- **The real example, tell it straight:** "I texted my AI one word. 'Hi.' I was at the stove. Just saying hello. It came back with a task list and three things I hadn't done."
+  - "I told it: I said hello. That's all that was."
+  - "So we wrote a rule. **Greeting gets a greeting.** If he says hi, say hi back. The rest can wait."
+  - "It has never done it again. Not because the model got smarter. Because the correction became permanent."
+- **The payoff line:** "Every correction is a mistake you refuse to have twice. Do that for a year and you don't have a prompt. You have a system with a memory."
+- **🔪 Ex 4.1, 7 min, Write Rule One.** Format on screen: Rule, positively stated · Trigger, when it applies · Why, the specific time it went wrong.
+- "Paste it into your system prompt or your project file. That's your first line of source code."
+
+**Transition:** "Everything I just showed you works in a chat box. Now let's get it off the chat box and onto your machine."
+
+---
+
+## SLIDE 16 · YOUR OWN KITCHEN
+
+> # OpenClaw.
+
+> ## A chat window forgets you.
+> ## A setup remembers you.
+
+> ### **Free · Your model · Mac or Windows · Your account, not mine**
+
+> **Two paths, same steps:**
+> **1. Your laptop** — running before you leave
+> **2. Google Cloud** — runs while your laptop is closed
+
+**Speaker note:**
+
+*12 min, hands on keyboards. This is the module they walk out owning. Do not rush it and do not let a stuck table sit quiet.*
+
+- "Everything so far works in any chat box. This part makes it persist. The thing we're standing up is called **OpenClaw**."
+- "A chat window forgets you. A setup remembers you. The difference is where the files live."
+- "It reads a folder of files you control. Your Lenses, your rules, your corrections load every time instead of getting re-explained every time."
+- **Why this one, and say all four, they're the objections:**
+  - "**It's free.** No metered API bill growing while you learn."
+  - "**It uses a subscription you may already pay for.** Not per-token billing. Nobody should watch a meter run while they're learning."
+  - "**It's model-agnostic.** OpenAI, Gemini, Claude. Bring whatever you already have. You don't buy anything new tonight."
+  - "**It's OS-agnostic.** Mac or Windows. Both work in this room."
+  - "**Nothing here runs on my account.** You walk out owning it."
+- **The one rule for this block, say it before they start:** "If you get stuck, raise a hand and keep going to the next step. Do not sit stuck and quiet. The person next to you hit the same wall ninety seconds ago."
+- **Both paths are in the handout.** Laptop first, in the room, tonight. The Google Cloud path is the same steps on a cloud box, so it runs when your laptop is closed. Walk it on screen, let them finish it at home.
+- **Facilitator:** circulate. Do not narrate from the front for 12 minutes. The room needs hands, not a lecture.
+
+**Transition:** "Kitchen's yours now. Let's hear what everybody built."
+
+---
+
+## SLIDE 17 · BREAKOUT C
+
+> # Report back.
+>
+> ## One sentence per table. Out loud.
+
+> ### "Our loop was ______.
+> ### Our expert asks ______."
+
+**That's the whole report. Two blanks. No preamble.**
+
+**Speaker note:**
+
+*This is the last thing the room does together.*
+
+- "Every table, one sentence. Our loop was blank, our expert asks blank. That's it."
+- "Two blanks. No preamble, no windup."
+- **Why this is last, say it before you start:** "You're about to hear seven or eight versions of your own job, described by people sitting in different seats than you. Some table is going to name a loop you didn't know was a loop. Take that one home too."
+- **Facilitator:** cut anyone past two sentences, warmly. The constraint is what makes the room actually hear all of them. Eight tables at 30 seconds is four minutes. Eight tables unmanaged is fifteen.
+- **After the last table:** "That's the room. Every one of those was built in ten minutes by someone who didn't write code."
+
+**Transition:** "So let me tell you where all ninety of mine actually came from, because it's not what people assume."
+
+---
+
+## SLIDE 18 · THE CLOSE
 
 > # I never wrote a team.
 >
@@ -309,7 +538,7 @@
 
 ---
 
-## SLIDE 11 · POST-CREDITS
+## SLIDE 19 · POST-CREDITS
 
 > ### *(after the applause)*
 >
@@ -346,25 +575,28 @@
 
 - **Type:** One typeface, two weights. Huge. If it fits comfortably, it's too small.
 - **Palette:** Two colors plus white. Kitchen-warm, not tech-cold.
-- **Slides 5 and 10 carry text only.** No decoration. The white space is the design. On 5, the two speakers need to be visually distinct at a glance (weight or indent, not color-coded boxes).
-- **Tables (4, 6, 8):** thin rules or no rules. Never boxed cells.
-- **No slide numbers, no logo bug on every slide.** Logo on 1 and 10 only.
-- **Build in one line at a time on slides 3, 8, 9** so the room reads with you instead of ahead of you.
+- **Slides 9 and 16 carry text only.** No decoration. The white space is the design. On 9, the two speakers need to be visually distinct at a glance (weight or indent, not color-coded boxes).
+- **Tables (5, 6, 8, 10, 12):** thin rules or no rules. Never boxed cells. Slide 5 is the densest thing in the deck, so it gets the most air.
+- **No slide numbers, no logo bug on every slide.** Logo on 1 and 16 only.
+- **Build in one line at a time on slides 3, 4, 12, 13** so the room reads with you instead of ahead of you.
 
-- **Slide 11 is a separate build.** It should feel like the deck ended on 10. Black or blank beat between them if the room allows it. The joke is the separation, so don't let 11 look like a continuation of the close.
-- **Slide 11 gets a QR code** for `luma.com/rklrsomo`, large, bottom third. Nobody types a URL off a screen.
+- **The three breakout slides (7, 14, 15) are a different object.** They are not talk slides, they are instructions the room reads while working. Same type family, but treat them as a distinct surface: numbered steps, high contrast, readable from the back of the room for a full 8 to 10 minutes. Put a visible timer on them if the venue allows.
+- **Slide 17 is a separate build.** It should feel like the deck ended on 16. Black or blank beat between them if the room allows it. The joke is the separation, so don't let 17 look like a continuation of the close.
+- **Slide 17 gets a QR code** for `luma.com/rklrsomo`, large, bottom third. Nobody types a URL off a screen.
 
-**The three moves, and where they live:**
+**The moves, and where they live:**
 
 | Move | Slides |
 |---|---|
-| 1. Ask questions instead of giving orders | 1, 2, 3, 4, 5, 6 |
-| 2. Let the expert help you build the expert | 7, 8 |
-| 3. Put them in a room and let them plan it | 9, 10 |
+| 0. Know what the thing actually is | 4, 5, 6 |
+| 1. Ask questions instead of giving orders | 1, 2, 3, 8, 9, 10 |
+| 2. Let the expert help you build the expert | 11, 12 |
+| 3. Put them in a room and let them plan it | 13, 16 |
+| Breakouts (the room works, not the speaker) | 7, 14, 15 |
 
-**Inside the 2-hour workshop:** the deck carries the talk, not the whole session. Slides 1 to 6 run under Modules 1 and 2. Slides 7 to 9 run under Module 3. Slide 10 closes. The hands-on blocks happen between them, off the deck, laptops open.
+**Inside the 2-hour workshop:** the deck carries the talk, not the whole session. Slides 1 to 3 open. Slides 4 to 6 are Module 0, the foundation. Slide 7 is the first breakout. Slides 8 to 10 run under Modules 1 and 2. Slides 11 to 13 run under Module 3, and 14 is its breakout. Modules 4 and 5 run live with no deck at all. Slide 15 is the report-back, 16 closes. The hands-on blocks happen off the deck, laptops open.
 
-If you're running long, 4 and 7 are the compressible ones. Never cut 5 or 6, those carry the thesis. Slide 11 goes after the close.
+If you're running long, **8 and 11 are the compressible ones.** Never cut 9 or 10, those carry the thesis. Never cut 4, that's the definition the whole night rests on. **Never cut a breakout to save time.** Cutting the room's own work to protect the speaker's material is the exact mistake this workshop is about. If the clock is gone, shorten Module 5 and keep the groups. Slide 17 goes after the close.
 
 ---
 
@@ -381,6 +613,12 @@ If you're running long, 4 and 7 are the compressible ones. Never cut 5 or 6, tho
   source: RJ-confirmed (Telegram voice note, drop 1, Aug 20 2026), verbatim: workshop grows to two hours, audience is recruiters. Captured in CONTEXT-INBOX.md.
 - claim: date Thursday Aug 20, 2026
   source: `date "+%A, %B %d, %Y"` run Aug 20 2026 · Luma event record in CONTEXT-INBOX.md (start_at 2026-08-20, 5:00 PM PDT)
+- claim: slides 4, 5, 6 (what an agent is · the six pieces · the four tiers)
+  source: propagated from src/workshop.md MODULE 0 per Rule 51. Underlying sources are context/reference-transcript-FULL-VERBATIM.txt:11 (the one-sentence definition), :83 and :189 (no hands, no memory), :50 and :89 (tool calling as the hands), :129-135 (context window), :159-165 (system prompt), :23, :284, :380, :596 (the four tiers). SCAFFOLDING borrowed, every EXAMPLE replaced, per RJ (Telegram, Aug 20 2026): "i like how he set up the foundation but we are not using his examples we're going to use my examples." The kitchen column of the six-pieces table is this workshop's own metaphor, not the source's.
+- claim: slides 7, 14, 15 (the three breakout slides)
+  source: propagated from src/workshop.md Breakouts A, B, C per Rule 51. Group work is RJ-confirmed (Telegram, Aug 20 2026): "there's no break up into fucking groups like i asked for." The specific placements, timings, and step wording are Clawdia's structural proposal and have NOT been reviewed by RJ.
+- claim: "eight tables at 30 seconds is four minutes" on slide 15
+  source: arithmetic only. The table COUNT is an illustration for the facilitator, not a headcount claim. Luma reports guest_count: 0 (suppressed), so actual attendance is UNKNOWN. Do not state a room size on stage.
 - claim: Sourcer lens on slide 8, "Who already works somewhere this problem is solved?"
   source: src/workshop.md Module 3 (same example, propagated per Rule 51). Constructed as a demonstration of the Lens pattern for this specific room, not a claim about an existing expert file.
 - claim: "about ninety" experts, spoken only on slide 7
