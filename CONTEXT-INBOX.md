@@ -252,6 +252,32 @@ Headline number: **the foundation runs 8:25, 40% of the video, before a single d
 
 ---
 
+## Drop 8 — Telegram, Aug 20 2026, ~5:50 AM
+
+### 8a. Recruiter bottlenecks — RE-SENT
+
+RJ re-sent the same 19 responses. **Verified identical** to what was captured in drop 5 at
+`context/recruiter-bottlenecks.md`. No new audience data, no diff. Nothing to reconcile.
+
+### 8b. 🔴 WHY OPENCLAW — RJ's rationale, verbatim
+
+> *"We're also using openclaw since thsi shit is free and though, my set up keeps it free with
+> claudse subwcription, i canteach people free stuff like if they have open ai or google gemini
+> or claude this way it's agnostic especially if they have mac or windows."*
+
+Four constraints in one sentence. These read as **requirements**, not preferences:
+
+1. **Free.** OpenClaw itself costs nothing.
+2. **His setup stays free on a Claude subscription** — subscription auth, not metered API billing.
+   Nobody watches a token meter run during a live demo.
+3. **Model-agnostic.** Attendee brings whatever they already pay for: OpenAI, Google Gemini, or
+   Claude. The workshop does not require anyone to buy anything new.
+4. **OS-agnostic.** Mac or Windows. Both have to work in the room.
+
+Closed with: *"there's more context please wait."* **Still holding.**
+
+---
+
 ## Open questions to raise during full war (do NOT ask before he's done)
 
 1. Two hours total with a short lecture — what's the shape of the rest? Hands-on setup time is the obvious candidate given the OpenClaw pivot, but RJ hasn't specified.
@@ -299,6 +325,19 @@ Headline number: **the foundation runs 8:25, 40% of the video, before a single d
 15. **Apify is on the FREE plan, $5/mo hard usage cap.** If any live segment has ~20 recruiters
     running scrapers on RJ's account, that cap is the failure point. A fact the war needs on
     the table before any Apify-dependent block is designed. **Observation only. Not a proposal.**
+16. **Drop 8's "free and agnostic" principle collides with #15.** RJ's stated rationale is that
+    attendees use what they already pay for and buy nothing new. Any block that runs on RJ's
+    credentials is off-principle before the cap is even reached — the cap is the second problem,
+    not the first. **Observation only. Not a proposal.**
+17. **Agnostic multiplies the setup surface.** 3 providers (OpenAI / Gemini / Claude) × 2 OSes
+    (Mac / Windows) = 6 possible setup paths live in one room, and RJ has said attendees stand
+    OpenClaw up on **both** Google Cloud and their own laptop. Noting the combinatorics without
+    proposing how to handle them. **Observation only.**
+18. **RJ's rationale is a constraint the source transcript does not carry.** The transcript's
+    Tier 3 pitch at 15:02 is architectural — *"I'm not building this agent loop. It already
+    exists."* RJ's is economic and practical: free, bring your own key, works on your OS. Same
+    destination, different argument. Borrowing his structure means deciding which argument the
+    structure carries. **Observation only.**
 
 ---
 
