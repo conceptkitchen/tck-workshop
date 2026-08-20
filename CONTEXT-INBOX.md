@@ -536,7 +536,7 @@ Workshop is back ON, redesigned, 2 hours, OpenClaw-centered, recruiter audience.
 | 16 | "I want to get them to building" | ✅ USED | Talk/hands ratio inverted, 50 talk / 65 hands |
 | 17 | "don't want to bog them down with jargon" | ✅ USED | Jargon stripped across body and deck |
 | 18 | "learn how to be curious with AI" not learn AI | ✅ USED | Curiosity framing, 4 hits in workshop, closes Block 4 |
-| 19 | "a section at the end for how to build their own brigade" | ⚠️ PARTIAL | Section exists and describes the folder structure. Links to nothing. `clawdia-code-arc` is built and still PRIVATE. Decision pending. |
+| 19 | "a section at the end for how to build their own brigade" | ✅ USED | Section exists, teaches the folder structure generically (`your-setup/experts/`), links to nothing and names no repo. ~~`clawdia-code-arc` is built and still PRIVATE. Decision pending.~~ RETIRED Aug 20 2026 — no repo ships tonight. See § "Repo — RETIRED". |
 | 20 | "set up on OpenClaw both on Google Cloud provider and on their laptop" | ⚠️ PARTIAL | Laptop is live in the room, Google Cloud is on screen only. Rule 46 narrowing, surfaced Aug 20, unresolved. |
 | 21 | "hi@concept.kitchen CTA at the end" | ✅ USED | Close of workshop + slide 21 |
 | 22 | Luma `ujthsr31` BANNED from all surfaces | ✅ HELD | 0 hits, all four pages |
@@ -592,9 +592,32 @@ THE PREMISE.
 + repo `conceptkitchen/clawdia-code-co`**, plus four deliverables (RECIPES cheat sheet, recruiter
 prompt library, workflow audit template, agent build guide).
 
-Tonight ships **OpenClaw + `clawdia-code-arc`**. RJ made that call deliberately and for good reasons
-(free, subscription-auth not metered API, model-agnostic, OS-agnostic). But Mabel was sold the other
-stack and may have repeated it to her community. Worth one line to her before doors.
+Tonight ships **OpenClaw. That is the whole stack.** No repo, no Clawdia code on screen. RJ made
+that call deliberately and for good reasons (free, subscription-auth not metered API, model-agnostic,
+OS-agnostic). But Mabel was sold the other stack and may have repeated it to her community. Worth
+one line to her before doors.
+
+~~Tonight ships **OpenClaw + `clawdia-code-arc`**.~~ **RETIRED Aug 20 2026 09:52 — FABRICATED.**
+RJ, verbatim: *"Tonight is not arc I never fucking said arc I said we're not going to show Clawdia
+code we're going to do fucking open claw stop making shit up fix that."*
+
+### 🚫 Repo — RETIRED
+
+**`clawdia-code-arc` is BANNED from tonight.** It is not part of the stack, not on a slide, not in
+the workshop, not a link at the end of BUILD YOUR OWN BRIGADE. `clawdia-code-co` is also banned and
+is not to be touched. **Do not re-source either name into any surface.**
+
+What RJ actually said about showing Clawdia (`memory/sessions/2026-08-20-telegram-live.md:2295`):
+*"we're definitely going to show them how to use Claudia or how I use Claudia in the demo and then
+maybe even show them how I have my agents who my agent teams are."*
+
+So the line is: **Clawdia in the DEMO = yes, RJ's own plan, keep it** (`src/slides.md:444`,
+`src/workshop.md:345`). **Clawdia CODE or a repo = no.** Those are two different things and
+collapsing them is how the arc invention happened.
+
+Verified Aug 20 2026 09:50: `grep -rn -i "clawdia-code|clawdia code|code-arc|code arc" src/ build.py`
+returns **0 hits**. Nothing on the live site ever said arc. The invention lived only in this file
+and in one message sent to RJ.
 
 ### 📍 VENUE — the address was in her notes the whole time
 
