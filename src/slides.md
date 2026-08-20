@@ -4,8 +4,8 @@
 
 **AI Workshop, Thursday Aug 20, 2026 | RJ Moscardon, The Concept Kitchen**
 **Room: recruiters and talent professionals.**
-**16 slides, plus one after the credits. Big type. One idea per slide.**
-**Three of them are breakout slides. Those stay up while the room works.**
+**21 slides, plus one after the credits. Big type. One idea per slide.**
+**Five of them stay up while the room works: 4, 11, 17, 19, 20.**
 
 ---
 
@@ -85,8 +85,34 @@
 **Transition:** "So the fix is learning to ask. We'll get there. But first I owe you an answer to a question this whole industry keeps skipping."
 
 ---
+## SLIDE 4 · WHO YOU ARE
 
-## SLIDE 4 · WHAT AN AGENT ACTUALLY IS
+> # Before I teach you anything, I want to hear you.
+
+**1.** What brought you here tonight?
+
+**2.** Why agents? What made that the thing you got curious about?
+
+**3.** Where are you with AI so far? *Never touched it, use it daily, somewhere in between.*
+
+**4.** What's your bottleneck? *The thing you do over and over that you wish you didn't.*
+
+**Speaker note:**
+
+*Slide stays up the whole 15 minutes. Capture every bottleneck where the room can see it. That list is the raw material for the back half of the night.*
+
+- "I've talked enough. I want to know who's in the room."
+- Take five or six out loud, not everyone. Keep it moving.
+- "Where are you with AI" gets the honest answer only if you go first. Say the unglamorous version of your own start.
+- **Write the bottlenecks on the board.** Whiteboard, easel pad, shared doc on screen. They need to see their own words later.
+- **Do not fix anything yet.** Someone will describe a problem you could solve in one sentence. Let it sit. They'll build it themselves in two hours and it will mean more.
+
+**Transition:** "Everything you just said is a loop. Let's talk about what actually runs one."
+
+
+---
+
+## SLIDE 5 · WHAT AN AGENT ACTUALLY IS
 
 > # A chatbot talks.
 >
@@ -109,7 +135,7 @@
 
 ---
 
-## SLIDE 5 · THE SIX PIECES
+## SLIDE 6 · THE SIX PIECES
 
 > # It's a kitchen.
 
@@ -136,7 +162,7 @@
 
 ---
 
-## SLIDE 6 · FOUR WAYS TO BUILD ONE
+## SLIDE 7 · FOUR WAYS TO BUILD ONE
 
 > # Same loop every time.
 >
@@ -160,33 +186,6 @@
 - "Tier 1 and 2 tools are in the handout if you want to compare. Tier 4 is not homework."
 
 **Transition:** "Turn your chairs. First one's on you."
-
----
-
-## SLIDE 7 · BREAKOUT A
-
-> # Name your loop.
->
-> ## Groups of 3 or 4. 8 minutes.
-
-**1.** Each person names one recruiting task you run by hand that is **obviously a loop**.
-*Check, decide, do, check again.*
-
-**2.** Pick **ONE** from your table to carry through the whole night.
-
-**3.** Write it on the card. One sentence.
-
-**Speaker note:**
-
-*Slide stays up the entire 8 minutes. They need to see the task while they work.*
-
-- "Groups of three or four. Turn your chairs. You've got eight minutes."
-- "Each of you name one thing you do by hand that's obviously a loop. Check, decide, do, check again. The career inbox is one. Chasing a candidate who's gone quiet is one."
-- "Then pick ONE from your table. That's your table's problem for the rest of the night. You'll build for it later and report back at the end."
-- **Facilitator, walk the room:** don't let a table stall picking the "best" one. Any real one works. Every table has an answer inside 90 seconds. If a table is stuck, hand them the career inbox.
-- **At 8 minutes:** "Hands up if your table has one. Good. Hold onto it."
-
-**Transition:** "You've all got a job you want done. Now let's talk about how to ask for it."
 
 ---
 
@@ -221,7 +220,7 @@
 
 ---
 
-## SLIDE 9 · THE SETUP
+## SLIDE 9 · THE ASK
 
 > **Me:** Here's the goal. Here's what good looks like.
 >
@@ -289,8 +288,34 @@
 **Transition:** "So that's move one. Ask instead of order. Move two is where it gets interesting, because now I need more than one expert."
 
 ---
+## SLIDE 11 · TRY IT NOW
 
-## SLIDE 11 · STAFF THE KITCHEN
+> # Make it interview you.
+
+**Open whatever AI you have on your phone right now.**
+
+Paste this:
+
+> *"I want you to help me with [your bottleneck]. Before you answer, ask me five questions you need answered to do this well."*
+
+Answer the questions. Then let it try.
+
+**Speaker note:**
+
+*5 minutes, hands on phones, no laptops needed. This is the first time tonight they touch it.*
+
+- "Phones out. Whatever you've got. ChatGPT, Gemini, Claude, the one on your phone already."
+- The point is not the output. The point is the flip: they stop typing orders and start getting asked.
+- **Watch for the face.** Somebody always looks up surprised that it asked something they hadn't thought of.
+- "That feeling? That's the whole workshop. Keep it."
+- If someone has nothing installed, pair them up. Nobody sits this one out.
+
+**Transition:** "One good conversation gets you one good answer. Now let's get you a whole staff."
+
+
+---
+
+## SLIDE 12 · STAFF THE KITCHEN
 
 > # No kitchen hires "a cook."
 >
@@ -312,7 +337,7 @@
 
 ---
 
-## SLIDE 12 · A PERSONA IS A QUESTION
+## SLIDE 13 · A PERSONA IS A QUESTION
 
 > # Not the job title.
 > # Not the bio.
@@ -343,7 +368,7 @@
 
 ---
 
-## SLIDE 13 · PUT THEM IN A ROOM
+## SLIDE 14 · PUT THEM IN A ROOM
 
 > # I didn't write this talk alone.
 >
@@ -371,39 +396,6 @@
   - "That's the difference between a tool and something that has a memory of working with you."
 
 **Transition:** "So now you do it. Back to your table, and build one."
-
----
-
-## SLIDE 14 · BREAKOUT B
-
-> # Build one expert.
->
-> ## Same groups. 10 minutes. One laptop per table.
-
-Take the loop your table picked. Build **one Lens** for it, together.
-
-**1.** Name the person you'd **hire** for that loop. Not a job title. The one thing they'd always catch.
-
-**2.** **Interview them into existence.** Let the AI ask your table questions. Answer out loud.
-
-**3.** Land on their **one question**. The thing they ask about everything they see.
-
-> **Done looks like:** one sentence you could hand to the next table and they'd know exactly who it is.
-
-**Speaker note:**
-
-*Slide stays up the full 10 minutes. One laptop per table is enough. Do not let them all open laptops, it kills the talking.*
-
-- "Back to your table. Ten minutes. One laptop open per table, that's plenty."
-- "Take the loop you picked at the start of the night. Build one expert for it, together."
-- "Step one, name who you'd hire. Not a job title. The one thing that person would always catch that everyone else misses."
-- "Step two, interview them into existence. Same move I just showed you. Let the AI ask your table the questions. Answer them out loud so you hear each other."
-- "Step three, land on their one question."
-- **Facilitator, and this is the real coaching:** the disagreement inside the table IS the point. When two recruiters at one table define "qualified" differently, that's the exact ambiguity the Lens exists to settle. Say that out loud to any table that hits it.
-- **If a table has no working laptop, say this and move on:** "Do it out loud. One of you plays the expert, the rest interview them. You'll get the same answer, you'll just get it faster." The interview is the exercise. The laptop is a convenience. Nothing about this step requires a machine, and the setup module hasn't run yet, so expect at least one table here.
-- **At 10 minutes:** "Don't lose it. You're reporting that out at the end."
-
-**Transition:** "Hold onto those. Two more things I want to show you first, then I want to hear all of them."
 
 ---
 
@@ -438,8 +430,56 @@ Take the loop your table picked. Build **one Lens** for it, together.
 **Transition:** "Everything I just showed you works in a chat box. Now let's get it off the chat box and onto your machine."
 
 ---
+## SLIDE 16 · THE DEMO
 
-## SLIDE 16 · YOUR OWN KITCHEN
+> # Now watch me actually do it.
+
+**Speaker note:**
+
+*15 minutes. This is RJ's block, live and unscripted. No slide content on purpose, the screen is the demo.*
+
+**What this block has to accomplish:**
+
+- **Scrape something real.** A tool doing a real job on real data, in front of them. This is "the hands."
+- **Show my actual setup.** Not a demo account. A Tuesday. Mess included.
+- **Show the agent teams.** Multiple experts, each with their own lens, on one problem. This is what they build in Block 7 at small size.
+
+**Guardrails:**
+
+- No metered API account on screen. They're setting up the free path in 20 minutes and it has to look reachable.
+- No credentials, tokens, or keys visible. Check the terminal before you share.
+- Hard stop at 15. The build block is where the value is.
+- **The deliverable is not comprehension. It's wanting to try it.**
+
+**Transition:** "You've seen mine. Let's get you one."
+
+
+---
+## SLIDE 17 · FIND YOUR TABLE
+
+> # Group up by bottleneck.
+
+> ## 5 minutes. Grab coffee on the way.
+
+**Tables of 3 or 4.** Find people whose bottleneck rhymes with yours.
+
+Screening. Sourcing. Scheduling. Follow-up. Intake.
+
+**Speaker note:**
+
+*Form teams ONCE, right here. They stay in these teams for setup and build. Break happens inside the move so it costs nothing.*
+
+- "Look at the board. Find your people."
+- Group by shape of problem, not job title. A recruiter and a coordinator with the same bottleneck belong together.
+- **Facilitator: place the stragglers yourself.** Don't let anyone stand.
+- Coffee and bathroom happen during this. No separate break.
+
+**Transition:** "Everybody seated? Laptops open. We're building."
+
+
+---
+
+## SLIDE 18 · YOUR OWN KITCHEN
 
 > # OpenClaw.
 
@@ -472,33 +512,57 @@ Take the loop your table picked. Build **one Lens** for it, together.
 **Transition:** "Kitchen's yours now. Let's hear what everybody built."
 
 ---
+## SLIDE 19 · BUILD YOUR BOTTLENECK
 
-## SLIDE 17 · BREAKOUT C
+> # Your loop. Your expert. 25 minutes.
 
-> # Report back.
->
-> ## One sentence per table. Out loud.
+**1.** Take your table's bottleneck. The real one from the board.
 
-> ### "Our loop was ______.
-> ### Our expert asks ______."
+**2.** Write **one expert** for it. Who they are, what they refuse to do, what they always check.
 
-**That's the whole report. Two blanks. No preamble.**
+**3.** Run it. Give it your actual work.
+
+**4.** **Correct it out loud.** Tell it what it got wrong and why. Watch it change.
 
 **Speaker note:**
 
-*This is the last thing the room does together.*
+*Slide stays up the full 25. This is the longest block of the night and the reason everyone came.*
 
-- "Every table, one sentence. Our loop was blank, our expert asks blank. That's it."
-- "Two blanks. No preamble, no windup."
-- **Why this is last, say it before you start:** "You're about to hear seven or eight versions of your own job, described by people sitting in different seats than you. Some table is going to name a loop you didn't know was a loop. Take that one home too."
-- **Facilitator:** cut anyone past two sentences, warmly. The constraint is what makes the room actually hear all of them. Eight tables at 30 seconds is four minutes. Eight tables unmanaged is fifteen.
-- **After the last table:** "That's the room. Every one of those was built in ten minutes by someone who didn't write code."
+- "This is the part that matters. I'll be walking."
+- **Facilitator, circulate constantly.** Don't hover at the front. Every table gets you at least twice.
+- Common stall: writing the expert too generically. "Recruiting expert" does nothing. "Screens for the three things that actually get someone hired here, and refuses to score on years of experience" does everything.
+- Second stall: they ask it something and accept the first answer. Push them to correct it once, out loud.
+- **At 20 minutes:** "Five left. Get one thing working, not three things perfect."
 
-**Transition:** "So let me tell you where all ninety of mine actually came from, because it's not what people assume."
+**Transition:** "Hands up if it did something useful. Tell me what happened."
+
+
+---
+## SLIDE 20 · REPORT BACK
+
+> # What did you build, and what surprised you?
+
+**One table at a time. 30 seconds each.**
+
+- What's your bottleneck?
+- What did your expert do?
+- What surprised you?
+
+**Speaker note:**
+
+*5 minutes. Fast. This is the proof, in their words, not mine.*
+
+- "Thirty seconds. What was the loop, what did it do, what surprised you."
+- **Take the surprises seriously.** That's the curiosity showing up on its own and it's the whole point of the night.
+- If something didn't work, say so out loud and name why. A room that only hears wins doesn't believe any of them.
+- **Do not let this run long.** Five minutes, then the close.
+
+**Transition:** "Here's the one thing I want you to take home."
+
 
 ---
 
-## SLIDE 18 · THE CLOSE
+## SLIDE 21 · THE CLOSE
 
 > # I never wrote a team.
 >
@@ -538,7 +602,7 @@ Take the loop your table picked. Build **one Lens** for it, together.
 
 ---
 
-## SLIDE 19 · POST-CREDITS
+## SLIDE 22 · POST-CREDITS
 
 > ### *(after the applause)*
 >
@@ -605,6 +669,22 @@ If you're running long, **8 and 11 are the compressible ones.** Never cut 9 or 1
 ---
 
 ## Sources
+- claim: deck resequenced to eight blocks; slides for the icebreaker, the reverse-interview beat,
+  the demo, team formation, the build block, and report-back added; BREAKOUT A/B/C retired
+  source: RJ-confirmed (Telegram, Aug 20 2026), verbatim: "then we'll go from intro what I'm about to
+  asking them questions in icebreaker to the workshop lecture to the demo to set up or actually them
+  breaking up into groups and then into set up. Then after set up they go into their bottlenecks and
+  they go into building." Also: "i even said this earlier yet what you gave me for v2 follows none of
+  this shit fix it NOW."
+- claim: SLIDE 4 WHO YOU ARE, the four icebreaker questions
+  source: RJ-confirmed (Telegram, Aug 20 2026), verbatim: "what brought them here why are they
+  interested in agents where their capability is at with ai so far" and "people are gonna talk about
+  their bottlenecks."
+- claim: SLIDE 16 THE DEMO has no scripted content
+  source: RJ-confirmed (Telegram, Aug 20 2026), verbatim: "but I don't know that demo portion is up to me."
+- claim: SLIDE 9 renamed from THE SETUP to THE ASK
+  source: Clawdia's decision. "The setup" now names BLOCK 6 (OpenClaw install). Two different things
+  could not share a name in the same deck.
 - claim: title "Ask, Don't Micromanage"
   source: RJ-confirmed (Telegram, Aug 20 2026), verbatim: "dont change the name of the url. that's the one we want to use just update it". Already the site name in build.py:152, 180, 251. Unified across all three surfaces per RJ's "unify" (Telegram, Aug 20 2026).
 - claim: subtitle "Build an agent for your recruiting workflow"

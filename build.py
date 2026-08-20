@@ -30,7 +30,7 @@ PAGES = [
         "nav": "Slides",
         "title": "The Deck",
         "kicker": "10 slides, one idea each",
-        "blurb": "Ten slides, one idea on each, plus one after the credits. Where each slide lands in the two hours is marked at the bottom.",
+        "blurb": "Twenty-one slides, one idea on each, plus one after the credits. Five of them stay up while the room works.",
         "body_class": "deck",
         "listed": True,
     },
@@ -39,8 +39,8 @@ PAGES = [
         "file": "workshop.md",
         "nav": "Workshop",
         "title": "The Workshop",
-        "kicker": "2 hours, half of it hands on keyboards",
-        "blurb": "The full run. Five modules, four exercises, the RECIPES framework, and the setup you leave with working on your own laptop.",
+        "kicker": "2 hours, more of it you working than me talking",
+        "blurb": "The full run. Eight blocks, start to finish. Your bottleneck goes on the board in the first fifteen minutes and you build for it in the last thirty.",
         "body_class": "workshop",
         "listed": True,
     },
@@ -58,12 +58,22 @@ PAGES = [
 ]
 
 SOURCES_BLOCK = re.compile(r"\n#{1,3}\s*Sources\b.*", re.IGNORECASE | re.DOTALL)
+INTERNAL_BLOCK = re.compile(
+    r"\n(?:---\n\s*)?#{1,3}\s*(?:DESIGN NOTES|FACILITATOR NOTES)\b.*?(?=\n---\n|\Z)",
+    re.IGNORECASE | re.DOTALL,
+)
 SLIDE_HEADING = re.compile(r"^##\s+(.*)$")
 SPEAKER_NOTE = re.compile(r"^\*\*Speaker note:\*\*\s*(.*)$")
 
 
 def strip_internal(text: str) -> str:
-    """Remove the fact-check Sources block from the public render."""
+    """Remove production-only blocks from the public render.
+
+    Sources is the fact-check audit trail. DESIGN NOTES and FACILITATOR NOTES
+    are instructions to whoever is building and running the room. None of the
+    three are for the people sitting in the seats.
+    """
+    text = INTERNAL_BLOCK.sub("\n", text)
     return SOURCES_BLOCK.sub("\n", text).rstrip() + "\n"
 
 

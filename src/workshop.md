@@ -3,7 +3,7 @@
 ### Build an agent for your recruiting workflow
 
 **Instructor:** RJ Moscardon, The Concept Kitchen
-**Runtime:** 2 hours, hands on keyboards for about half of it.
+**Runtime:** 2 hours. More than half of it is you working, not me talking.
 **Room:** Recruiters and talent professionals.
 **Prereq:** None. Bring a laptop and any AI chat tool you already pay for or use free.
 
@@ -11,28 +11,15 @@
 
 ## THE PREMISE
 
-Nineteen people in this room answered one question before tonight: *what's your biggest recruiting challenge today?*
+You are not here to learn AI.
 
-Here is some of what came back, in your words, uncleaned:
+You are here to get **curious** with it. That's the actual skill, and it's the one nobody teaches. Most people meet this technology, type one thing, get something mediocre back, and quietly decide it isn't for them. They weren't wrong about the answer. They just stopped asking.
 
-> *"Time."*
-> *"Sourcing."*
-> *"Time management with sourcing."*
-> *"Finding the time to build up and manage a qualified pipeline."*
-> *"balancing volume & quality responses"*
-> *"Maintaining contacts"*
-> *"Responding to candidates"*
-> *"Automation on various processes"*
+Tonight is about not stopping.
 
-One of you wrote the whole diagnosis out yourself:
+I asked this room what's actually breaking. You said sourcing. Engaging passive talent. Responding to candidates. Time management. Interview questions and scorecards mapped to the JD. Getting the right info to a hiring manager at the right time. One of you has no ATS at all, just resumes landing in a career inbox and a name getting typed into a spreadsheet by hand.
 
-> *"We have no ATS because our applicant and hiring volume is small. I know our manual process (collecting resumes in a career inbox, saving the docs, adding name to a spreadsheet) is a super simple process to automate with a workflow but I've been trying and can use some help"*
-
-That person named the problem, named the shape of the fix, tried it, and got stuck. That is not a knowledge gap. That is a **setup** gap.
-
-**Here is the frame for the next two hours.** Almost every problem on that list has the same shape: a fixed amount of you, against a volume that does not care. More effort does not fix that. A better tool does not fix that either, or the person above would already be done.
-
-**The setup makes you the bottleneck.** Tonight you change the setup.
+Every single one of those is a loop. Check, decide, do, check again. That's the shape of a thing you can hand off.
 
 **Your background doesn't matter here.** Technical, non-technical, never touched any of this. The whole goal is to make it relatable enough that you walk out thinking critically about what you're asking for. That's how you get the most out of the technology. Not the tool. The asking.
 
@@ -40,37 +27,101 @@ That person named the problem, named the shape of the fix, tried it, and got stu
 
 ---
 
+## HOW TONIGHT RUNS
+
+| # | Block | Time | What happens |
+|---|---|---|---|
+| 1 | **Who I am** | 5 min | Me, fast. |
+| 2 | **Who you are** | 15 min | You introduce yourselves and name your bottleneck. |
+| 3 | **The lecture** | 35 min | What an agent is and how to ask well. Plain words only. |
+| 4 | **The demo** | 15 min | I build in front of you. |
+| 5 | **Teams + break** | 5 min | You get grouped. Grab water. |
+| 6 | **The setup** | 15 min | Everyone stands up their own agent. |
+| 7 | **Build your bottleneck** | 25 min | Your table, your real problem. I come to you. |
+| 8 | **Report back** | 5 min | One sentence per table. |
+
+The back half is the point. The front half is so the back half works.
+
+---
+
 ## LEARNING OUTCOMES
 
 By the end, you can:
 
-1. **Say what an agent actually is** in one sentence, and name the six pieces it's built from
-2. Diagnose *why* an AI response was useless (it's almost never the AI)
-3. Run the **RECIPES** framework to structure any request
-4. **Manage by asking, not telling.** Treat the AI as the expert and ask what it thinks instead of dictating steps
-5. Use the **flip** to make AI interview you instead of guessing at you
-6. Apply **six question types** to interrogate your own thinking
-7. Build a reusable **expert** by asking questions until a person shows up
-8. Turn corrections into **permanent rules** so the same mistake never happens twice
-9. Stand up a working setup on your own machine, with your own account, that outlives tonight
+1. **Say what an agent actually is** in one sentence, without using a single word you'd have to look up
+2. Tell whether a bad answer was the AI's fault or the question's fault, which it almost always is
+3. **Manage by asking, not telling.** Treat it as the expert and ask what it thinks instead of dictating steps
+4. Make it **interview you** instead of guessing at you
+5. Build a reusable **expert** by asking questions until a person shows up
+6. Turn a correction into a **permanent rule** so the same mistake never happens twice
+7. Stand up a working setup on your own machine, with your own account, that outlives tonight
+8. **Stay curious past the first mediocre answer**, which is the only one of these that actually compounds
 
 ---
 
-## MODULE 0 — THE FOUNDATION
-### *"An agent is a model that can use tools, running in a loop until the job is done."*
-**Time:** 15 min | **Metaphor:** Knowing what's in the kitchen before you cook
+# BLOCK 1 — WHO I AM
+**Time:** 5 min | **Mode:** Talk
+
+Short. Who I am, what The Concept Kitchen is, and why a cook is teaching a room of recruiters how to build software.
+
+**The three things to land, then stop:**
+
+1. **I'm not an engineer and I didn't get permission to build any of this.** That's the whole thesis. Anybody can cook.
+2. **I build this stuff every day for my own work,** and everything I'm showing you tonight is something I actually run, not a slide I made for you.
+3. **Nothing tonight runs on my account.** You walk out owning what you build.
+
+**Then get off the stage.** The room is more interesting than I am and the next block proves it.
+
+**Transition:** *"That's me. I'd rather know about you."*
+
+---
+
+# BLOCK 2 — WHO YOU ARE
+### *"Talk to me before I talk at you."*
+**Time:** 15 min | **Mode:** The room
+
+This is not filler and it is not a warm-up. Three things are happening at once: people relax, I find out what's actually in the room, and **every person names the bottleneck they're going to build on in Block 7.** If this block runs well, the rest of the night has a subject.
+
+**The four questions.** Put them on the screen and leave them up.
+
+> 1. **What brought you here tonight?**
+> 2. **Why agents? What made that the thing you got curious about?**
+> 3. **Where are you with AI so far?** Never touched it, use it daily, somewhere in between. There is no wrong answer and I want the honest one.
+> 4. **What's your bottleneck?** The thing you do over and over that you wish you didn't.
+
+**How to run it**
+
+- **Go around, but don't force it.** Anyone who'd rather pass, passes. Volunteers first, and the first two or three set the tone for the rest.
+- **Write every bottleneck down where the room can see it.** Whiteboard, shared doc, screen. This list is the raw material for the whole back half.
+- **When two people name the same bottleneck, say so out loud.** *"That's the third person tonight."* That's when the room stops feeling alone in it.
+- **Do not fix anything yet.** The urge to solve it live is strong. Don't. The answer is the whole rest of the workshop and it lands harder if they wait.
+
+**Facilitator:** the honest answer to question 3 is the one that matters most. If half the room has barely used any of this, slow the lecture down and lean on the kitchen metaphors. If most of them use it daily, skip fast through the basics and spend the recovered minutes on the build block.
+
+**Transition:** *"Everything you just named is a loop. Let me show you what that means."*
+
+---
+
+# BLOCK 3 — THE LECTURE
+**Time:** 35 min | **Mode:** Talk, with one hands-on beat
+
+*Ground rule for this whole block: if a word needs a definition, it gets one immediately or it doesn't get said. No jargon for its own sake.*
+
+---
+
+## 3A — WHAT AN AGENT ACTUALLY IS
+### *"A model that can use tools, running in a loop until the job is done."*
+**Time:** 10 min | **Metaphor:** Knowing what's in the kitchen before you cook
 
 Everybody is talking about agents. Almost nobody says what one actually **is**. That gap is why this feels like hype instead of something you could use on Monday.
 
 You cannot ask well for a thing you cannot picture. So before any of the asking, here is the picture.
 
----
-
-### First, the confusion to clear
+**First, the confusion to clear**
 
 **A chatbot talks.** You type, it types back. That's the whole interaction. It cannot open your career inbox. It cannot save a resume to a folder. It cannot add a row to your spreadsheet or put a hold on a calendar. It generates words.
 
-**An agent is that same model with two things added:**
+**An agent is that same thing with two pieces added:**
 
 1. **It can take actions.** (tools)
 2. **It keeps going on its own,** step after step, instead of stopping after one reply. (the loop)
@@ -81,72 +132,51 @@ That's it. Everything else is detail.
 
 A chatbot answers a **question**. An agent is given a **goal** and goes and accomplishes it.
 
----
-
-### The building blocks
-
-Six pieces. None of them require a degree to understand.
+**The six pieces.** None of them require a degree to understand.
 
 | The piece | What it actually is | In your kitchen |
 |---|---|---|
 | **The brain** | The model. All it does is predict text. It has no hands and no memory. | The cook. Skilled, and standing there with nothing. |
-| **The hands** | Tools. The model doesn't reach into your inbox. It writes a structured request that says *"use the inbox tool,"* and the software around it does that and hands the result back. | The knives, the pans, the oven. |
-| **The counter** | The context window. Everything it can see at one moment. It has a hard limit. | Counter space. You cannot put the whole pantry on it. |
-| **The house rules** | The system prompt. Who it is, how it behaves, what it never does. | The rules of your kitchen, posted on the wall. |
-| **The recipe box** | Files it can read. The model has no memory between sessions. It remembers what's written down. | The binder of recipes you keep annotating. |
+| **The hands** | Tools. The model doesn't reach into your inbox. It writes a request that says *"use the inbox,"* and the software around it does that and hands the result back. | The knives, the pans, the oven. |
+| **The counter** | Everything it can see at one moment. It has a hard limit. | Counter space. You cannot put the whole pantry on it. |
+| **The house rules** | Who it is, how it behaves, what it never does. Written once, loaded every time. | The rules of your kitchen, posted on the wall. |
+| **The recipe box** | Files it can read. It has no memory between sessions. It remembers what's written down. | The binder of recipes you keep annotating. |
 | **The loop** | Think, act, look at the result, decide again. Repeat until done. | Taste, adjust, taste again. |
 
-**The one that surprises people: the model has no memory.** Not a little memory. None. Every single turn, the whole conversation gets handed back to it again. That is why **Module 4** matters so much. If a correction isn't written down somewhere it can read, the correction dies when you close the tab.
+**The one that surprises people: the model has no memory.** Not a little memory. None. Every single turn, the whole conversation gets handed back to it again. That's why **3E** matters so much. If a correction isn't written down somewhere it can read, the correction dies when you close the tab.
 
-**And the one that unlocks the most: the model never actually touches anything.** It asks. The software around it acts. Which means the entire question of "what can my agent do?" is really the question **"what have I given it access to?"**
+**And the one that unlocks the most: the model never actually touches anything.** It asks. The software around it acts. Which means the entire question of *"what can my agent do?"* is really the question **"what have I given it access to?"**
 
----
-
-### The landscape: four ways to build one
-
-Same loop every time. The only variable is how much of it you assemble yourself.
+**Four ways to build one.** Same loop every time. The only variable is how much of it you assemble yourself.
 
 | Tier | What you do | Who it's for |
 |---|---|---|
 | **1 — No code** | Fill out forms, drag blocks around. | Fastest start, tightest ceiling. |
 | **2 — Low code** | Wire steps together, drop in a little logic. | Automations that outgrew tier 1. |
-| **3 — Agent harness** ← **tonight** | Someone else built the loop. You bring the rules, the files, and the tools. | **This room.** |
+| **3 — Somebody else's loop** ← **tonight** | Somebody already built the loop. You bring the rules, the files, and the tools. | **This room.** |
 | **4 — Write it yourself** | Build the loop in code, line by line. | Engineers with a reason to. |
 
-**We are at tier 3 tonight,** and that is a deliberate choice, not a beginner's compromise. The loop is a solved problem. Nobody is paying you to rebuild it. What nobody can do for you is decide **what to ask it and what to give it access to.** That is the whole rest of this workshop.
+**We are at tier 3 tonight,** and that's a deliberate choice, not a beginner's compromise. The loop is a solved problem. Nobody is paying you to rebuild it. What nobody can do for you is decide **what to ask it and what to give it access to.** That's the whole rest of this workshop.
 
 **Take-home:** tier 1 and tier 2 tools are in the handout if you want to compare. Tier 4 is not homework.
 
 ---
 
-> ### 🔵 BREAKOUT A — Name your loop
-> **Time:** 8 min | **Groups of 3 or 4. Turn your chairs.**
->
-> 1. **Around the table, each person names one recruiting task you currently run by hand that is obviously a loop.** Something with the shape: *check, decide, do, check again.* The career-inbox problem from THE PREMISE is one. So is chasing a candidate who's gone quiet.
-> 2. **Pick ONE from your table** to carry through the rest of tonight. You will build for it in Module 3 and report on it at the end.
-> 3. **Write it on the card.** One sentence.
->
-> **Facilitator:** don't let a table stall on picking the "best" one. Any real one works. Every table has an answer inside 90 seconds.
-
----
-
-## MODULE 1 — THE ORDER
+## 3B — THE ORDER
 ### *"Vague in, garbage out."*
-**Time:** 8 min | **Metaphor:** Ordering at the counter
+**Time:** 5 min | **Metaphor:** Ordering at the counter
 
-**The problem**
 Walk into a kitchen and say "make me food." You'll get food. Technically correct, completely useless. That's not the kitchen failing. That's the order failing.
 
-**The reframe**
-AI doesn't give bad answers. It gives *accurate answers to vague questions.*
+**AI doesn't give bad answers. It gives accurate answers to vague questions.**
 
 Ask it to "write a job description" and you get a job description. Beige, interchangeable, and you'll rewrite it anyway. That round trip cost you fifteen minutes and produced nothing you didn't already have.
 
-**Teach: RECIPES**, the recipe card for any request
+**RECIPES**, the recipe card for any request
 
 | Letter | Element | Ask Yourself |
 |--------|---------|--------------|
-| **R** | Role | Who should AI be? What expertise do I need? |
+| **R** | Role | Who should it be? What expertise do I need? |
 | **E** | Examples | Can I show it what "good" looks like? |
 | **C** | Context | What background does it need for THIS task? |
 | **I** | Instructions | What exactly do I want produced? |
@@ -160,34 +190,27 @@ Ask it to "write a job description" and you get a job description. Beige, interc
 - Anything you'll do more than twice → **all 7**, especially **S**
 - Scorecards, rubrics, JD mapping → **C + I + P**
 
-**🔪 EXERCISE 1.1 — "Fix the Order" (7 min)**
-Write the worst prompt you used this week. The one that gave you something you threw away. Rewrite it with RECIPES. Run both. Compare side by side.
-
 **Takeaway:** *You don't need a better AI. You need a better order.*
 
 ---
 
-## MODULE 2 — THE CONVERSATION
+## 3C — THE CONVERSATION
 ### *"It's the expert. Ask it what it thinks."*
-**Time:** 15 min | **Metaphor:** Tasting as you cook
+**Time:** 12 min, includes 5 min hands-on | **Metaphor:** Tasting as you cook
 
-*This is the foundation. Everything after it is built on this module.*
+*This is the foundation. Everything after it is built on this.*
 
-**The problem with Module 1**
-RECIPES assumes you know what you want. Most of the time you don't. Every prompting guide says "add more detail." You cannot add detail you don't know is missing.
+**The problem with 3B:** RECIPES assumes you know what you want. Most of the time you don't. Every prompting guide says "add more detail." **You cannot add detail you don't know is missing.**
 
 The fix isn't a better instruction. It's a conversation. And a conversation goes **both directions.**
 
----
-
-### DIRECTION 1 — You ask it
-#### *The manager move*
+**DIRECTION 1 — You ask it.** *The manager move.*
 
 Most people prompt like they're giving orders. Do this. Write that. Make it shorter.
 
-You already know this is the wrong way to run a person. A good manager doesn't micromanage. He sets the goal and the standard, then asks the expert what *they* think, because they're the expert. You hired them for their judgment. Use it.
+You already know that's the wrong way to run a person. A good manager doesn't micromanage. He sets the goal and the standard, then asks the expert what *they* think, because they're the expert. You hired them for their judgment. Use it.
 
-Same thing here. Stop telling it what to do. Start asking it what it thinks.
+Same thing here.
 
 | Instead of telling it | Ask it |
 |---|---|
@@ -197,86 +220,57 @@ Same thing here. Stop telling it what to do. Start asking it what it thinks.
 | "Do it this way." | "What would you do differently than what I just described?" |
 | "Here's my plan, execute it." | "Here's my plan. What am I missing?" |
 
-**Why this beats commanding**
-You still set the goal. You still hold the standard. But now the expert generates the plan and **you're editing instead of writing.** That's less brain power for a better result. You go from producing to directing.
+You still set the goal. You still hold the standard. But now the expert generates the plan and **you're editing instead of writing.** Less brain power, better result. You go from producing to directing.
 
-That's the whole payoff: a better plan, a better strategy, and clear steps to take, with expert guidance instead of your own guessing.
+**DIRECTION 2 — It asks you.** *The flip.*
 
----
-
-### DIRECTION 2 — It asks you
-#### *The flip*
-
-Now the other way. Add this to the end of any request:
+Add this to the end of any request:
 
 > **"Before you start, ask me questions that would help you do this better."**
 
-That's the **S** in RECIPES, and it's worth more than the other six letters combined. It flips the direction. Now the AI pulls context out of your head that you never thought to say out loud.
+That's the **S** in RECIPES, and it's worth more than the other six letters combined. It flips the direction. Now it pulls context out of your head that you never thought to say out loud. It will ask you the things you'd normally find out in week three.
 
-Try it on an intake you're dreading. It will ask you the things you'd normally find out in week three.
+**Put both together and you have a conversation.** You ask it what it thinks. It asks you what it needs. Nobody in that exchange is pretending to have all the answers.
 
-**Put both together and you have a conversation.** You ask it what it thinks. It asks you what it needs. Nobody in that exchange is pretending to have all the answers. That's the setup, and everything good comes out of the setup.
+**Six ways to ask a better question.** Once the conversation is going, these are the moves that make it go somewhere.
 
----
-
-**Then go deeper: the Socratic method**
-
-Socrates never told anyone the answer. He asked until they found it themselves. The Greeks called it *maieutics*, literally **midwifery**. You don't deliver the idea. You help it get born.
-
-**The six types**
-
-| # | Type | Purpose | Key Prompt |
+| # | Type | What it's for | What you say |
 |---|------|---------|-----------|
-| 1 | **Clarification** | Define the real problem | "What do I actually mean by [X]?" |
-| 2 | **Probe Assumptions** | Surface hidden beliefs | "What am I assuming that might not be true?" |
-| 3 | **Probe Evidence** | Demand proof | "How do I know this is true?" |
-| 4 | **Explore Perspectives** | Break your frame | "Steelman the opposite position." |
-| 5 | **Probe Implications** | Think 3 steps ahead | "If this works, then what?" |
-| 6 | **Question the Question** | Test the framing | "Is this even the right question?" |
+| 1 | **Clarify** | Define the real problem | "What do I actually mean by [X]?" |
+| 2 | **Test assumptions** | Surface hidden beliefs | "What am I assuming that might not be true?" |
+| 3 | **Ask for proof** | Demand evidence | "How do I know this is true?" |
+| 4 | **Flip the view** | Break your frame | "Argue the opposite position, seriously." |
+| 5 | **Follow it forward** | Think three steps ahead | "If this works, then what?" |
+| 6 | **Question the question** | Test the framing | "Is this even the right question?" |
 
-**Regular prompting vs. asking**
+**A note on discomfort:** the moment you realize you don't actually know something feels like failure. It's the point. It's the taste test that saves the dish. **That moment is curiosity starting, not competence ending.**
 
-| Regular | Socratic |
-|---------|----------|
-| Assumes the problem is framed right | Questions the framing itself |
-| Seeks answers | Seeks better questions |
-| Makes you faster | Makes you smarter |
-| Confirms your thinking | Surfaces what's missing |
-| One step ahead | Three steps ahead |
+> ### 🔪 TRY IT NOW — The Reverse Interview
+> **Time:** 5 min | **Laptops open. Everyone.**
+>
+> Take the bottleneck you named in Block 2. Type this:
+>
+> > *"I'm trying to fix [your bottleneck]. Don't advise me yet. Ask me the five questions I should be asking myself."*
+>
+> Then answer one of them **out loud to the person next to you.**
+>
+> **Facilitator:** this is the moment that always lands. People visibly change posture when it starts asking *them* questions. If it's going well, let it breathe and take the minutes out of 3D.
 
-**A note on discomfort:** the moment you realize you don't actually know something is called *aporia*. It feels like failure. It's the point. It's the taste test that saves the dish.
-
-**🔪 EXERCISE 2.1 — "The Reverse Interview" (12 min)**
-Pick a real thing on your desk. A req you can't fill, a pipeline you can't keep warm, a hiring manager you can't get straight answers from. Run both directions on it.
-
-1. **You ask it:** *"You're the expert on this. How would you approach [X], and what would you do differently than I would?"*
-2. **It asks you:** *"I'm deciding whether to [X]. Don't advise me. Ask me the five questions I should be asking myself."*
-
-Answer them out loud to the person next to you. Notice which direction surfaced the thing you hadn't thought of.
-
-**Takeaway:** *Stop giving orders. Start having a conversation. Ask the expert what it thinks, and let it ask you what it needs.*
+**Takeaway:** *Stop giving orders. Start having a conversation.*
 
 ---
 
-## ☕ BREAK — 5 min
-
----
-
-## MODULE 3 — THE BRIGADE
+## 3D — STAFF THE KITCHEN
 ### *"A persona isn't a costume. A persona is a question."*
-**Time:** 12 min | **Metaphor:** Staffing your kitchen
+**Time:** 5 min | **Metaphor:** Hiring your brigade
 
-**The problem**
-You've asked good questions. But you're still getting one perspective, the AI's default, averaged, safe voice. Generic in, generic out.
+You've asked good questions. But you're still getting one perspective: the default, averaged, safe voice. Generic in, generic out.
 
-**The kitchen answer**
 No real kitchen hires "a cook." A kitchen hires a **butcher**, a **saucier**, a **pastry chef**, an **expeditor**. Same ingredients, four completely different reads on what to do with them. That's a **brigade**.
 
-**The build move**
-Don't tell the AI to "act like an expert." Ask it questions until a *person* shows up. Then write that person down.
+**The move:** don't tell it to "act like an expert." **Ask it questions until a person shows up.** Then write that person down.
 
-**What actually defines a person**
-Not the job title. Not the bio. **The question they can't stop asking.**
+**What actually defines a person** is not the job title and not the bio. **It's the question they can't stop asking.**
 
 - A copywriter asks: *"Does the first line earn the second?"*
 - A CFO asks: *"What does this cost us if it works?"*
@@ -285,7 +279,7 @@ Not the job title. Not the bio. **The question they can't stop asking.**
 
 That question is the **Lens**. The Lens *is* the expert. Everything else is decoration.
 
-**The build sheet** *(the spine. A production expert carries more fields, but these seven do the work.)*
+**The build sheet.** Seven fields. You'll fill one out in Block 7.
 
 | Field | What it is |
 |-------|-----------|
@@ -297,102 +291,104 @@ That question is the **Lens**. The Lens *is* the expert. Everything else is deco
 | **Anti-patterns** | What they must never do |
 | **Defers to** | Who outranks them and when |
 
-**Why asking and staffing are the same technique**
-- **Type 4 (Explore Perspectives) *is* the brigade.** It goes deeper, because you inhabit the perspective instead of just hearing about it.
-- **Type 6 (Question the Question) is what a good outsider does.** "Are we even in the right room?"
-- **Types 2 and 3 (Assumptions and Evidence) are what the CFO and the skeptic do automatically.** Build them in once and you never have to remember to ask again.
-
-**🔪 EXERCISE 3.1 — "Build the Setup" (18 min)**
-
-**Pick one thing on your bottleneck list.** Sourcing. Follow-up. The scorecard. The inbox with the resumes in it.
-
-1. Ask: *"Who should be in the room to help me build this?"*
-2. **Interview whoever shows up.** Use the six questions. Do not take the first answer.
-3. Then ask: *"Now tell me what to build, and what I'm missing."*
-4. Fill the build sheet. Save it in a file. That file is the asset, not the chat.
-
-**You are not building the thing tonight. You're building the setup that builds it.**
-
-Whatever you're making, answer this one before you stop:
-
-> ### **What's the one question this thing answers for me, every time?**
-
-For an expert that's their Lens. For a workflow it's the purpose. For a tool it's the job. Same field, three names. If you can't answer it, you don't have a spec yet. You have a wish.
-
 **Takeaway:** *You don't prompt a thing into existence. You interview one into existence.*
 
 ---
 
-> ### 🔵 BREAKOUT B — Build one expert for your table's loop
-> **Time:** 10 min | **Same groups. One laptop open per table is enough.**
->
-> Take the loop your table picked in Breakout A and build **one Lens** for it, together.
->
-> 1. **Name the person you'd hire** for that loop. Not a job title. The one thing they'd always catch.
-> 2. **Interview them into existence** using the move from this module. Let the AI ask the table questions. Answer out loud, as a table, so you hear each other disagree.
-> 3. **Land on their one question.** The thing this Lens asks about everything it sees.
->
-> **Done looks like:** one sentence you could hand to the table next to you and they'd know exactly who it is.
->
-> **Facilitator:** the disagreement inside the table is the point. When two recruiters at one table define "qualified" differently, that's the exact ambiguity the Lens has to settle.
->
-> **If a table has no working laptop, say this and move on:** *"Do it out loud. One of you plays the expert, the rest interview them. You'll get the same answer, you'll just get it faster."* The interview is the exercise. The laptop is a convenience. The setup module hasn't run yet, so expect at least one table here.
+## 3E — CORRECT IT OUT LOUD
+### *"Retrying re-rolls the dice. Correcting writes a rule."*
+**Time:** 3 min | **Metaphor:** The recipe card you keep annotating
 
----
+It gets it wrong. Almost everyone does the same thing: retry with different words. That's re-rolling the dice. Nothing was learned. It'll happen again next week.
 
-## MODULE 4 — THE LOOP
-### *"Correcting out loud."*
-**Time:** 8 min | **Metaphor:** The recipe card you keep annotating
-
-**The problem**
-The AI gets it wrong. Almost everyone does the same thing: retry with different words. That's re-rolling the dice. Nothing was learned. It'll happen again next week, and the week after.
-
-**The move**
 Don't retry. **Say why it was wrong.** Then make the correction permanent.
 
 Not: *"no, try again"*
 But: *"That was wrong because ___. Going forward, when I ___, you should ___. Write that down."*
 
-**Why this compounds**
-Every correction becomes a rule. Every rule is a mistake you refuse to have twice. Do that for a year and you don't have a prompt. You have a *system with a memory.*
-
-**Real example, mine**
-I texted my AI one word: "Hi." I was standing at the stove, just saying hello. It came back with a task list and three things I hadn't done yet.
+**Real example, mine.** I texted my AI one word: "Hi." I was standing at the stove, just saying hello. It came back with a task list and three things I hadn't done yet.
 
 I told it: *I said hello. That's all that was.*
 
 So we wrote a rule: **greeting gets a greeting.** If he says hi, say hi back. The rest can wait.
 
-It has never done it again. Not because the model improved. Because the correction became permanent.
+It has never done it again. Not because the model improved. Because **the correction became permanent.**
 
-**🔪 EXERCISE 4.1 — "Write Rule One" (7 min)**
-Find one thing your AI does that annoys you. Write it in this format:
+Every correction becomes a rule. Every rule is a mistake you refuse to have twice. Do that for a year and you don't have a prompt. You have a system with a memory.
 
-> **Rule:** [The behavior, stated positively]
-> **Trigger:** [When this applies]
-> **Why:** [The specific time it went wrong]
+**And this is exactly why Block 6 exists.** A chat window can't keep a rule. A setup can.
 
-Paste it into your system prompt, custom instructions, or project file. That's your first line of source code.
+**Takeaway:** *Prompting is a transaction. Correcting is a relationship.*
 
-**Takeaway:** *Prompting is a transaction. Correcting out loud is a relationship.*
+**Transition:** *"That's all the theory you get. Let me show you the real thing."*
 
 ---
 
-## MODULE 5 — THE SETUP
+# BLOCK 4 — THE DEMO
+### *"Watch me do it, badly, in front of you."*
+**Time:** 15 min | **Mode:** Watch
+
+**This block is RJ's call.** What follows is scaffolding, not a script. The content flexes to whatever's most alive that night. What can't flex is the **job** the block has to do.
+
+**What this block must accomplish**
+
+1. **Make it concrete.** Everything before this was words. This is the thing moving.
+2. **Show the loop actually looping,** so the definition from 3A stops being abstract.
+3. **Show a correction landing,** so 3E stops being a nice idea.
+4. **Make them want to try it.** That's the real deliverable. Curiosity, not comprehension.
+
+**The three beats, roughly 5 minutes each**
+
+| Beat | What it shows | The point |
+|---|---|---|
+| **1. Scrape something** | A real tool doing a real job. Pull data off a page, live. | *This is "the hands." The model asked, the software acted.* |
+| **2. How I actually use it** | My own setup, my own work, unedited. | *This isn't a demo account. It's a Tuesday.* |
+| **3. My agent teams** | Multiple experts, each with their own Lens, on one problem. | *This is 3D at full size. You'll build one of these tonight.* |
+
+**Say this while it runs, because it's the whole lesson:**
+
+> *"Notice I'm not typing instructions. I'm asking, then reading, then correcting. That's the loop. That's the entire job."*
+
+**When it breaks, do not hide it.** Something will misfire. Narrate it out loud and correct it in front of them. A live correction is worth more than a clean demo, because the clean one teaches them the tool and the broken one teaches them the **move**.
+
+**Facilitator guardrails**
+- **Do not run anything on a metered account** in front of the room. Free and agnostic is the pitch; a token meter running on screen contradicts it.
+- **No credential on screen.** Check what's visible before you share.
+- **Hard stop at 15 minutes.** This block is the most fun to run long and the most expensive to run long, because it eats the build block.
+
+**Transition:** *"Your turn. Find your people."*
+
+---
+
+# BLOCK 5 — TEAMS + BREAK
+**Time:** 5 min | **Mode:** Move
+
+**Form the teams now and do not re-form them.** These tables carry the rest of the night: setup together, build together, report out together.
+
+- **Groups of 3 or 4.** Say the number out loud so nobody ends up in a pair or a group of seven.
+- **Group by bottleneck where you can.** You wrote them all down in Block 2. Put the sourcing people together, the follow-up people together. A shared problem makes Block 7 immediately productive.
+- **Mix experience levels on purpose.** Every table should have at least one person who answered "I use it daily" in Block 2. That person is the table's first line of support during setup.
+- **Grab water. Sit back down.** Five minutes, not ten.
+
+**Facilitator:** the person who says "I'll just work alone" gets one warm push and then gets to work alone. Don't fight it in front of the room.
+
+---
+
+# BLOCK 6 — THE SETUP
 ### *"Get it off the chat window and onto your machine."*
-**Time:** 12 min, hands on keyboards | **Metaphor:** Your own kitchen, not a rented one
+**Time:** 15 min | **Mode:** Hands on keyboards | **Metaphor:** Your own kitchen, not a rented one
 
 Everything so far works in any chat box. This part makes it persist.
 
-A chat window forgets you. A setup remembers you. The difference is where the files live.
+**A chat window forgets you. A setup remembers you.** The difference is where the files live.
 
 **What we're standing up: OpenClaw**
 An open agent runtime, signed in with an account you already have. It reads a folder of files you control, which means your Lenses, your rules, and your corrections load every time instead of getting re-explained every time.
 
 **Why OpenClaw specifically**
-- **It's free.** No metered API bill that grows while you learn.
-- **It runs on a subscription you may already pay for**, rather than per-token billing. Nobody should watch a token meter run while they're learning.
-- **It's model-agnostic.** OpenAI, Google Gemini, or Claude. Bring whatever you already have. You do not buy anything new tonight.
+- **It's free.** No metered bill that grows while you learn.
+- **It runs on a subscription you may already pay for**, rather than per-token billing. Nobody should watch a meter run while they're learning.
+- **It's model-agnostic.** OpenAI, Google Gemini, or Claude. Bring whatever you already have. **You do not buy anything new tonight.**
 - **It's OS-agnostic.** Mac or Windows. Both work in this room.
 - **Nothing here runs on my account.** You walk out owning it.
 
@@ -403,37 +399,74 @@ An open agent runtime, signed in with an account you already have. It reads a fo
 | **1** | **Your own laptop** | In the room, tonight | Fastest to a working setup. You leave with it running. |
 | **2** | **Google Cloud** | Walked on screen, finish at home | Runs when your laptop is closed. Same steps, different machine. |
 
-Both paths are in the handout, written out step by step. We do **path 1 live** because 12 minutes gets a whole room to a working laptop install and it does not get a whole room through a cloud console. I demo **path 2 on screen** during the same block so you have seen every step before you try it.
+Both paths are in the handout, written out step by step. We do **path 1 live** because 15 minutes gets a whole room to a working laptop install and it does not get a whole room through a cloud console. I demo **path 2 on screen** during the same block so you have seen every step before you try it.
 
-**The one rule for this block:** if you get stuck, raise a hand and keep going to the next step. Do not sit stuck and quiet. The person next to you probably hit the same wall ninety seconds ago.
+**The one rule for this block:** if you get stuck, **raise a hand and keep going to the next step.** Do not sit stuck and quiet. The person next to you probably hit the same wall ninety seconds ago, and your table has at least one person who's done this kind of thing before.
+
+**Facilitator:** work the room by table, not by person. Fixing one laptop takes three minutes; telling a table what the error means fixes four laptops at once.
+
+**Transition:** *"You've got a kitchen. Let's cook something you actually need."*
 
 ---
 
-## CLOSING
+# BLOCK 7 — BUILD YOUR BOTTLENECK
+### *"Your table. Your real problem. I come to you."*
+**Time:** 25 min | **Mode:** Teams, hands on keyboards
 
-> ### 🔵 BREAKOUT C — Report back
-> **Time:** 8 min | **One sentence per table, out loud, to the whole room.**
->
-> **The format, and hold people to it:**
->
-> > *"Our loop was **\_\_\_\_**. Our expert asks **\_\_\_\_**."*
->
-> That's the whole report. Two blanks. No preamble.
->
-> **Why this is the last thing we do:** you are about to hear seven or eight versions of your own job, described by people who sit in different seats than you. Some table is going to name a loop you didn't know was a loop. Take that one home too.
->
-> **Facilitator:** cut anyone who goes past two sentences, warmly. The constraint is what makes the room hear all of them.
+This is the block the whole night was built for.
+
+**Pick one bottleneck per table.** Use the ones you named in Block 2. Not the most interesting one, **the most repeated one.** The move only pays off on things you do again.
+
+**The sequence.** Do it together, out loud, at the table.
+
+1. **Say the loop out loud.** *"Check, decide, do, check again."* Name each step. If you can't say the steps, you don't have a loop yet, you have a wish.
+2. **Ask: "Who should be in the room to help me build this?"** See who shows up.
+3. **Interview whoever shows up.** Use the six ways to ask from 3C. **Do not take the first answer.** The first answer is always the averaged one.
+4. **Land on their one question.** The Lens. The thing this expert asks about everything it sees.
+5. **Fill the build sheet and save it to a file** in the setup you just stood up. **That file is the asset, not the chat.**
+6. **Run it on something real,** then **correct it out loud** and watch the correction stick.
+
+**You are not finishing the thing tonight. You're building the setup that builds it.**
+
+Before you stop, answer this one:
+
+> ### **What's the one question this thing answers for me, every time?**
+
+**Why you're doing this as a table, not alone.** The disagreement inside the table is the point. When two recruiters at one table define "qualified" differently, that's the exact ambiguity the Lens has to settle. You'd never have found it working alone, because alone you'd have just assumed your own definition.
+
+**Facilitator: circulate the whole 25 minutes. Do not stand at the front.**
+- **Do not touch anyone's keyboard.** Ask them what they want it to do. You're modeling the move while you help.
+- **When a table is stuck on tooling,** solve it fast and get back to the thinking.
+- **When a table is stuck on the problem,** that's not stuck, that's the exercise. Ask them a question instead of giving them an answer.
+- **At 20 minutes, call it:** *"Five left. Make sure your Lens is written down somewhere that isn't the chat."*
+
+**If a table has no working laptop:** *"Do it out loud. One of you plays the expert, the rest interview them. You'll get the same answer, you'll just get it faster."* The interview is the exercise. The laptop is a convenience.
+
+---
+
+# BLOCK 8 — REPORT BACK + CLOSE
+**Time:** 5 min | **Mode:** The room
+
+**One sentence per table, out loud, to everybody.**
+
+> *"Our loop was **\_\_\_\_**. Our expert asks **\_\_\_\_**."*
+
+Two blanks. No preamble.
+
+**Why this is the last thing we do:** you're about to hear six or seven versions of your own job, described by people who sit in different seats than you. Some table is going to name a loop you didn't know was a loop. Take that one home too.
+
+**Facilitator:** cut anyone who goes past two sentences, warmly. The constraint is what makes the room hear all of them.
 
 ---
 
 ### The arc
 
-0. **Know what it is** → A model, tools, a loop. No magic.
-1. **Order better** → RECIPES
-2. **Have the conversation** → Ask the expert what it thinks. Let it ask you what it needs.
-3. **Staff the kitchen** → Experts built from questions
-4. **Keep the notes** → Correcting out loud
-5. **Own the room** → A setup on your machine that remembers all four
+1. **Know what it is** → A model, tools, a loop. No magic.
+2. **Order better** → RECIPES
+3. **Have the conversation** → Ask the expert what it thinks. Let it ask you what it needs.
+4. **Staff the kitchen** → Experts built from questions
+5. **Keep the notes** → Correcting out loud
+6. **Own the room** → A setup on your machine that remembers all five
 
 ---
 
@@ -465,7 +498,7 @@ your-setup/
 
 **Start with two.** One expert for the thing you do most, one skeptic to argue with them. Add the third when you notice you keep wishing someone else were in the room.
 
-**Say this out loud when the folder exists.** Everything before this module was about asking better in the moment. This module is what makes the moment better before you open your mouth. Four modules of technique, and it still comes down to the same thing.
+**Say this out loud when the folder exists.** Everything before Block 6 was about asking better in the moment. The setup is what makes the moment better before you open your mouth.
 
 > It's all in the setup.
 
@@ -488,7 +521,7 @@ Here's what that same move builds against the list you gave me:
 | *"Understanding how to reach HMs with the right info at the right time"* | Staged summaries instead of one wall of process at kickoff |
 | *"Automation on various processes"* | Whichever one costs you the most Fridays. Pick that one first. |
 
-**Pick exactly one.** Not the most interesting one, the most repeated one. The move only pays off on things you do again.
+**Pick exactly one.** Not the most interesting one, the most repeated one.
 
 ---
 
@@ -504,7 +537,7 @@ Then six more when it answers:
 
 ### THE ONE THING TO REMEMBER
 
-I said at the top that your background doesn't matter, and I meant it. Nothing tonight needed a degree. It needed better questions.
+I said at the top that you're not here to learn AI, you're here to get curious with it. Nothing tonight needed a degree. It needed better questions, and the willingness to keep asking after the first answer was mediocre.
 
 > Vague in, garbage out. Clear in, magic out.
 > **Anybody can cook.**
@@ -529,53 +562,55 @@ Bring me the bottleneck. Not the tool question. The bottleneck.
 
 | Time | Block | Mode |
 |---|---|---|
-| 0:00 | Open. Their words, the bottleneck frame, the premise | Talk |
-| 0:06 | **Module 0, the foundation. What an agent is, the six blocks, the four tiers** | Talk |
-| 0:20 | **🔵 Breakout A, name your loop** | Groups |
-| 0:28 | Module 1, the order, RECIPES off the table fast | Talk |
-| 0:36 | Module 2, the conversation. Both directions, six types | Talk |
-| 0:49 | **Ex 2.1, The Reverse Interview** | Hands |
-| 1:00 | Break | |
-| 1:05 | Module 3, the brigade, the Lens, the build sheet | Talk |
-| 1:15 | **Ex 3.1 + 🔵 Breakout B, build one expert per table** | Groups |
-| 1:31 | Module 4, the loop, correcting out loud | Talk |
-| 1:36 | **Ex 4.1, Write Rule One** | Hands |
-| 1:40 | **Module 5, the setup, install on their own machine** | Hands |
-| 1:52 | **🔵 Breakout C, report back**, then the CTA | Groups |
+| 0:00 | **1. Who I am** | Talk |
+| 0:05 | **2. Who you are.** Icebreaker, four questions, capture every bottleneck | Room |
+| 0:20 | **3A. What an agent is.** Six pieces, four tiers | Talk |
+| 0:30 | **3B. The order.** RECIPES off the table fast | Talk |
+| 0:35 | **3C. The conversation.** Both directions, six ways to ask | Talk |
+| 0:42 | **🔪 Try it now, the Reverse Interview** | Hands |
+| 0:47 | **3D. Staff the kitchen.** The Lens, the build sheet | Talk |
+| 0:52 | **3E. Correct it out loud** | Talk |
+| 0:55 | **4. The demo.** Scrape, my setup, the agent teams | Watch |
+| 1:10 | **5. Teams + break.** Form once, group by bottleneck | Move |
+| 1:15 | **6. The setup.** OpenClaw on their own machine | Hands |
+| 1:30 | **7. Build your bottleneck.** Tables build, RJ circulates | Teams |
+| 1:55 | **8. Report back**, then the CTA | Room |
 | 2:00 | End | |
 
-Talk is 68 minutes of 120. **Hands and groups are 47.** Break is 5.
+**Talk is 50 minutes of 120. Hands, teams, and the room are 65.** Break is inside block 5.
 
-**What got cut to fit Module 0 and the breakouts, and why.** The previous clock was already at exactly 120. Module 0 plus three breakouts is +41 minutes, so 41 had to come out.
+**The ratio is the point.** The previous version was 68 talk / 47 hands. This one inverts it. If a block has to grow, it grows out of the talk column, never out of blocks 6 or 7.
 
-- **Ex 1.1, Fix the Order, is cut.** Breakout A absorbs it. A table naming its own loops out loud is the same muscle as fixing a vague order, and it does double duty by setting up Breakouts B and C. Ex 1.1 was already named the most replaceable block on the old clock.
-- **Ex 3.1 is not cut, it is converted.** It becomes a table build instead of a solo build, so Breakout B costs zero additional minutes. Same 16 minutes, more voices in it.
-- **Every teach block is trimmed 1 to 3 minutes.** Module 2 from 15 to 13, Module 3 from 12 to 10, Module 4 from 8 to 5.
-- **Module 5 keeps its full 12 and stays hands-on.** Non-negotiable. It's the only block that outlives the room.
+**If the room is running long, cut in this order:** 3E down to 2 minutes (the correction template survives, the story goes), then 3D down to 3 (the build sheet survives, the brigade examples go), then the demo from 15 to 10 by dropping beat 3. **Never blocks 6 or 7.** Those are the only ones that outlive the room.
 
-**If the room is still running long,** the cut order is: Module 4's teach down to 3 (the rule template survives, the framing goes), then Breakout C from 8 to 5 by taking only half the tables. **Never Ex 3.1 and never Module 5.**
+**If the room is running short,** give the minutes to block 7. It absorbs any amount.
 
-**Breakouts are a spine, not a spice.** A and B and C are the same tables, the same loop, carried the whole night. If you cut A, B and C lose their subject and you should cut all three. Do not run B alone.
+**Block 2 is load-bearing, not warm-up.** Every bottleneck named there becomes the subject of block 7. If you shortcut the icebreaker, block 7 has no material and tables sit there inventing a problem instead of solving one. Capture the bottlenecks where the room can see them and leave them up all night.
 
-**Groups of 3 or 4, formed once, at Breakout A.** Do not re-form them. Nineteen respondents means five or six tables. Say the number out loud when you form them so nobody ends up in a pair or a group of seven.
+**No jargon.** If a word needs a definition, define it on the spot or don't say it. The room is recruiters, not engineers. "Somebody else's loop" beats "agent harness." "The counter" beats "context window." "House rules" beats "system prompt." The kitchen words are not decoration, they're the translation layer.
 
-**The real teaching window is not the room booking.** People trickle in for the first fifteen and start looking at phones near the end. Assume the block is longer than the workshop and start the actual teach once bodies are seated, not on the minute.
+**The real goal is curiosity, not coverage.** If a block is going well and people are asking questions, let it run and take the time from the talk column. A room that leaves curious will build on Saturday. A room that leaves informed will not.
 
-**One live install path only.** Module 5 teaches the laptop path live because everyone has a laptop in front of them. The cloud path goes in the handout as take-home. Two live paths in a room this size means the room splits into people who are done and people who are stuck, and the stuck ones stop participating. If RJ wants both live, the block needs to grow, not compress.
+**Groups of 3 or 4, formed once, at block 5.** Do not re-form them. Nineteen respondents means five or six tables. Say the number out loud when you form them.
 
-**Nothing runs on my credentials.** No demo that depends on my accounts, my tokens, or my usage cap. Free and agnostic is the whole selling point, and a live demo running on a metered account I'm paying for contradicts the pitch in front of the room.
+**The real teaching window is not the room booking.** People trickle in for the first fifteen and start looking at phones near the end. Assume the block is longer than the workshop and start the actual teach once bodies are seated, not on the minute. Block 1 and block 2 absorb stragglers gracefully; the lecture does not.
+
+**One live install path only.** Block 6 teaches the laptop path live because everyone has a laptop in front of them. The cloud path goes on screen and in the handout as take-home. Two live paths in a room this size means the room splits into people who are done and people who are stuck, and the stuck ones stop participating.
+
+**Nothing runs on my credentials.** No demo that depends on my accounts, my tokens, or my usage cap. Free and agnostic is the whole selling point, and a live demo running on a metered account contradicts the pitch in front of the room.
 
 **The frame is "the setup makes you the bottleneck," never "you are the bottleneck."** Framed as *you are*, it's an accusation and the room closes. Framed as *the setup makes you*, it's a relief and the room leans in. Same fact, opposite outcome. Do not improvise this line.
 
-**Two people on that survey are not in the main cluster.** One wrote *"not enough open roles or hard to define the hiring road-map"*, which is not a workflow problem. One wrote *"Finding a recruiter who will take my call"*, which means they're on the hiring side, not the recruiting side. If either of them is in the room, the tools menu leaves them with nothing. Have one line ready for each.
+**Two people on that survey are not in the main cluster.** One wrote *"not enough open roles or hard to define the hiring road-map"*, which is not a workflow problem. One wrote *"Finding a recruiter who will take my call"*, which means they're on the hiring side. Have one line ready for each, and make sure both end up on a table in block 5 rather than working alone.
 
-**The moment that always lands:** the Reverse Interview. People visibly change posture when the AI starts asking *them* questions. Protect Ex 2.1. If it's going well, let it run long and take the time out of Module 3's teach.
+**The moment that always lands:** the Reverse Interview in 3C. People visibly change posture when it starts asking *them* questions. Protect it. If it's going well, let it run and take the time out of 3D.
 
 **Do not** oversell outcomes or promise income results. Position against gatekeeping, never against a competitor.
 
 **Materials**
-- The handout, one page, two sides. Front: the question sequence for Ex 3.1. Back: the build sheet as a worked example, plus the cloud install steps.
+- The handout, one page, two sides. Front: the question sequence for block 7. Back: the build sheet as a worked example, plus the cloud install steps.
 - RECIPES cheat sheet
+- Somewhere visible to write every bottleneck from block 2
 - Their own laptop, their own AI account
 
 ---
@@ -633,6 +668,40 @@ Talk is 68 minutes of 120. **Hands and groups are 47.** Break is 5.
   source: RJ-confirmed (drop 8), verbatim: "since thsi shit is free and though, my set up keeps
   it free with claudse subwcription, i canteach people free stuff like if they have open ai or
   google gemini or claude this way it's agnostic especially if they have mac or windows."
+- claim: the eight-block run of show (intro, icebreaker, lecture, demo, teams, setup, build, report back)
+  source: RJ-confirmed (Telegram, Aug 20 2026), verbatim: "then we'll go from intro what I'm about to
+  asking them questions in icebreaker to the workshop lecture to the demo to set up or actually them
+  breaking up into groups and then into set up. Then after set up they go into their bottlenecks and
+  they go into building." Captured CONTEXT-INBOX.md.
+- claim: the four icebreaker questions in BLOCK 2
+  source: RJ-confirmed (Telegram, Aug 20 2026), verbatim: "what brought them here why are they
+  interested in agents where their capability is at with ai so far" plus "people are gonna talk about
+  their bottlenecks."
+- claim: BLOCK 4 demo covers an Apify scrape, RJ's own Clawdia setup, and his agent teams
+  source: RJ-confirmed (Telegram, Aug 20 2026), verbatim: "we're going to go through the demo using
+  appify of how to scrape something or something I decide we're definitely going to show them how to
+  use Claudia or how I use Claudia in the demo and then maybe even show them how I have my agents who
+  my agent teams are."
+- claim: BLOCK 4 is scaffolded, not scripted
+  source: RJ-confirmed (Telegram, Aug 20 2026), verbatim: "but I don't know that demo portion is up to me."
+- claim: the stated goal is curiosity, not coverage (THE PREMISE opener, outcome 8, facilitator note)
+  source: RJ-confirmed (Telegram, Aug 20 2026), verbatim: "All I really care about is for them not to
+  learn AI so much as they learn how to be curious with AI. It more important that I teach them how to
+  be curious and want to do this shit than it is for me to like tell them this is this this is that."
+- claim: jargon stripped (maieutics, aporia, Socratic, agent harness, system prompt, context window removed)
+  source: RJ-confirmed (Telegram, Aug 20 2026), verbatim: "I'm the concept kitchen. We teach this in a
+  relatable way. So I don't want to bog them down with jargon. I want to get them to building."
+- claim: talk drops to 50 minutes of 120, hands/teams/room rise to 65
+  source: Clawdia's structural implementation of "I want to get them to building" (RJ, Telegram,
+  Aug 20 2026). The ratio itself is a Clawdia decision; the direction is RJ's.
+- claim: Breakouts A, B, and C no longer exist as separate named exercises
+  source: Clawdia's structural decision. Their functions were absorbed: A (name your loop) into the
+  BLOCK 2 icebreaker RJ asked for, B (build one expert) into BLOCK 7 on their real bottleneck, C into
+  BLOCK 8. No content was deleted; it was relocated to match RJ's stated sequence.
+- claim: alignment with Mabel's plan
+  source: UNCONFIRMED. Mabel's syllabus and event flow have never been received. RJ asked "Does that
+  sound in line with what Mabel wants?" on Aug 20 2026. It cannot be answered from any file on disk.
+
 - claim: OpenClaw and Google Cloud named explicitly in Module 5, two install paths
   source: RJ-confirmed (Telegram voice note, drop 1, Aug 20 2026), verbatim: "we are going to
   change the example and demos to have people set up on OpenClaw both on Google Cloud provider
