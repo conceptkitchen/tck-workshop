@@ -313,12 +313,37 @@ examples."* That still holds **for teaching**. Drop 10 adds a second bucket.
 gets told what to use. Free, model-agnostic, OS-agnostic, and now **tool-agnostic**. The transcript's
 examples stop being competitors to RJ's examples and become the menu.
 
-**Consequence for the site:** this implies a surface that does not exist yet. Neither `/slides` nor
-`/workshop` is the right home for a browsable tool list. Raise in full war: does this become a new
-page, a section of `/workshop`, or a handout?
+### 10b — PLACEMENT, Aug 20 2026 ~6:15 AM ✅ ANSWERS THE "WHERE" QUESTION
 
-**"latr"** reads as *later* — the list is a post-workshop or reference asset, not a live teaching
-block. It does not consume any of the 2 hours. Confirm during war.
+> *"but towarsd the end as to, these are some tools you can build with with the foundation laid
+> out today"*
+
+**It is a CLOSING BLOCK inside the workshop.** Not a separate page, not a post-event handout, not
+a mid-lecture segment. It runs **toward the end**, after the foundation has been taught. The
+framing is his, near-verbatim: *"these are some tools you can build with, with the foundation
+laid out today."*
+
+**Why the placement is the whole point.** A tools list at the TOP is a product demo — it teaches
+people to reach for a tool. A tools list at the END is a **payoff** — it proves the foundation
+they just learned generalizes. Same list, opposite meaning, decided entirely by where it sits.
+That is also why the transcript's examples work here and would not work as teaching material:
+they are somebody else's demos, which makes them ideal as *here is the range* and wrong as
+*here is how.*
+
+**Consequence for the arc.** The workshop now ends on expansion instead of summary. Closing
+sequence becomes: foundation taught → they build one thing → here is the menu of what else this
+same move builds. The transcript's own hinge at 7:08 is the identical idea: *"everything else
+from here that I'm going to show you is really just a different way of building this type of
+loop."* His structure already earns a closing menu. That is the part worth borrowing.
+
+**Consequence for the site.** Downgraded from "needs a new page" to **a section of `/workshop`**
+plus the matching closing slides. A separate listed page stays optional as the browsable
+reference. No longer a blocking war question.
+
+~~**"latr"** reads as *later* — the list is a post-workshop or reference asset, not a live teaching
+block. It does not consume any of the 2 hours. Confirm during war.~~
+🔴 **RESOLVED Aug 20 2026 by 10b.** "latr" meant *later in the session*, not *after the event*.
+It DOES consume workshop time, at the end. My reading was wrong and RJ answered it before war.
 
 ---
 
