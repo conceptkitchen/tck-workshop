@@ -29,7 +29,7 @@ PAGES = [
         "file": "slides.md",
         "nav": "Slides",
         "title": "The Deck",
-        "kicker": "10 slides, one idea each",
+        "kicker": "21 slides, one idea each",
         "blurb": "Twenty-one slides, one idea on each, plus one after the credits. Five of them stay up while the room works.",
         "body_class": "deck",
         "listed": True,

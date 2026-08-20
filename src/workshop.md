@@ -341,8 +341,8 @@ Every correction becomes a rule. Every rule is a mistake you refuse to have twic
 
 | Beat | What it shows | The point |
 |---|---|---|
-| **1. Scrape something** | A real tool doing a real job. Pull data off a page, live. | *This is "the hands." The model asked, the software acted.* |
-| **2. How I actually use it** | My own setup, my own work, unedited. | *This isn't a demo account. It's a Tuesday.* |
+| **1. Scrape something with Apify** | A real tool doing a real job. Pull data off a page, live. | *This is "the hands." The model asked, the software acted.* |
+| **2. How I actually use Clawdia** | My own setup, my own work, unedited. | *This isn't a demo account. It's a Tuesday.* |
 | **3. My agent teams** | Multiple experts, each with their own Lens, on one problem. | *This is 3D at full size. You'll build one of these tonight.* |
 
 **Say this while it runs, because it's the whole lesson:**
@@ -750,3 +750,10 @@ Bring me the bottleneck. Not the tool question. The bottleneck.
   and steps to take with expert guidance"
 - NOTE: the Luma event link appears NOWHERE in this document, on any surface, by RJ's explicit
   instruction (Aug 20 2026). Its absence is correct, not a gap. See CONTEXT-INBOX.md banned block.
+
+- claim: the demo scrapes with Apify
+  source: RJ run-of-show message, Aug 20 2026 verbatim: "we're going to go through the demo using
+  appify of how to scrape something or something I decide". Tool named because he named it.
+- claim: the demo shows Clawdia
+  source: RJ run-of-show message, Aug 20 2026 verbatim: "we're definitely going to show them how to
+  use Claudia or how I use Claudia in the demo".

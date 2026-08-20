@@ -440,8 +440,8 @@ Answer the questions. Then let it try.
 
 **What this block has to accomplish:**
 
-- **Scrape something real.** A tool doing a real job on real data, in front of them. This is "the hands."
-- **Show my actual setup.** Not a demo account. A Tuesday. Mess included.
+- **Scrape something real with Apify.** A tool doing a real job on real data, in front of them. This is "the hands."
+- **Show my actual setup, Clawdia.** Not a demo account. A Tuesday. Mess included.
 - **Show the agent teams.** Multiple experts, each with their own lens, on one problem. This is what they build in Block 7 at small size.
 
 **Guardrails:**
@@ -743,3 +743,10 @@ If you're running long, **8 and 11 are the compressible ones.** Never cut 9 or 1
   source: memory/reference/pet-zen-hackathon.md (event format, one-pager v4). Rescue dogs are from Copper's Dream.
 - claim: "luma.com/rklrsomo"
   source: memory/drafts/dogathon-vendor-outreach-2026-06-25.md (appears in every vendor email, its own Sources block reads RJ-confirmed Telegram Jun 25 2026) · HTTP 200 verified Aug 15 2026
+
+- claim: the demo scrapes with Apify
+  source: RJ run-of-show message, Aug 20 2026 verbatim: "we're going to go through the demo using
+  appify of how to scrape something or something I decide". Tool named because he named it.
+- claim: the demo shows Clawdia
+  source: RJ run-of-show message, Aug 20 2026 verbatim: "we're definitely going to show them how to
+  use Claudia or how I use Claudia in the demo".

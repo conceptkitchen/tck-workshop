@@ -460,3 +460,57 @@ It DOES consume workshop time, at the end. My reading was wrong and RJ answered 
 
 Prior standing constraint "workshop is OFF" is **REVERSED as of this voice note.**
 Workshop is back ON, redesigned, 2 hours, OpenClaw-centered, recruiter audience.
+
+---
+
+## RUN OF SHOW — RJ, Telegram, Aug 20 2026 (verbatim capture)
+
+> "basically in the workshop I'm going to introduce myself I'm going to go through a workshop we're
+> going to go through the demo using appify of how to scrape something or something I decide we're
+> definitely going to show them how to use Claudia or how I use Claudia in the demo and then maybe
+> even show them how I have my agents who my agent teams are but I don't know that demo portion is up
+> to me then we're going to have setup time we're going to introduce them to Open Claw and then
+> they're going to work on their bottlenecks and then we're going to group them into teams. They're
+> going to discuss amongst themselves and then have me help along the way. But the idea and the main
+> thing here is that they're learning how to build agents. This is the first time. There is some
+> technical shit, but the whole goal is I'm the concept kitchen. We teach this in a relatable way. So
+> I don't want to bog them down with jargon. I want to get them to building. This is why we're
+> setting up Open Claw. And since we're getting them on building, it's important for foundation. All
+> I really care about is for them not to learn AI so much as they learn how to be curious with AI...
+> i want time for questions of like towards the beginning towards the introduction people to be able
+> to introduce themselves maybe a couple people will have an icebreaker a couple people can introduce
+> themselves what brought them here why are they interested in agents where their capability is at
+> with ai so far and then we'll go from there then we'll go from intro what I'm about to asking them
+> questions in icebreaker to the workshop lecture to the demo to set up or actually them breaking up
+> into groups and then into set up. Then after set up they go into their bottlenecks and they go into
+> building. Does that sound in line with what Mabel wants?"
+
+### Rule 59 diff — every ask against the shipped deliverable
+
+| # | Ask (his words) | Status | Where it landed |
+|---|---|---|---|
+| 1 | "I'm going to introduce myself" | ✅ USED | workshop.md BLOCK 1 · WHO I AM · slide 1-3 |
+| 2 | icebreaker, "a couple people can introduce themselves" | ✅ USED | BLOCK 2 · WHO YOU ARE · slide 4 (stays up) |
+| 3 | "what brought them here" | ✅ USED | BLOCK 2, icebreaker question 1 |
+| 4 | "why are they interested in agents" | ✅ USED | BLOCK 2, icebreaker question 2 |
+| 5 | "where their capability is at with ai so far" | ✅ USED | BLOCK 2, icebreaker question 3 |
+| 6 | "the workshop lecture" | ✅ USED | BLOCK 3 · THE LECTURE · slides 5-15 |
+| 7 | foundation, "what an agent is" (from the transcript) | ✅ USED | BLOCK 3A + 3B · slides 5, 6 |
+| 8 | "the demo using appify of how to scrape something" | ✅ USED | BLOCK 4 beat 1, Apify named · slide 16 speaker note |
+| 9 | "how I use Claudia in the demo" | ✅ USED | BLOCK 4 beat 2, Clawdia named · slide 16 speaker note |
+| 10 | "show them how I have my agents who my agent teams are" | ✅ USED | BLOCK 4 beat 3 |
+| 11 | "that demo portion is up to me" | ✅ USED | Block 4 written as scaffolding + guardrails, not a script |
+| 12 | "them breaking up into groups and then into set up" | ✅ USED | BLOCK 5 · TEAMS + BREAK precedes BLOCK 6 · THE SETUP |
+| 13 | "setup time... introduce them to Open Claw" | ✅ USED | BLOCK 6 · slide 18 |
+| 14 | "after set up they go into their bottlenecks" | ✅ USED | BLOCK 7 · BUILD YOUR BOTTLENECK · slides 19-20 |
+| 15 | "discuss amongst themselves and then have me help along the way" | ✅ USED | BLOCK 7 facilitation notes |
+| 16 | "I want to get them to building" | ✅ USED | Talk/hands ratio inverted, 50 talk / 65 hands |
+| 17 | "don't want to bog them down with jargon" | ✅ USED | Jargon stripped across body and deck |
+| 18 | "learn how to be curious with AI" not learn AI | ✅ USED | Curiosity framing, 4 hits in workshop, closes Block 4 |
+| 19 | "a section at the end for how to build their own brigade" | ⚠️ PARTIAL | Section exists and describes the folder structure. Links to nothing. `clawdia-code-arc` is built and still PRIVATE. Decision pending. |
+| 20 | "set up on OpenClaw both on Google Cloud provider and on their laptop" | ⚠️ PARTIAL | Laptop is live in the room, Google Cloud is on screen only. Rule 46 narrowing, surfaced Aug 20, unresolved. |
+| 21 | "hi@concept.kitchen CTA at the end" | ✅ USED | Close of workshop + slide 21 |
+| 22 | Luma `ujthsr31` BANNED from all surfaces | ✅ HELD | 0 hits, all four pages |
+| 23 | "Does that sound in line with what Mabel wants?" | 🔴 UNANSWERABLE | Her syllabus and event flow have never been received. Cannot be answered from any file on disk. Not a gap in the build, a gap in the inputs. |
+
+**Two ⚠️ and one 🔴 are RJ decisions or missing inputs, not build gaps.**
