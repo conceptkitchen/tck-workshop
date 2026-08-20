@@ -1,4 +1,4 @@
-# SPEAKER NOTES · It's All in the Setup
+# SPEAKER NOTES · Ask, Don't Micromanage
 **AI Workshop, Thursday Aug 20, 2026 | 2 hours | RJ Moscardon**
 **Room: recruiters and talent professionals.**
 
@@ -56,6 +56,8 @@ Say it twice. Once on slide 5, once on slide 10.
 *The Concept Kitchen · Anybody can cook.*
 
 ## Sources
+- claim: header reads "SPEAKER NOTES · Ask, Don't Micromanage"
+  source: RJ-confirmed (Telegram, Aug 20 2026), "dont change the name of the url. that's the one we want to use" + "unify". Kept to one compact line rather than the deck's three-line block because this page is read one-thumb in a dim room and the subtitle's job is orienting the ROOM, not RJ.
 - claim: the three moves and their slide mapping
   source: RJ-confirmed (Telegram, Aug 15 2026), his own framing: "ask questions, treat the agent as the expert to build itself, and then use the brigade to setup your project"
 - claim: 2 hour session, roughly an hour of it talk

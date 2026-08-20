@@ -1,6 +1,6 @@
 # THE WORKSHOP
-## Asking Questions to Get What You Want
-### How to Build an AI Partner Instead of Using an AI Tool
+## Ask, Don't Micromanage
+### Build an agent for your recruiting workflow
 
 **Instructor:** RJ Moscardon, The Concept Kitchen
 **Runtime:** 2 hours, hands on keyboards for about half of it.
@@ -350,6 +350,10 @@ your-setup/
 
 **Start with two.** One expert for the thing you do most, one skeptic to argue with them. Add the third when you notice you keep wishing someone else were in the room.
 
+**Say this out loud when the folder exists.** Everything before this module was about asking better in the moment. This module is what makes the moment better before you open your mouth. Four modules of technique, and it still comes down to the same thing.
+
+> It's all in the setup.
+
 ---
 
 ### WHAT ELSE THIS SAME MOVE BUILDS
@@ -452,6 +456,10 @@ Talk is 59 minutes of 120. **Hands are 56.** If the room is running long, the cu
 ---
 
 ## Sources
+- claim: title "Ask, Don't Micromanage" · subtitle "Build an agent for your recruiting workflow"
+  source: title is RJ-confirmed (Telegram, Aug 20 2026), "dont change the name of the url. that's the one we want to use". Subtitle restates the Luma registration title in CONTEXT-INBOX.md:55-73, "Let's build an agent! For your recruiting workflow." Unified across deck, workshop, and notes per RJ's "unify" (Telegram, Aug 20 2026).
+- claim: closing callback "It's all in the setup" at the end of Module 5
+  source: retired deck title, repurposed not deleted. Was the slides.md H1 through Aug 20 06:48 AM. Moved to the end of Module 5 so it reads as a payoff line rather than a heading.
 - claim: 19 recruiter bottlenecks quoted verbatim in THE PREMISE and the tools menu
   source: context/recruiter-bottlenecks.md:34-53 (RJ-supplied, Telegram drop 5, Aug 20 2026)
 - claim: the "no ATS / career inbox / spreadsheet" respondent named the problem and got stuck

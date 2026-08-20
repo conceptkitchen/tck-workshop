@@ -1,5 +1,6 @@
-# It's All in the Setup
-### The right questions lead to expert planning.
+# THE DECK
+## Ask, Don't Micromanage
+### Build an agent for your recruiting workflow
 
 **AI Workshop, Thursday Aug 20, 2026 | RJ Moscardon, The Concept Kitchen**
 **Room: recruiters and talent professionals.**
@@ -372,6 +373,10 @@ If you're running long, 4 and 7 are the compressible ones. Never cut 5 or 6, tho
 ---
 
 ## Sources
+- claim: title "Ask, Don't Micromanage"
+  source: RJ-confirmed (Telegram, Aug 20 2026), verbatim: "dont change the name of the url. that's the one we want to use just update it". Already the site name in build.py:152, 180, 251. Unified across all three surfaces per RJ's "unify" (Telegram, Aug 20 2026).
+- claim: subtitle "Build an agent for your recruiting workflow"
+  source: Luma event record in CONTEXT-INBOX.md:55-73, live API pull. Registration title is "Let's build an agent! For your recruiting workflow." on the Talent AI Lounge calendar. Subtitle restates the registration promise so the screen matches the ticket.
 - claim: room is recruiters and talent professionals · session is 2 hours
   source: RJ-confirmed (Telegram voice note, drop 1, Aug 20 2026), verbatim: workshop grows to two hours, audience is recruiters. Captured in CONTEXT-INBOX.md.
 - claim: date Thursday Aug 20, 2026
