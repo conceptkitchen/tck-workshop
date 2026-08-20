@@ -69,8 +69,23 @@ Pulled live from the Luma API (`api.lu.ma/url?url=ujthsr31`), not from memory:
 | **Waitlist** | Enabled |
 | **Guest list** | Hidden (`show_guest_list: false`). API returns `guest_count: 0` — that is Luma **suppressing** the number publicly, **NOT** a real count. Do not cite it. |
 
-- Luma: https://luma.com/ujthsr31
+- Luma: https://luma.com/ujthsr31 — 🔴 **REFERENCE ONLY. BANNED FROM THE SITE.**
 - Live site: https://tck-workshop.vercel.app/
+
+### 🔴 LUMA LINK — BANNED FROM ALL PUBLIC SURFACES (RJ, Aug 20 2026, ~6:30 AM)
+
+> *"STOP FUCKING TRYING TO ADD THE LUMA LINK I SAID FUCKIGN DONT."*
+
+The Luma URL exists in this file **only** as the source of the event's date, time, and
+block length. It does **NOT** go on `index.html`, `slides.md`, `workshop.md`, the deck, the
+notes page, or any handout. Ever. Do not propose it. Do not list its absence as a defect.
+
+~~"Luma link — **absent entirely**" listed as a v1/v2 gap-table defect~~
+🔴 **RETIRED Aug 20 2026.** Its absence is the correct state, not a gap. The gap table
+generated this proposal three separate times because it framed absence as breakage. Fixed
+at the source per Rule 54 so no future read regenerates it.
+
+**The end-of-workshop CTA is `hi@concept.kitchen`.** That is the only contact surface.
 
 **Note:** the Luma block is **3 hours**, matching RJ's first spoken number before he
 self-corrected to two. The 2 hrs is likely content, 3 hrs is the room.

@@ -1,7 +1,8 @@
 # It's All in the Setup
 ### The right questions lead to expert planning.
 
-**AI Workshop, Sunday Aug 16, 2026 | RJ Moscardon, The Concept Kitchen**
+**AI Workshop, Thursday Aug 20, 2026 | RJ Moscardon, The Concept Kitchen**
+**Room: recruiters and talent professionals.**
 **10 slides, plus one after the credits. Big type. One idea per slide.**
 
 ---
@@ -215,6 +216,7 @@
 > - CFO: *"What does this cost us if it works?"*
 > - Therapist: *"What are you avoiding by staying busy?"*
 > - Chef: *"What's already in the fridge?"*
+> - Sourcer: *"Who already works somewhere this problem is solved?"*
 
 **Speaker note:**
 
@@ -359,7 +361,9 @@
 | 2. Let the expert help you build the expert | 7, 8 |
 | 3. Put them in a room and let them plan it | 9, 10 |
 
-**30-minute run:** all ten, plus 11 after the close. If you're running long, 4 and 7 are the compressible ones. Never cut 5 or 6, those carry the thesis.
+**Inside the 2-hour workshop:** the deck carries the talk, not the whole session. Slides 1 to 6 run under Modules 1 and 2. Slides 7 to 9 run under Module 3. Slide 10 closes. The hands-on blocks happen between them, off the deck, laptops open.
+
+If you're running long, 4 and 7 are the compressible ones. Never cut 5 or 6, those carry the thesis. Slide 11 goes after the close.
 
 ---
 
@@ -368,6 +372,12 @@
 ---
 
 ## Sources
+- claim: room is recruiters and talent professionals · session is 2 hours
+  source: RJ-confirmed (Telegram voice note, drop 1, Aug 20 2026), verbatim: workshop grows to two hours, audience is recruiters. Captured in CONTEXT-INBOX.md.
+- claim: date Thursday Aug 20, 2026
+  source: `date "+%A, %B %d, %Y"` run Aug 20 2026 · Luma event record in CONTEXT-INBOX.md (start_at 2026-08-20, 5:00 PM PDT)
+- claim: Sourcer lens on slide 8, "Who already works somewhere this problem is solved?"
+  source: src/workshop.md Module 3 (same example, propagated per Rule 51). Constructed as a demonstration of the Lens pattern for this specific room, not a claim about an existing expert file.
 - claim: "about ninety" experts, spoken only on slide 7
   source: skills/brigade/experts/ filesystem count = 93 files (`ls skills/brigade/experts/*.md | wc -l`) vs skills/brigade/ROSTER.md = "92 experts". Sources conflict by one, so the deck states no number and the speaker hedges to "about ninety." Do not state an exact count on stage. NOTE: the "29,132 words / 50 rules / I asked one question 90 times" stats line was CUT from slide 10 on Aug 15, 2026 per RJ ("that's corny").
 - claim: the brigade origin story on slide 10 (questions first, then a template producing experts with personas and tools, then asking existing experts who else the kitchen needed, then teams)

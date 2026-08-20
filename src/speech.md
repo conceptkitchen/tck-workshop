@@ -1,9 +1,12 @@
 # SPEAKER NOTES · It's All in the Setup
-**AI Workshop, Sunday Aug 16, 2026 | 30 minutes | RJ Moscardon**
+**AI Workshop, Thursday Aug 20, 2026 | 2 hours | RJ Moscardon**
+**Room: recruiters and talent professionals.**
 
 *Built to read at arm's length, one thumb, in a dim room. No printout, no index cards, no second screen. This page is the notes.*
 
-*The 3 minute speech that used to live here was retired Aug 15, 2026. The run is 30 minutes now and the deck carries it. Everything below is per-slide.*
+*The 3 minute speech that used to live here was retired Aug 15, 2026. The deck carries the talk. Everything below is per-slide.*
+
+*The session is 2 hours, but the deck is not 2 hours. Roughly an hour of it is talk, the rest is hands on keyboards. The workshop page has the clock and the exercise blocks. This page is only what you say while a slide is up.*
 
 ---
 
@@ -55,8 +58,12 @@ Say it twice. Once on slide 5, once on slide 10.
 ## Sources
 - claim: the three moves and their slide mapping
   source: RJ-confirmed (Telegram, Aug 15 2026), his own framing: "ask questions, treat the agent as the expert to build itself, and then use the brigade to setup your project"
-- claim: 30 minute runtime
-  source: RJ-confirmed (Telegram, Aug 15 2026), "it's a 30 minute workshop"
+- claim: 2 hour session, roughly an hour of it talk
+  source: RJ-confirmed (Telegram voice note, drop 1, Aug 20 2026), workshop grows from 30 minutes to 2 hours, lecture stays short. Captured in CONTEXT-INBOX.md.
+- ~~claim: 30 minute runtime · source: RJ-confirmed (Telegram, Aug 15 2026), "it's a 30 minute workshop"~~
+  🔴 RETIRED Aug 20 2026. Superseded by drop 1. Do not re-source. The 30 minute figure describes the Aug 15 version of this session and is wrong for the room on Aug 20.
+- claim: room is recruiters and talent professionals
+  source: RJ-confirmed (Telegram voice note, drop 1, Aug 20 2026), audience is recruiters
 - claim: "Before you start, ask me questions that would help you do this better."
   source: recipes-cheatsheet.md:61 (RECIPES, S = Sanity-check)
 - claim: the 3 minute speech is retired

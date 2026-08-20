@@ -30,7 +30,7 @@ PAGES = [
         "nav": "Slides",
         "title": "The Deck",
         "kicker": "10 slides, one idea each",
-        "blurb": "Ten slides, one idea on each. The short run is marked at the bottom.",
+        "blurb": "Ten slides, one idea on each, plus one after the credits. Where each slide lands in the two hours is marked at the bottom.",
         "body_class": "deck",
         "listed": True,
     },
@@ -39,8 +39,8 @@ PAGES = [
         "file": "workshop.md",
         "nav": "Workshop",
         "title": "The Workshop",
-        "kicker": "30 minutes, scales to 90",
-        "blurb": "The 30 minute run. Two modules, two exercises, the RECIPES framework, and the handout. Scales to 60 or 90.",
+        "kicker": "2 hours, half of it hands on keyboards",
+        "blurb": "The full run. Five modules, four exercises, the RECIPES framework, and the setup you leave with working on your own laptop.",
         "body_class": "workshop",
         "listed": True,
     },
@@ -50,7 +50,7 @@ PAGES = [
         "file": "speech.md",
         "nav": "Notes",
         "title": "Speaker Notes",
-        "kicker": "30 minutes, one thumb",
+        "kicker": "One thumb, dim room",
         "blurb": "",
         "body_class": "teleprompter",
         "listed": False,
@@ -177,7 +177,7 @@ def shell(*, title, nav_slug, content, kicker="", body_class="") -> str:
 </main>
 
 <footer>
-  <p>Ask, Don't Micromanage &middot; AI Workshop, August 16, 2026</p>
+  <p>Ask, Don't Micromanage &middot; AI Workshop, August 20, 2026</p>
   <p>RJ Moscardon, The Concept Kitchen</p>
 </footer>
 
