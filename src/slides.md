@@ -4,8 +4,6 @@
 
 **AI Workshop, Thursday Aug 20, 2026 | RJ Moscardon, The Concept Kitchen**
 **Room: recruiters and talent professionals.**
-**21 slides, plus one after the credits. Big type. One idea per slide.**
-**Five of them stay up while the room works: 4, 11, 17, 19, 20.**
 
 ---
 
