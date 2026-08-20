@@ -699,8 +699,15 @@ Bring me the bottleneck. Not the tool question. The bottleneck.
   BLOCK 2 icebreaker RJ asked for, B (build one expert) into BLOCK 7 on their real bottleneck, C into
   BLOCK 8. No content was deleted; it was relocated to match RJ's stated sequence.
 - claim: alignment with Mabel's plan
-  source: UNCONFIRMED. Mabel's syllabus and event flow have never been received. RJ asked "Does that
-  sound in line with what Mabel wants?" on Aug 20 2026. It cannot be answered from any file on disk.
+  source: ~~UNCONFIRMED. Mabel's syllabus and event flow have never been received.~~ RETIRED Aug 20
+  2026 09:20 — this was wrong and was repeated to RJ three times. Mabel's material IS on disk:
+  (1) syllabus at ~/clawdia/memory/drafts/workshop-2026-08-16-syllabus.md (272 lines, four modules);
+  (2) her notes in the shared calendar event "[HOLD] Talent AI Lounge Workshop" — "RJ to share
+  1) framework, 2) a blurb", "Mabel to secure spot at Hanwha (via Asako)", "Guests to bring a
+  personal laptop (if they have one)"; (3) her own Luma description naming five recruiting
+  categories: sourcing, candidate outreach, interview preparation, research, recruiting operations.
+  Answer to "Does that sound in line with what Mabel wants?" is MOSTLY YES with three gaps —
+  see CONTEXT-INBOX.md § "Mabel diff". Only the partner's REVISED flow is still outstanding.
 
 - claim: OpenClaw and Google Cloud named explicitly in Module 5, two install paths
   source: RJ-confirmed (Telegram voice note, drop 1, Aug 20 2026), verbatim: "we are going to

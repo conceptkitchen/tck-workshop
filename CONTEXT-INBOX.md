@@ -42,15 +42,44 @@ Running capture of RJ's incoming context for the workshop rebuild.
 > (definition → six blocks → four tiers), every example replaced with recruiting/kitchen framing per RJ.
 > Sourced line-by-line in the `## Sources` block of `src/workshop.md`.
 
-### 🔴 STILL OPEN — event partner's flow + syllabus
-- RJ will send **how his event partner wants the flow.**
-- Applies to **the syllabus already sent.**
-- **Changes are coming to it.** Current syllabus is not final.
+### ✅ RECEIVED — Mabel's material (corrected Aug 20, 09:20 AM)
 
-> **NEVER RECEIVED as of Aug 20, 07:20 AM.** The partner flow and the revised syllabus have not arrived.
-> The current 120-minute clock is **Clawdia's structural proposal**, not the partner's. If the partner's
-> flow lands before 5:00 PM, the module timings are the first thing it overrides.
-> **This is the likeliest home of any ask that still hasn't been met.**
+> ~~**NEVER RECEIVED as of Aug 20, 07:20 AM.** The partner flow and the revised syllabus have not arrived.~~
+> **RETIRED Aug 20 2026 — THIS WAS WRONG AND I REPEATED IT THREE TIMES TO RJ.**
+> RJ: *"what are you telling me about Mabel syllabus I sent that I also gave you her notes on that please keep up."*
+> He was right. Line 47 of this same file already said *"the syllabus already sent."* I wrote that line and
+> then contradicted it. **Root cause: I collapsed two separate items under one heading** — the base syllabus
+> (RECEIVED, on disk) and the partner's *revised* flow (genuinely still outstanding) — and reported both absent.
+
+**1. The syllabus — `~/clawdia/memory/drafts/workshop-2026-08-16-syllabus.md` (272 lines).**
+Title: *"Asking Questions to Get What You Want / How to Build an AI Partner Instead of Using an AI Tool."*
+Modular 3 / 30 / 60 / 90-min. Four modules: **1 THE ORDER** (RECIPES) · **2 THE FLIP** (Sanity-check +
+six Socratic types) · **3 THE BRIGADE** (a persona is a question) · **4 THE LOOP** (correcting out loud).
+
+**2. Mabel's notes — the calendar event she owns** (`[HOLD] Talent AI Lounge Workshop`, attendees
+`mabel@talentailounge.co`, `mabelzfliang@gmail.com`, `hi@concept.kitchen`, `rjmoscardon@gmail.com`):
+- *"Next Steps: RJ to share 1) framework, 2) a blurb"*
+- *"Mabel to secure spot at Hanwha (via Asako)"*
+- *"Guests to bring a personal laptop **(if they have one)**"* ← **not everyone will have a laptop**
+
+**3. Mabel's own event description** (Luma, hosted by Mabel Liang):
+> *"Instead of adopting another AI tool, what if you could build an AI teammate tailored to the way you recruit?
+> Whether you're a recruiter, talent leader, People leader, or Chief of Staff, this workshop will help you create
+> an AI agent designed around your recruiting workflow. Bring a real recruiting challenge, and together we'll turn
+> it into an AI agent you can start using immediately. Whether it's **sourcing, candidate outreach, interview
+> preparation, research, or recruiting operations**, you'll build an AI agent that removes friction from your day.
+> This is an interactive, hands-on session led by…"*
+
+**4. 🔴 VENUE — the real address.** `Hanwha AI Center, 300 Grant Ave Ste 500, San Francisco, CA 94108`.
+Not just "Union Square." Mabel secured it via Asako.
+
+**5. What RJ owed Mabel and I never surfaced:** the **framework** and the **blurb**. Both sat in her
+calendar note as "Next Steps" the entire time.
+
+### 🔴 STILL GENUINELY OPEN — the partner's *revised* flow
+- RJ said **changes are coming** to the syllabus. Those changes have not arrived.
+- The 8-block run of show is **RJ's own spec** (session line 2295), not Mabel's revision.
+- If a revised flow lands before 5:00 PM, block timings are the first thing it overrides.
 
 ### Big change: the demo subject
 - **NOT using RJ's bot.** Not using RJ's own setup.
@@ -511,6 +540,63 @@ Workshop is back ON, redesigned, 2 hours, OpenClaw-centered, recruiter audience.
 | 20 | "set up on OpenClaw both on Google Cloud provider and on their laptop" | ⚠️ PARTIAL | Laptop is live in the room, Google Cloud is on screen only. Rule 46 narrowing, surfaced Aug 20, unresolved. |
 | 21 | "hi@concept.kitchen CTA at the end" | ✅ USED | Close of workshop + slide 21 |
 | 22 | Luma `ujthsr31` BANNED from all surfaces | ✅ HELD | 0 hits, all four pages |
-| 23 | "Does that sound in line with what Mabel wants?" | 🔴 UNANSWERABLE | Her syllabus and event flow have never been received. Cannot be answered from any file on disk. Not a gap in the build, a gap in the inputs. |
+| 23 | "Does that sound in line with what Mabel wants?" | ✅ ANSWERABLE — **and I answered it wrong 3× today** | ~~Her syllabus and event flow have never been received.~~ **RETIRED Aug 20 09:20.** Syllabus on disk at `memory/drafts/workshop-2026-08-16-syllabus.md`; her notes in the calendar event; her framing in the Luma description. **Answer: mostly yes, with 3 gaps** — see § "Mabel diff" below. |
 
 **Two ⚠️ and one 🔴 are RJ decisions or missing inputs, not build gaps.**
+
+---
+
+## § Mabel diff — tonight's run of show vs. what Mabel actually asked for
+
+*Written Aug 20 2026 09:25 AM, after locating the syllabus + her calendar notes + her Luma copy.*
+
+### ✅ ALIGNED
+
+| Mabel's words | Where it lands tonight |
+|---|---|
+| *"Bring a real recruiting challenge, and together we'll turn it into an AI agent"* | **BLOCK 7 — BUILD YOUR BOTTLENECK** is exactly this |
+| *"an AI teammate tailored to the way you recruit"* not *"another AI tool"* | THE PREMISE + BLOCK 3's agent foundation |
+| *"interactive, hands-on session"* | BLOCK 5 teams, BLOCK 6 setup, BLOCK 7 build, BLOCK 8 report back |
+| Syllabus MODULE 3 — *"a persona is a question"* | BLOCK 3 lecture + BUILD YOUR OWN BRIGADE |
+| Syllabus MODULE 2 — the Sanity-check flip | BLOCK 3 — "Ask, Don't Micromanage" |
+| Facilitator note: *"If the room is already AI-literate, skip the 'AI is useful' setup"* | BLOCK 1 is 10 min of RJ, not an AI explainer |
+
+### 🔴 GAP 1 — laptops. **Blocks tonight.**
+
+Mabel wrote: *"Guests to bring a personal laptop **(if they have one)**."*
+
+She anticipated attendees arriving **without** a laptop. **BLOCK 6 — THE SETUP** currently assumes
+every person has one and can install OpenClaw. There is no path for someone who shows up with a phone.
+
+**Needs a decision before 5:00 PM.** Options: pair them into the BLOCK 5 teams as the driver's
+partner · run the phone-only path through any AI chat app for the RECIPES/Socratic exercises ·
+have RJ or Mabel bring a spare.
+
+### 🟡 GAP 2 — her five categories aren't the bottleneck menu
+
+Mabel's Luma copy names the buckets attendees are showing up with:
+**sourcing · candidate outreach · interview preparation · research · recruiting operations.**
+
+BLOCK 7 asks people to name their bottleneck cold. Using her five as the prompt menu means
+nobody stalls on a blank page, and it mirrors the language they registered under.
+
+### 🟡 GAP 3 — RJ still owes Mabel two things
+
+From her own "Next Steps" in the calendar event: *"RJ to share 1) framework, 2) a blurb."*
+Neither has been sent. The framework is now the 8-block run of show. The blurb can pull from
+THE PREMISE.
+
+### ⚠️ DIVERGENCE — the stack changed since the one-pager
+
+`people/mabel-liang.md` records what RJ sent her Jun 16: **Gemini API (free tier) + Telegram Relay
++ repo `conceptkitchen/clawdia-code-co`**, plus four deliverables (RECIPES cheat sheet, recruiter
+prompt library, workflow audit template, agent build guide).
+
+Tonight ships **OpenClaw + `clawdia-code-arc`**. RJ made that call deliberately and for good reasons
+(free, subscription-auth not metered API, model-agnostic, OS-agnostic). But Mabel was sold the other
+stack and may have repeated it to her community. Worth one line to her before doors.
+
+### 📍 VENUE — the address was in her notes the whole time
+
+**Hanwha AI Center, 300 Grant Ave Ste 500, San Francisco, CA 94108.** Mabel secured it via Asako.
+Any surface that says only "SF Union Square" is under-specified.
