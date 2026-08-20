@@ -183,7 +183,7 @@
 - **Point at tier 3:** "We're here tonight. And I want to be clear that's a deliberate choice, not a beginner's compromise."
 - "The loop is a solved problem. Nobody is paying you to rebuild it."
 - **The turn:** "What nobody can do for you is decide what to ask it and what to give it access to. That's the whole rest of tonight."
-- "Tier 1 and 2 tools are in the handout if you want to compare. Tier 4 is not homework."
+- "Tier 1 and 2 tools are on the workshop page if you want to compare. Tier 4 is not homework."
 
 **Transition:** "Turn your chairs. First one's on you."
 
@@ -489,6 +489,18 @@ Screening. Sourcing. Scheduling. Follow-up. Intake.
 
 > ### **Free · Your model · Mac or Windows · Your account, not mine**
 
+> # → openclaw.ai
+
+> **Mac.** Open Terminal, paste:
+> `curl -fsSL https://openclaw.ai/install.sh | bash`
+
+> **Windows.** Download the installer, double-click it. Or PowerShell:
+> `iwr -useb https://openclaw.ai/install.ps1 | iex`
+
+> **Then both:** `openclaw onboard --install-daemon`
+
+> **Every command, the Windows installer link, and a free key if you don't have one: the workshop page.**
+
 > **Three ways in. Same steps.**
 > **1. Your laptop** — running before you leave
 > **2. Google Cloud** — runs while your laptop is closed
@@ -508,8 +520,10 @@ Screening. Sourcing. Scheduling. Follow-up. Intake.
   - "**It's OS-agnostic.** Mac or Windows. Both work in this room."
   - "**Nothing here runs on my account.** You walk out owning it."
 - **The one rule for this block, say it before they start:** "If you get stuck, raise a hand and keep going to the next step. Do not sit stuck and quiet. The person next to you hit the same wall ninety seconds ago."
-- **All three paths are in the handout.** Laptop first, in the room, tonight. The Google Cloud path is the same steps on a cloud box, so it runs when your laptop is closed. Walk it on screen, let them finish it at home.
-- **Say the third one out loud, early, before anyone has to admit it:** "If you didn't bring a laptop, you are not sitting this out. Pair with someone at your table and drive their screen for your bottleneck. You take the handout home and stand up your own tonight." Nobody spectates for fifteen minutes.
+- **Point at the workshop page and say it out loud: every command is written out there, you do not have to copy anything off this slide.** Laptop first, in the room, tonight. The Google Cloud path is the same steps on a cloud box, so it runs when your laptop is closed. Walk it on screen, let them finish it at home.
+- **The key will be the wall.** Onboarding asks for an API key. Anyone without one goes to `aistudio.google.com/apikey`, signs in with any Google account, clicks Create API key. Free tier, no card. Say this before hands go up, not after.
+- **The Windows objection you'll hear: "doesn't this need WSL2?"** It does not. Native PowerShell works, and there's a double-click installer. WSL2 is the fuller path and they can move to it later. Do not let a Windows user opt out of the block over this.
+- **Say the third one out loud, early, before anyone has to admit it:** "If you didn't bring a laptop, you are not sitting this out. Pair with someone at your table and drive their screen for your bottleneck. Every command is on the workshop page. Stand up your own tonight." Nobody spectates for fifteen minutes.
 - **Facilitator:** circulate. Do not narrate from the front for 15 minutes. The room needs hands, not a lecture.
 
 **Transition:** "Kitchen's yours now. Let's hear what everybody built."

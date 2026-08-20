@@ -158,7 +158,7 @@ A chatbot answers a **question**. An agent is given a **goal** and goes and acco
 
 **We are at tier 3 tonight,** and that's a deliberate choice, not a beginner's compromise. The loop is a solved problem. Nobody is paying you to rebuild it. What nobody can do for you is decide **what to ask it and what to give it access to.** That's the whole rest of this workshop.
 
-**Take-home:** tier 1 and tier 2 tools are in the handout if you want to compare. Tier 4 is not homework.
+**Take-home:** tier 1 and tier 2 tools are listed above if you want to compare. Tier 4 is not homework.
 
 ---
 
@@ -403,9 +403,93 @@ An open agent runtime, signed in with an account you already have. It reads a fo
 | **2** | **Google Cloud** | Walked on screen, finish at home | Runs when your laptop is closed. Same steps, different machine. |
 | **3** | **No laptop tonight** | Pair up in the room, finish at home | You still build. You drive your partner's screen for your own bottleneck, and you take the same handout home. |
 
-All three paths are in the handout, written out step by step. We do **path 1 live** because 15 minutes gets a whole room to a working laptop install and it does not get a whole room through a cloud console. I demo **path 2 on screen** during the same block so you have seen every step before you try it.
+All three paths use the same commands, written out step by step below. We do **path 1 live** because 15 minutes gets a whole room to a working laptop install and it does not get a whole room through a cloud console. I demo **path 2 on screen** during the same block so you have seen every step before you try it.
 
-**Path 3 gets said out loud, early, before anyone has to admit it.** Not everyone was going to bring a laptop and that was never a requirement. If you didn't bring one, you are not spectating for fifteen minutes. Pair with someone at your table, drive their screen for *your* bottleneck, and stand up your own tonight from the handout. The person sharing the laptop gets the better deal anyway, because watching someone else fumble through your problem is how you learn where it breaks.
+**Path 3 gets said out loud, early, before anyone has to admit it.** Not everyone was going to bring a laptop and that was never a requirement. If you didn't bring one, you are not spectating for fifteen minutes. Pair with someone at your table, drive their screen for *your* bottleneck, and stand up your own tonight from the commands on this page. The person sharing the laptop gets the better deal anyway, because watching someone else fumble through your problem is how you learn where it breaks.
+
+---
+
+## 🔪 THE INSTALL — copy these exactly
+
+**Website:** **[openclaw.ai](https://openclaw.ai/)** · **Docs:** [docs.openclaw.ai](https://docs.openclaw.ai/)
+
+You do not need to understand these commands. You need to paste them. Understanding comes after it's running.
+
+### 🍎 Mac
+
+**1. Open Terminal.** Press `⌘ + Space`, type `terminal`, hit Enter. Black window. That's it.
+
+**2. Paste this and hit Enter:**
+
+```
+curl -fsSL https://openclaw.ai/install.sh | bash
+```
+
+**3. When it finishes, paste this:**
+
+```
+openclaw onboard --install-daemon
+```
+
+That opens a setup wizard. Follow it. It asks which AI you want to use and for a key. See **"The key"** below.
+
+**4. Check it worked:**
+
+```
+openclaw doctor
+```
+
+### 🪟 Windows
+
+**Easiest path, no command line at all:** download the desktop installer, double-click it, follow the wizard.
+
+- **[OpenClaw Companion for Windows (x64)](https://github.com/openclaw/openclaw-windows-node/releases/latest/download/OpenClawCompanion-Setup-x64.exe)** ← most laptops
+- **[Windows on ARM (arm64)](https://github.com/openclaw/openclaw-windows-node/releases/latest/download/OpenClawCompanion-Setup-arm64.exe)** ← Surface Pro X and similar
+
+**If you'd rather use the command line:**
+
+**1. Open PowerShell.** Press the Windows key, type `powershell`, hit Enter.
+
+**2. Paste this and hit Enter:**
+
+```
+iwr -useb https://openclaw.ai/install.ps1 | iex
+```
+
+**3. Then:**
+
+```
+openclaw onboard --install-daemon
+```
+
+**4. Check it worked:**
+
+```
+openclaw --version
+openclaw doctor
+```
+
+> **You may have heard Windows needs WSL2.** It doesn't, not for tonight. WSL2 is the more complete path and you can move to it later. Native works fine for what we're doing, and it installs in one command instead of one evening.
+
+### The key
+
+Onboarding will ask for an API key from OpenAI, Anthropic, or Google. **If you already have one, use it.**
+
+**If you have nothing, get a free Google one:** go to **[aistudio.google.com/apikey](https://aistudio.google.com/apikey)**, sign in with any Google account, click **Create API key**, copy it, paste it into the wizard. Free tier, no card.
+
+### Both machines, once it's running
+
+```
+openclaw dashboard
+```
+
+That opens a control panel in your browser at `http://127.0.0.1:18789/`. **This is your kitchen.** Everything you built tonight lives here.
+
+### If something breaks
+
+`openclaw doctor` tells you what's wrong in plain English. Run it first. Then raise a hand.
+
+---
 
 **The one rule for this block:** if you get stuck, **raise a hand and keep going to the next step.** Do not sit stuck and quiet. The person next to you probably hit the same wall ninety seconds ago, and your table has at least one person who's done this kind of thing before.
 
@@ -601,7 +685,7 @@ Bring me the bottleneck. Not the tool question. The bottleneck.
 
 **The real teaching window is not the room booking.** People trickle in for the first fifteen and start looking at phones near the end. Assume the block is longer than the workshop and start the actual teach once bodies are seated, not on the minute. Block 1 and block 2 absorb stragglers gracefully; the lecture does not.
 
-**One live install path only.** Block 6 teaches the laptop path live because it's the one that gets a whole room to a working setup in fifteen minutes. The cloud path goes on screen and in the handout as take-home. Two live paths in a room this size means the room splits into people who are done and people who are stuck, and the stuck ones stop participating. **Path 3 is not a third live path, it's pairing.** Anyone without a laptop drives a partner's screen for their own bottleneck, so they're still building, not watching.
+**One live install path only.** Block 6 teaches the laptop path live because it's the one that gets a whole room to a working setup in fifteen minutes. The cloud path goes on screen and stays on this page as take-home. Two live paths in a room this size means the room splits into people who are done and people who are stuck, and the stuck ones stop participating. **Path 3 is not a third live path, it's pairing.** Anyone without a laptop drives a partner's screen for their own bottleneck, so they're still building, not watching.
 
 **Nothing runs on my credentials.** No demo that depends on my accounts, my tokens, or my usage cap. Free and agnostic is the whole selling point, and a live demo running on a metered account contradicts the pitch in front of the room.
 

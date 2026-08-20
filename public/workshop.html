@@ -259,7 +259,7 @@
 </tbody>
 </table>
 <p><strong>We are at tier 3 tonight,</strong> and that's a deliberate choice, not a beginner's compromise. The loop is a solved problem. Nobody is paying you to rebuild it. What nobody can do for you is decide <strong>what to ask it and what to give it access to.</strong> That's the whole rest of this workshop.</p>
-<p><strong>Take-home:</strong> tier 1 and tier 2 tools are in the handout if you want to compare. Tier 4 is not homework.</p>
+<p><strong>Take-home:</strong> tier 1 and tier 2 tools are listed above if you want to compare. Tier 4 is not homework.</p>
 <hr />
 <h2>3B · THE ORDER</h2>
 <h3><em>"Vague in, garbage out."</em></h3>
@@ -608,8 +608,55 @@ An open agent runtime, signed in with an account you already have. It reads a fo
 </tr>
 </tbody>
 </table>
-<p>All three paths are in the handout, written out step by step. We do <strong>path 1 live</strong> because 15 minutes gets a whole room to a working laptop install and it does not get a whole room through a cloud console. I demo <strong>path 2 on screen</strong> during the same block so you have seen every step before you try it.</p>
-<p><strong>Path 3 gets said out loud, early, before anyone has to admit it.</strong> Not everyone was going to bring a laptop and that was never a requirement. If you didn't bring one, you are not spectating for fifteen minutes. Pair with someone at your table, drive their screen for <em>your</em> bottleneck, and stand up your own tonight from the handout. The person sharing the laptop gets the better deal anyway, because watching someone else fumble through your problem is how you learn where it breaks.</p>
+<p>All three paths use the same commands, written out step by step below. We do <strong>path 1 live</strong> because 15 minutes gets a whole room to a working laptop install and it does not get a whole room through a cloud console. I demo <strong>path 2 on screen</strong> during the same block so you have seen every step before you try it.</p>
+<p><strong>Path 3 gets said out loud, early, before anyone has to admit it.</strong> Not everyone was going to bring a laptop and that was never a requirement. If you didn't bring one, you are not spectating for fifteen minutes. Pair with someone at your table, drive their screen for <em>your</em> bottleneck, and stand up your own tonight from the commands on this page. The person sharing the laptop gets the better deal anyway, because watching someone else fumble through your problem is how you learn where it breaks.</p>
+<hr />
+<h2>🔪 THE INSTALL · copy these exactly</h2>
+<p><strong>Website:</strong> <strong><a href="https://openclaw.ai/">openclaw.ai</a></strong> · <strong>Docs:</strong> <a href="https://docs.openclaw.ai/">docs.openclaw.ai</a></p>
+<p>You do not need to understand these commands. You need to paste them. Understanding comes after it's running.</p>
+<h3>🍎 Mac</h3>
+<p><strong>1. Open Terminal.</strong> Press <code>⌘ + Space</code>, type <code>terminal</code>, hit Enter. Black window. That's it.</p>
+<p><strong>2. Paste this and hit Enter:</strong></p>
+<pre><code>curl -fsSL https://openclaw.ai/install.sh | bash
+</code></pre>
+<p><strong>3. When it finishes, paste this:</strong></p>
+<pre><code>openclaw onboard --install-daemon
+</code></pre>
+<p>That opens a setup wizard. Follow it. It asks which AI you want to use and for a key. See <strong>"The key"</strong> below.</p>
+<p><strong>4. Check it worked:</strong></p>
+<pre><code>openclaw doctor
+</code></pre>
+<h3>🪟 Windows</h3>
+<p><strong>Easiest path, no command line at all:</strong> download the desktop installer, double-click it, follow the wizard.</p>
+<ul>
+<li><strong><a href="https://github.com/openclaw/openclaw-windows-node/releases/latest/download/OpenClawCompanion-Setup-x64.exe">OpenClaw Companion for Windows (x64)</a></strong> ← most laptops</li>
+<li><strong><a href="https://github.com/openclaw/openclaw-windows-node/releases/latest/download/OpenClawCompanion-Setup-arm64.exe">Windows on ARM (arm64)</a></strong> ← Surface Pro X and similar</li>
+</ul>
+<p><strong>If you'd rather use the command line:</strong></p>
+<p><strong>1. Open PowerShell.</strong> Press the Windows key, type <code>powershell</code>, hit Enter.</p>
+<p><strong>2. Paste this and hit Enter:</strong></p>
+<pre><code>iwr -useb https://openclaw.ai/install.ps1 | iex
+</code></pre>
+<p><strong>3. Then:</strong></p>
+<pre><code>openclaw onboard --install-daemon
+</code></pre>
+<p><strong>4. Check it worked:</strong></p>
+<pre><code>openclaw --version
+openclaw doctor
+</code></pre>
+<blockquote>
+<p><strong>You may have heard Windows needs WSL2.</strong> It doesn't, not for tonight. WSL2 is the more complete path and you can move to it later. Native works fine for what we're doing, and it installs in one command instead of one evening.</p>
+</blockquote>
+<h3>The key</h3>
+<p>Onboarding will ask for an API key from OpenAI, Anthropic, or Google. <strong>If you already have one, use it.</strong></p>
+<p><strong>If you have nothing, get a free Google one:</strong> go to <strong><a href="https://aistudio.google.com/apikey">aistudio.google.com/apikey</a></strong>, sign in with any Google account, click <strong>Create API key</strong>, copy it, paste it into the wizard. Free tier, no card.</p>
+<h3>Both machines, once it's running</h3>
+<pre><code>openclaw dashboard
+</code></pre>
+<p>That opens a control panel in your browser at <code>http://127.0.0.1:18789/</code>. <strong>This is your kitchen.</strong> Everything you built tonight lives here.</p>
+<h3>If something breaks</h3>
+<p><code>openclaw doctor</code> tells you what's wrong in plain English. Run it first. Then raise a hand.</p>
+<hr />
 <p><strong>The one rule for this block:</strong> if you get stuck, <strong>raise a hand and keep going to the next step.</strong> Do not sit stuck and quiet. The person next to you probably hit the same wall ninety seconds ago, and your table has at least one person who's done this kind of thing before.</p>
 <p><strong>Facilitator:</strong> work the room by table, not by person. Fixing one laptop takes three minutes; telling a table what the error means fixes four laptops at once. <strong>Seed the pairs during BLOCK 5 when you form teams, not at the top of this block.</strong> Asking "who doesn't have a laptop?" in front of the room at 6:40 puts someone on the spot. Know it before you need it.</p>
 <p><strong>Transition:</strong> <em>"You've got a kitchen. Let's cook something you actually need."</em></p>
