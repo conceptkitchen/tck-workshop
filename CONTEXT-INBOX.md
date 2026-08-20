@@ -191,7 +191,13 @@ Three things worth flagging, **observation only**:
    I've been trying and can use some help."*
 2. Two responses aren't tooling problems at all — *"not enough open roles"* and *"Finding a
    recruiter who will take my call"* (that person is hiring, not recruiting).
-3. **Nobody asked what AI is.** Every response is a named operational bottleneck.
+3. ~~**Nobody asked what AI is.** Every response is a named operational bottleneck.~~
+   🔴 **RETIRED Aug 20 2026.** Argument from silence. The survey asked one question about
+   bottlenecks. It never asked about AI, so the absence measures nothing. RJ, verbatim:
+   *"i know i only gave you their bottle necks, and that's on purpose. duh they didnt ask
+   about agent because we'll be tellin gthem in the workshop."* The dataset is deliberately
+   scoped. **Every response is a named operational bottleneck** stands on its own as a
+   description of the 19 answers. The inference drawn from the silence does not.
 
 ---
 
@@ -298,11 +304,15 @@ Closed with: *"there's more context please wait."* **Still holding.**
    If the recruiter version only teaches one rung, the ceiling-naming move has nothing to
    hand off to. Worth deciding whether the ladder shows up at all or just the rung.
    **Observation only. Not a proposal.**
-9. **The transcript's audience and RJ's audience want different things.** The transcript
-   answers *"what is an agent and which tier should I use"* — a conceptual question. The 19
-   recruiters answered a different question entirely: every one of them named an operational
-   bottleneck, and none asked what AI is. Borrowing the structure means deciding what the
-   structure is carrying, since the payload isn't the same. **Observation only.**
+9. **The transcript's audience and RJ's audience were asked different questions.** The
+   transcript answers *"what is an agent and which tier should I use."* The 19 recruiters
+   were asked *"what's your biggest recruiting challenge today"* and every one of them named
+   an operational bottleneck. Borrowing the structure means deciding what the structure is
+   carrying. **Observation only.**
+   🔴 **AMENDED Aug 20 2026.** The original said *"and none asked what AI is"* and concluded
+   the two audiences *"want different things."* Both retired — argument from silence off a
+   survey that never asked. Two different questions produce two different answer sets. That
+   is all this compares.
 10. **The transcript's close and RJ's setup block point the same direction.** His final
     verdict sends "want something genuinely powerful that works in production" to a harness,
     naming OpenClaw. RJ's session has attendees standing up OpenClaw on Google Cloud and on

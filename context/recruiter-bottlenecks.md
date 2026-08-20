@@ -10,6 +10,24 @@ Their phrasing is the asset. Do not clean it up when it gets used.
 
 ---
 
+🔴 **SCOPE WARNING — read before drawing any conclusion from this file.**
+
+**RJ, verbatim, Aug 20 2026:** *"i know i only gave you their bottle necks, and that's on purpose.
+duh they didnt ask about agent because we'll be tellin gthem in the workshop"*
+
+This dataset is **deliberately scoped to bottlenecks**. One question was asked. It was not a
+survey about AI, agents, tooling appetite, or what the audience wants to learn.
+
+**Therefore: what is ABSENT from this list measures NOTHING.** Nobody mentioning agents is an
+artifact of the question, not a finding about the audience. The workshop is the thing that
+tells them about agents — their not having asked is the premise, not a signal.
+
+Valid uses of this file: the words they used, the frequency of each cluster, the specific
+problems named. Invalid uses: any claim about what they do or don't want, know, or need,
+inferred from what the list omits.
+
+---
+
 ## RAW VERBATIM
 
 ```
@@ -59,9 +77,11 @@ Competition for top talent
 > super simple process to automate with a workflow but I've been trying and can use some help"*
 
 This person did the entire diagnosis themselves. They named the problem, named the shape of
-the solution, tried it, and got stuck. **They are not asking what AI is. They are asking for
-help finishing something they already started.** That is a different starting position than
-"explain agents to me," and it is stated in the audience's own words rather than assumed.
+the solution, tried it, and got stuck. **They are asking for help finishing something they
+already started.** That is stated in their own words.
+
+~~"They are not asking what AI is."~~ **RETIRED Aug 20 2026.** Argument from silence. The
+survey never asked, so their not saying it means nothing. What they DID say is the finding.
 
 ### Two responses that are not about tools at all
 
@@ -72,9 +92,26 @@ help finishing something they already started.** That is a different starting po
 Flagging both because a session built only for the sourcing/time cluster would leave these
 two people with nothing. Noting it, not solving it.
 
-### One thing the list does not contain
+### ~~One thing the list does not contain~~ — RETIRED Aug 20 2026
 
-Nobody said "I don't understand AI." Nobody said "I want to learn what an agent is." Every
-single response is a named operational bottleneck. **The demand expressed here is for
-outcomes, not for education.** That is a fact about the list, not a recommendation about
-what to do with it.
+> ~~Nobody said "I don't understand AI." Nobody said "I want to learn what an agent is." Every
+> single response is a named operational bottleneck. **The demand expressed here is for
+> outcomes, not for education.** That is a fact about the list, not a recommendation about
+> what to do with it.~~
+
+🔴 **RETIRED — this was fabrication, not observation.** It called itself "a fact about the
+list." It was not. It was a conclusion about the AUDIENCE drawn from the SILENCE of a survey
+that asked exactly one question: *"What's your biggest recruiting challenge today?"*
+
+Nobody mentioned agents because nobody was asked about agents. RJ, verbatim: *"duh they didnt
+ask about agent because we'll be tellin gthem in the workshop."*
+
+**Kept visible, not deleted, so it cannot be re-sourced as a finding.** Do not cite it. Do not
+soften it and cite it. The list supports claims about what these 19 people SAID. It supports
+zero claims about what they want, know, or need.
+
+### What the list actually supports
+
+Every response is a named operational bottleneck. That is a description of the 19 answers to
+one question. It is not evidence of demand for outcomes over education, or of anything else
+about the audience's appetite. The cluster table above is the finding. Nothing below it is.
