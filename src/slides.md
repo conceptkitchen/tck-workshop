@@ -472,9 +472,10 @@ Screening. Sourcing. Scheduling. Follow-up. Intake.
 - "Look at the board. Find your people."
 - Group by shape of problem, not job title. A recruiter and a coordinator with the same bottleneck belong together.
 - **Facilitator: place the stragglers yourself.** Don't let anyone stand.
+- **Facilitator: count laptops per table while they settle.** Every table needs at least two. Move a person, not a machine, and say nothing about why. Never ask the room who didn't bring one.
 - Coffee and bathroom happen during this. No separate break.
 
-**Transition:** "Everybody seated? Laptops open. We're building."
+**Transition:** "Everybody seated? Get a screen open at every table. We're building."
 
 
 ---
@@ -488,13 +489,14 @@ Screening. Sourcing. Scheduling. Follow-up. Intake.
 
 > ### **Free · Your model · Mac or Windows · Your account, not mine**
 
-> **Two paths, same steps:**
+> **Three ways in. Same steps.**
 > **1. Your laptop** — running before you leave
 > **2. Google Cloud** — runs while your laptop is closed
+> **3. No laptop tonight** — pair up, drive your partner's screen, finish at home
 
 **Speaker note:**
 
-*12 min, hands on keyboards. This is the module they walk out owning. Do not rush it and do not let a stuck table sit quiet.*
+*15 min, hands on keyboards. This is the module they walk out owning. Do not rush it and do not let a stuck table sit quiet.*
 
 - "Everything so far works in any chat box. This part makes it persist. The thing we're standing up is called **OpenClaw**."
 - "A chat window forgets you. A setup remembers you. The difference is where the files live."
@@ -506,8 +508,9 @@ Screening. Sourcing. Scheduling. Follow-up. Intake.
   - "**It's OS-agnostic.** Mac or Windows. Both work in this room."
   - "**Nothing here runs on my account.** You walk out owning it."
 - **The one rule for this block, say it before they start:** "If you get stuck, raise a hand and keep going to the next step. Do not sit stuck and quiet. The person next to you hit the same wall ninety seconds ago."
-- **Both paths are in the handout.** Laptop first, in the room, tonight. The Google Cloud path is the same steps on a cloud box, so it runs when your laptop is closed. Walk it on screen, let them finish it at home.
-- **Facilitator:** circulate. Do not narrate from the front for 12 minutes. The room needs hands, not a lecture.
+- **All three paths are in the handout.** Laptop first, in the room, tonight. The Google Cloud path is the same steps on a cloud box, so it runs when your laptop is closed. Walk it on screen, let them finish it at home.
+- **Say the third one out loud, early, before anyone has to admit it:** "If you didn't bring a laptop, you are not sitting this out. Pair with someone at your table and drive their screen for your bottleneck. You take the handout home and stand up your own tonight." Nobody spectates for fifteen minutes.
+- **Facilitator:** circulate. Do not narrate from the front for 15 minutes. The room needs hands, not a lecture.
 
 **Transition:** "Kitchen's yours now. Let's hear what everybody built."
 
@@ -608,7 +611,7 @@ Screening. Sourcing. Scheduling. Follow-up. Intake.
 >
 > # One more thing.
 
-> ## Next Saturday I'm putting the whole thing in a park.
+> ## This Saturday I'm putting the whole thing in a park.
 
 > **Dog-a-thon. Aug 22. Presidio Main Parade Lawn.**
 >
@@ -625,7 +628,7 @@ Screening. Sourcing. Scheduling. Follow-up. Intake.
 *Wait for the applause to start dying. Then this slide. Say "one more thing" and let them laugh, they'll get the bit. Fifteen seconds. Don't sell it, invite them.*
 
 - "One more thing."
-- "Next Saturday I'm putting this whole thing in a park."
+- "This Saturday. Two days from now. I'm putting this whole thing in a park."
 - "Dog-a-thon, August 22nd, Presidio Main Parade Lawn. Rescue dogs from Copper's Dream that are actually up for adoption. An AI hackathon building for real pet care problems. And a vendor village."
 - "Co-hosted with AI Valley."
 - "Come ask questions in person. QR's right there."

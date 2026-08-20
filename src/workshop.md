@@ -5,7 +5,7 @@
 **Instructor:** RJ Moscardon, The Concept Kitchen
 **Runtime:** 2 hours. More than half of it is you working, not me talking.
 **Room:** Recruiters and talent professionals.
-**Prereq:** None. Bring a laptop and any AI chat tool you already pay for or use free.
+**Prereq:** None. Bring a laptop if you have one, plus any AI chat tool you already pay for or use free. No laptop, no problem. You'll pair up and build on a partner's screen, and you'll leave with the same handout to stand up your own at home.
 
 ---
 
@@ -246,7 +246,7 @@ That's the **S** in RECIPES, and it's worth more than the other six letters comb
 **A note on discomfort:** the moment you realize you don't actually know something feels like failure. It's the point. It's the taste test that saves the dish. **That moment is curiosity starting, not competence ending.**
 
 > ### 🔪 TRY IT NOW — The Reverse Interview
-> **Time:** 5 min | **Laptops open. Everyone.**
+> **Time:** 5 min | **A screen open at every table. Share one if you need to.**
 >
 > Take the bottleneck you named in Block 2. Type this:
 >
@@ -368,9 +368,12 @@ Every correction becomes a rule. Every rule is a mistake you refuse to have twic
 - **Groups of 3 or 4.** Say the number out loud so nobody ends up in a pair or a group of seven.
 - **Group by bottleneck where you can.** You wrote them all down in Block 2. Put the sourcing people together, the follow-up people together. A shared problem makes Block 7 immediately productive.
 - **Mix experience levels on purpose.** Every table should have at least one person who answered "I use it daily" in Block 2. That person is the table's first line of support during setup.
+- **Make sure every table has at least two laptops.** Not everyone brought one and that was never a requirement. Balance it here, quietly, while people are moving. That's what makes path 3 work in the next block.
 - **Grab water. Sit back down.** Five minutes, not ten.
 
 **Facilitator:** the person who says "I'll just work alone" gets one warm push and then gets to work alone. Don't fight it in front of the room.
+
+**Facilitator, the quiet one:** count laptops per table as they settle. Do not ask the room who's without one. If a table is short, move a person, not a machine, and say nothing about why.
 
 ---
 
@@ -392,18 +395,21 @@ An open agent runtime, signed in with an account you already have. It reads a fo
 - **It's OS-agnostic.** Mac or Windows. Both work in this room.
 - **Nothing here runs on my account.** You walk out owning it.
 
-**Two install paths, same steps**
+**Three ways in, same steps**
 
 | | Path | When | Why this one |
 |---|---|---|---|
 | **1** | **Your own laptop** | In the room, tonight | Fastest to a working setup. You leave with it running. |
 | **2** | **Google Cloud** | Walked on screen, finish at home | Runs when your laptop is closed. Same steps, different machine. |
+| **3** | **No laptop tonight** | Pair up in the room, finish at home | You still build. You drive your partner's screen for your own bottleneck, and you take the same handout home. |
 
-Both paths are in the handout, written out step by step. We do **path 1 live** because 15 minutes gets a whole room to a working laptop install and it does not get a whole room through a cloud console. I demo **path 2 on screen** during the same block so you have seen every step before you try it.
+All three paths are in the handout, written out step by step. We do **path 1 live** because 15 minutes gets a whole room to a working laptop install and it does not get a whole room through a cloud console. I demo **path 2 on screen** during the same block so you have seen every step before you try it.
+
+**Path 3 gets said out loud, early, before anyone has to admit it.** Not everyone was going to bring a laptop and that was never a requirement. If you didn't bring one, you are not spectating for fifteen minutes. Pair with someone at your table, drive their screen for *your* bottleneck, and stand up your own tonight from the handout. The person sharing the laptop gets the better deal anyway, because watching someone else fumble through your problem is how you learn where it breaks.
 
 **The one rule for this block:** if you get stuck, **raise a hand and keep going to the next step.** Do not sit stuck and quiet. The person next to you probably hit the same wall ninety seconds ago, and your table has at least one person who's done this kind of thing before.
 
-**Facilitator:** work the room by table, not by person. Fixing one laptop takes three minutes; telling a table what the error means fixes four laptops at once.
+**Facilitator:** work the room by table, not by person. Fixing one laptop takes three minutes; telling a table what the error means fixes four laptops at once. **Seed the pairs during BLOCK 5 when you form teams, not at the top of this block.** Asking "who doesn't have a laptop?" in front of the room at 6:40 puts someone on the spot. Know it before you need it.
 
 **Transition:** *"You've got a kitchen. Let's cook something you actually need."*
 
@@ -595,7 +601,7 @@ Bring me the bottleneck. Not the tool question. The bottleneck.
 
 **The real teaching window is not the room booking.** People trickle in for the first fifteen and start looking at phones near the end. Assume the block is longer than the workshop and start the actual teach once bodies are seated, not on the minute. Block 1 and block 2 absorb stragglers gracefully; the lecture does not.
 
-**One live install path only.** Block 6 teaches the laptop path live because everyone has a laptop in front of them. The cloud path goes on screen and in the handout as take-home. Two live paths in a room this size means the room splits into people who are done and people who are stuck, and the stuck ones stop participating.
+**One live install path only.** Block 6 teaches the laptop path live because it's the one that gets a whole room to a working setup in fifteen minutes. The cloud path goes on screen and in the handout as take-home. Two live paths in a room this size means the room splits into people who are done and people who are stuck, and the stuck ones stop participating. **Path 3 is not a third live path, it's pairing.** Anyone without a laptop drives a partner's screen for their own bottleneck, so they're still building, not watching.
 
 **Nothing runs on my credentials.** No demo that depends on my accounts, my tokens, or my usage cap. Free and agnostic is the whole selling point, and a live demo running on a metered account contradicts the pitch in front of the room.
 
