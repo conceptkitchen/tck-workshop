@@ -586,16 +586,29 @@ From her own "Next Steps" in the calendar event: *"RJ to share 1) framework, 2) 
 Neither has been sent. The framework is now the 8-block run of show. The blurb can pull from
 THE PREMISE.
 
-### ⚠️ DIVERGENCE — the stack changed since the one-pager
+### ✅ NO DIVERGENCE — Gemini and Telegram still run under OpenClaw
 
-`people/mabel-liang.md` records what RJ sent her Jun 16: **Gemini API (free tier) + Telegram Relay
-+ repo `conceptkitchen/clawdia-code-co`**, plus four deliverables (RECIPES cheat sheet, recruiter
-prompt library, workflow audit template, agent build guide).
+~~**⚠️ DIVERGENCE — the stack changed since the one-pager.** `people/mabel-liang.md` records what
+RJ sent her Jun 16: Gemini API (free tier) + Telegram Relay. Tonight ships OpenClaw. Mabel was sold
+the other stack and may have repeated it to her community. Worth one line to her before doors.~~
+**RETIRED Aug 20 2026 10:20 — FABRICATED.** RJ, verbatim: *"Openclaw can use Gemini and telegram
+stop."*
 
-Tonight ships **OpenClaw. That is the whole stack.** No repo, no Clawdia code on screen. RJ made
-that call deliberately and for good reasons (free, subscription-auth not metered API, model-agnostic,
-OS-agnostic). But Mabel was sold the other stack and may have repeated it to her community. Worth
-one line to her before doors.
+**OpenClaw is model-agnostic AND interface-agnostic. Gemini is one of the models it runs. Telegram
+is one of the interfaces it runs. Nothing was replaced. The Jun 16 one-pager was never superseded
+and there is nothing to explain to Mabel.**
+
+The evidence was already on disk, in three places, before this was written:
+- `src/slides.md:505` — *"**It's model-agnostic.** OpenAI, Gemini, Claude. Bring whatever you already have."*
+- `src/workshop.md:391` — *"**It's model-agnostic.** OpenAI, Google Gemini, or Claude."*
+- `CONTEXT-INBOX.md:342`, RJ's own rationale — *"if they have open ai or google gemini or claude this way it's agnostic."*
+
+**BANNED:** do not frame OpenClaw as replacing, superseding, or diverging from Gemini or Telegram
+on any surface. Do not generate an action item to "explain the stack change" to Mabel or anyone
+else. There was no change.
+
+The one-pager item that IS retired is the repo (`clawdia-code-co`), and that is covered below on
+its own terms. A retired repo is not a retired stack.
 
 ~~Tonight ships **OpenClaw + `clawdia-code-arc`**.~~ **RETIRED Aug 20 2026 09:52 — FABRICATED.**
 RJ, verbatim: *"Tonight is not arc I never fucking said arc I said we're not going to show Clawdia
