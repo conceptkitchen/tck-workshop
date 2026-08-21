@@ -431,17 +431,6 @@ footer p { margin: 0 0 0.25rem; }
   color: #57504A;
 }
 
-/* Card 4 carries Apify as set type until their art lands. Same plate and border
-   as the others, so on screen it reads as a finished card, not a gap. */
-.titlecard-hold-mark {
-  margin: 2.6rem 0;
-  font-family: var(--sans);
-  font-size: 1.75rem;
-  font-weight: 600;
-  letter-spacing: 0.3em;
-  color: #1B1815;
-}
-
 /* ---------- wifi card ----------
    Utility slide, so it gets utility rules: the credentials are the biggest type
    on the page and they are monospaced, because someone in the back row is going

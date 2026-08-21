@@ -636,3 +636,29 @@ and in one message sent to RJ.
 
 **Hanwha AI Center, 300 Grant Ave Ste 500, San Francisco, CA 94108.** Mabel secured it via Asako.
 Any surface that says only "SF Union Square" is under-specified.
+
+---
+
+## 🖼️ DROP — Hanwha AI Center logo (Aug 20 2026, 4:12 PM, ~48 min to doors)
+
+RJ sent the **HAC / Hanwha Artificial Intelligence Center** wordmark.
+
+**Asset saved:** `~/clawdia/memory/reference/assets/hanwha-ai-center-logo.jpg`
+(uploads folder clears — Rule 23)
+
+**Specs:** 1280 × 820, JPEG, 38 KB. Black wordmark on **solid white**.
+Lockup = large `HAC` over `Hanwha` over `Artificial Intelligence Center`.
+
+**⚠️ It is a JPEG, so it has NO transparency.** On any dark slide it renders as a
+white rectangle with the mark inside it. If it goes on a dark surface it needs a
+transparent PNG or an SVG, not this file.
+
+**🔴 GAP THIS EXPOSES:** the deck currently credits **nobody** for tonight.
+`grep -i "hanwha|host|venue"` across `src/` returns one hit — a Sources line about
+Mabel securing the room. The only "Co-hosted with" on the deck is **slide 22, which
+is the Dog-a-thon** (AI Valley), a different event two days later.
+
+So RJ is standing in Hanwha's space, hosted by Mabel Liang, Petros Hong and
+Christopher Carew, and no slide says so.
+
+**STATUS: 🔴 OPEN — awaiting RJ.** Not shipped. Placement is his call.

@@ -20,7 +20,7 @@
 </section>
 
 <section class="titlecard">
-  <p class="titlecard-hold-mark">APIFY</p>
+  <img class="titlecard-mark" src="/assets/apify.jpg" alt="Apify">
   <p class="titlecard-line">The tool we run the live demo on.</p>
 </section>
 
